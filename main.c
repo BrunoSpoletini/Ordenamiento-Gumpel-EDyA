@@ -48,9 +48,9 @@ int *genera_lista_random(FILE *fp,int numDatos){
         arrayContinuo[i]=i;
     }
     for(i = 0; i < numDatos; i++){
-    random = rand() % (numLineas-i-1);
-    arrayRandoms[i]=arrayContinuo[random];
-    arrayContinuo[random]=arrayContinuo[numLineas-i-1];
+        random = rand() % (numLineas-i-1);
+        arrayRandoms[i]=arrayContinuo[random];
+        arrayContinuo[random]=arrayContinuo[numLineas-i-1];
     }
     
     free (arrayContinuo);
@@ -84,25 +84,55 @@ Persona *leer_archivo_personas(char nombreArchivo[], int numDatos){
     free(arrayRandoms);
     return listaPersonas;
 }
-/*/
+
 void leer_archivo_paises(char *nombre, int numDatos, Persona *listaPersonas){
-    int i;
+    int i, random;
+    char buffer[200];
     FILE* fp = fopen(nombre, "r");
     int numLineas = contar_lineas(fp);
-
-    for(i = 0 ; (fscanf(fp, "%[^\n]\n", linea) != EOF); ++i){ // Mientras la linea no este vacia
-        strcpy(arrayPaises[i],linea); // Coloca la linea en la matriz
-        }
+    char **arrayPaises = malloc(sizeof(char*) * numLineas);
     
-}/*/
+    for(i = 0 ; (fscanf(fp, "%[^\n]\n", buffer) != EOF); ++i){
+    
+        arrayPaises[i] = malloc(sizeof(buffer));
+        strcpy(arrayPaises[i], buffer);
+    }
+    for(i = 0; i < numDatos; i++){
+        random = rand() % numLineas;
+        listaPersonas[i].lugarDeNacimiento = malloc(sizeof(buffer));
+        strcpy(listaPersonas[i].lugarDeNacimiento, arrayPaises[random]);
+    }
+    for(i = 0; i < numLineas; i++){
+        free(arrayPaises[i]);
+    }
+    free(arrayPaises);
+}
 
 void liberar_personas(Persona *listaPersonas, int numDatos){
     int i;
     for(i=0; i < numDatos; i++){
         free(listaPersonas[i].nombre);
-        //free(listaPersonas[i].lugarDeNacimiento); descomentar luego de asignarle localidad a las personas
+        free(listaPersonas[i].lugarDeNacimiento);
     }
     free(listaPersonas);
+}
+
+
+
+
+
+
+
+// writeOutput toma un puntero a un archivo, el arreglo que contiene la información de cada usuario,
+// el largo de dicho arreglo y el arreglo de localidades retornado por mapLocalidades.
+// Escribe la información de cada usuario en el archivo "Output.txt".
+void write_output(char *nombreArchivo,Persona *listaPersonas, int numDatos){ 
+    int i=0;
+    FILE *fp = fopen(nombreArchivo, "w+");
+    for(i = 0; i < numDatos; i++){
+        fprintf(fp, "%s, %d, %s\n", listaPersonas[i].nombre, listaPersonas[i].edad, listaPersonas[i].lugarDeNacimiento);
+    }
+    fclose(fp);
 }
 
 int main(){
@@ -114,17 +144,14 @@ int main(){
     Persona *listaPersonas;
 
 
-    
 
-    listaPersonas = leer_archivo_personas("nombres3.txt", numDatos);
+    listaPersonas = leer_archivo_personas("nombres1.txt", numDatos);
 
-    //listaPersonas = leer_archivo_paises("paises.txt", numDatos, listaPersonas);
+    leer_archivo_paises("paises.txt", numDatos, listaPersonas);
 
-    //debbug
-    for(i=0;i<numDatos;i++){
-    printf("%s\n",listaPersonas[i].nombre);
-    }
-    
+    write_output("output.txt",listaPersonas, numDatos);
+
+
     liberar_personas(listaPersonas, numDatos);
     
     return 0;
