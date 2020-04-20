@@ -48,9 +48,9 @@ int *genera_lista_random(FILE *fp,int numDatos){
         arrayContinuo[i]=i;
     }
     for(i = 0; i < numDatos; i++){
-    random = rand() % (numLineas-i);
+    random = rand() % (numLineas-i-1);
     arrayRandoms[i]=arrayContinuo[random];
-    arrayContinuo[random]=arrayContinuo[numLineas-i];
+    arrayContinuo[random]=arrayContinuo[numLineas-i-1];
     }
     
     free (arrayContinuo);
