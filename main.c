@@ -4,7 +4,7 @@
 #include <time.h>
 
 #define TAM_BUFFER 200
-//borrar
+
 typedef struct {
 char * nombre;
 int edad;
@@ -29,7 +29,7 @@ int contar_lineas(FILE* fp) {
 }
  
 
-// greaterEqual es una función de comparación entre dos enteros, 
+// greater_equal es una función de comparación entre dos enteros, 
 // que retorna un entero mayor o igual a 0 si a<=b, o un entero negativo si a > b.
 int greater_equal(const void *a, const void *b) {
    return ( *(int*)a - *(int*)b );
@@ -93,8 +93,8 @@ Persona* leer_archivo_personas(char* nombreArchivo, int cantDatos) {
     return listaPersonas;
 }
 
-// Dados el nombre del archivo de paises, una lista de personas y la cantidad de personas en esta, 
-// rellena el campo de lugarDeNacimiento en la lista de personas.
+// leer_archivo_paises recibe la cantidad de datos a generar, y una lista de estructuras
+// de tipo Persona y rellena el campo de "lugarDeNacimiento" de la estructura
 void leer_archivo_paises(char *nombreArchivo, int cantDatos, Persona *listaPersonas){
     int i, random;
     char buffer[TAM_BUFFER];
