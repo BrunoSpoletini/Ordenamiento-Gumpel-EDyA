@@ -1,158 +1,170 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <math.h>
 #include <string.h>
 #include <time.h>
 
+#define TAM_BUFFER 200
+
 typedef struct {
-char * nombre ;
-int edad ;
-char * lugarDeNacimiento ; // pais o capital
-} Persona ;
+char * nombre;
+int edad;
+char * lugarDeNacimiento; // pais o capital
+} Persona;
 
 
-// Dado el nombre de un archivo, devuelve la cantidad de lineas escritas.
-// contar_lineas: char[] -> int.
-int contar_lineas(FILE* fp){
-    int numero_lineas = 0;
-    if(fp != NULL) { // Si se puede abrir el archivo.
-        char buffer[1010]; // Buffers
+// Dado un puntero a un archivo, devuelve la cantidad de lineas escritas.
+// contar_lineas: FILE* -> int.
+int contar_lineas(FILE* fp) {
+    int cantLineas = 0;
+    if (fp != NULL) { // Si se puede abrir el archivo.
+        char buffer[TAM_BUFFER]; // Buffers
 
-        while(fgets(buffer, 1010 ,fp) != NULL){
-            numero_lineas++;
+        while (fgets(buffer, TAM_BUFFER, fp) != NULL) {
+            cantLineas++;
         }
-    }
-    else
-    {
+    } else {
         printf("No se pudo abrir el archivo que se quizo contar sus lineas.\n");
     }
     rewind(fp);
-    return numero_lineas;
+    return cantLineas;
 }
 
 
 // greaterEqual es una función de comparación entre dos enteros, 
 // que retorna un entero mayor o igual a 0 si a<=b, o un entero negativo si a > b.
-int greater_equal(const void *a, const void *b){
+int greater_equal(const void *a, const void *b) {
    return ( *(int*)a - *(int*)b );
 }
 
-int *genera_lista_random(FILE *fp,int numDatos){
+// Dados un puntero a un archivo y una cantidad de randoms que se necesitan, 
+// devuelve un array con los numeros random que se necesitan menores que las lineas del archivo sin repetir
+// genera_lista_random: FILE*, int -> int*
+int* genera_lista_random(FILE* fp, int cantDatos) {
     int i, random;
 
-    int numLineas = contar_lineas(fp);
+    int cantLineas = contar_lineas(fp);
 
-    int *arrayContinuo = malloc(sizeof(int) * numLineas);
-    int *arrayRandoms = malloc(sizeof(int) * numDatos);
-    for(i=0;i<numLineas;i++){
+    int *arrayContinuo = malloc(sizeof(int) * cantLineas);
+    int *arrayRandoms = malloc(sizeof(int) * cantDatos);
+
+    for (i=0; i<cantLineas; i++) {
         arrayContinuo[i]=i;
     }
-    for(i = 0; i < numDatos; i++){
-        random = rand() % (numLineas-i-1);
+
+    for(i=0; i < cantDatos; i++){
+        random = rand() % (cantLineas-i-1);
         arrayRandoms[i]=arrayContinuo[random];
-        arrayContinuo[random]=arrayContinuo[numLineas-i-1];
+        arrayContinuo[random]=arrayContinuo[cantLineas-i-1];
     }
     
     free (arrayContinuo);
-    qsort(arrayRandoms, numDatos, sizeof(int), greater_equal);
+
+    qsort(arrayRandoms, cantDatos, sizeof(int), greater_equal);
+
     return arrayRandoms;
 }
 
 
-// leerArchivos toma un puntero a un archivo, una lista de enteros (las líneas a leer del archivo), 
-// la cantidad de líneas a leer y la cantidad de líneas que hay en el archivo a leer.
-// Devuelve una lista de cadenas cuyos elementos son las líneas del archivo leído.
-Persona *leer_archivo_personas(char nombreArchivo[], int numDatos){
+// Dados el nombre de un archivo de entrada y la cantidad de personas necesarias, 
+// devuelve una lista de personas aleatorias, sin repetir.
+// leer_archivo_personas: char*, int -> Persona*
+Persona* leer_archivo_personas(char* nombreArchivo, int cantDatos) {
     FILE* fp = fopen(nombreArchivo, "r");
     int cantLeidos=0, i;
-    char buffer[1010];
+    char buffer[TAM_BUFFER];
     
-    int *arrayRandoms = genera_lista_random(fp, numDatos);
+    int *arrayRandoms = genera_lista_random(fp, cantDatos);
 
-    Persona *listaPersonas = malloc(sizeof(Persona)*numDatos);
+    Persona *listaPersonas = malloc(sizeof(Persona) * cantDatos);
 
-    for(i=0; cantLeidos < numDatos; i++){
+    for(i=0; cantLeidos < cantDatos; i++){
         fscanf(fp,"%[^\n]\n", buffer);
         if(i == arrayRandoms[cantLeidos]){
             listaPersonas[cantLeidos].edad = (rand() % 100) + 1;
             listaPersonas[cantLeidos].nombre = malloc(sizeof(buffer));
-            strcpy(listaPersonas[cantLeidos].nombre , buffer);
+            strcpy(listaPersonas[cantLeidos].nombre, buffer);
             cantLeidos++;
         }
     }
     fclose(fp);
+
     free(arrayRandoms);
+
     return listaPersonas;
 }
 
-void leer_archivo_paises(char *nombre, int numDatos, Persona *listaPersonas){
+// Dados el nombre del archivo de paises, una lista de personas y la cantidad de personas en esta, 
+// rellena el campo de lugarDeNacimiento en la lista de personas.
+void leer_archivo_paises(char *nombreArchivo, int cantDatos, Persona *listaPersonas){
     int i, random;
-    char buffer[200];
-    FILE* fp = fopen(nombre, "r");
+    char buffer[TAM_BUFFER];
+
+    FILE* fp = fopen(nombreArchivo, "r");
     int numLineas = contar_lineas(fp);
+
     char **arrayPaises = malloc(sizeof(char*) * numLineas);
     
-    for(i = 0 ; (fscanf(fp, "%[^\n]\n", buffer) != EOF); ++i){
+    for(i=0; (fscanf(fp, "%[^\n]\n", buffer) != EOF); i++){
     
         arrayPaises[i] = malloc(sizeof(buffer));
         strcpy(arrayPaises[i], buffer);
     }
-    for(i = 0; i < numDatos; i++){
+
+    for(i=0; i < cantDatos; i++){
         random = rand() % numLineas;
         listaPersonas[i].lugarDeNacimiento = malloc(sizeof(buffer));
         strcpy(listaPersonas[i].lugarDeNacimiento, arrayPaises[random]);
     }
-    for(i = 0; i < numLineas; i++){
+
+    for(i=0; i < numLineas; i++){
         free(arrayPaises[i]);
     }
     free(arrayPaises);
 }
 
-void liberar_personas(Persona *listaPersonas, int numDatos){
+// Dados una lista de personas y la cantidad de personas en esta,
+// libera el espacio en memoria de la lista
+void liberar_personas(Persona *listaPersonas, int cantDatos){
     int i;
-    for(i=0; i < numDatos; i++){
+
+    for(i=0; i < cantDatos; i++){
         free(listaPersonas[i].nombre);
         free(listaPersonas[i].lugarDeNacimiento);
     }
+
     free(listaPersonas);
 }
 
-
-
-
-
-
-
-// writeOutput toma un puntero a un archivo, el arreglo que contiene la información de cada usuario,
-// el largo de dicho arreglo y el arreglo de localidades retornado por mapLocalidades.
-// Escribe la información de cada usuario en el archivo "Output.txt".
-void write_output(char *nombreArchivo,Persona *listaPersonas, int numDatos){ 
+// Dados el nombre del archivo de salida, una lista de personas y la cantidad de personas en esta,
+// escribe en el archivo de salida las personas en la lista.
+void write_output(char *nombreArchivo, Persona *listaPersonas, int cantDatos){ 
     int i=0;
+
     FILE *fp = fopen(nombreArchivo, "w+");
-    for(i = 0; i < numDatos; i++){
+
+    for(i = 0; i < cantDatos; i++){
         fprintf(fp, "%s, %d, %s\n", listaPersonas[i].nombre, listaPersonas[i].edad, listaPersonas[i].lugarDeNacimiento);
     }
+
     fclose(fp);
 }
 
 int main(){
     srand (time(NULL));
-    int i=0; //Debbug
-    int numDatos, numLineas;
+    int cantDatos;
+
     printf("Ingrese el numero de datos a generar:\n");
-    scanf("%d", &numDatos);
+    scanf("%d", &cantDatos);
+
     Persona *listaPersonas;
 
+    listaPersonas = leer_archivo_personas("nombres1.txt", cantDatos);
 
+    leer_archivo_paises("paises.txt", cantDatos, listaPersonas);
 
-    listaPersonas = leer_archivo_personas("nombres1.txt", numDatos);
+    write_output("output.txt",listaPersonas, cantDatos);
 
-    leer_archivo_paises("paises.txt", numDatos, listaPersonas);
-
-    write_output("output.txt",listaPersonas, numDatos);
-
-
-    liberar_personas(listaPersonas, numDatos);
+    liberar_personas(listaPersonas, cantDatos);
     
     return 0;
 }
