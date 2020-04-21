@@ -4,13 +4,12 @@
 #include <time.h>
 
 #define TAM_BUFFER 200
-
+//borrar
 typedef struct {
 char * nombre;
 int edad;
 char * lugarDeNacimiento; // pais o capital
 } Persona;
-
 
 // Dado un puntero a un archivo, devuelve la cantidad de lineas escritas.
 // contar_lineas: FILE* -> int.
@@ -28,13 +27,14 @@ int contar_lineas(FILE* fp) {
     rewind(fp);
     return cantLineas;
 }
-
+ 
 
 // greaterEqual es una función de comparación entre dos enteros, 
 // que retorna un entero mayor o igual a 0 si a<=b, o un entero negativo si a > b.
 int greater_equal(const void *a, const void *b) {
    return ( *(int*)a - *(int*)b );
 }
+
 
 // Dados un puntero a un archivo y una cantidad de randoms que se necesitan, 
 // devuelve un array con los numeros random que se necesitan menores que las lineas del archivo sin repetir
