@@ -2,14 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include "persona.h"
 
 #define TAM_BUFFER 200
-
-typedef struct {
-char * nombre;
-int edad;
-char * lugarDeNacimiento; // pais o capital
-} Persona;
 
 // Dado un puntero a un archivo, devuelve la cantidad de lineas escritas.
 // contar_lineas: FILE* -> int.
@@ -149,7 +144,7 @@ void write_output(char *nombreArchivo, Persona *listaPersonas, int cantDatos){
     fclose(fp);
 }
 
-int main(){
+int main(int argc, char *argv[]){
     srand (time(NULL));
     int cantDatos;
 
