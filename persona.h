@@ -3,10 +3,4 @@
 
 #include <stddef.h>
 
-typedef struct {
-char * nombre;
-int edad;
-char * lugarDeNacimiento; // pais o capital
-} Persona;
-
 #endif
