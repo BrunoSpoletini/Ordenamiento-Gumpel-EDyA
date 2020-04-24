@@ -1,0 +1,14 @@
+*) definir la funcion con void pointer, pero castearlo dentro de la funcion
+*) varias funciones Compara
+*) todo puede estar repetido (personas y paises) 
+
+entregar el inofme en pdf:
+pq se eligio la estructura que usamos
+como se compila el makefile
+bibliografia
+comparacion de resultados (entre algoritmos)
+
+usar wchar? para el tema de los caracteres especiales
+
+
+funcion clock para medir el tiempo

@@ -1,2 +1,1 @@
-gcc -c .\persona.c
-gcc -o main main.c persona.o
+gcc -c .\persona.c && gcc -o generarpersonas generarpersonas.c persona.o
