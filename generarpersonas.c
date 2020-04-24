@@ -43,42 +43,47 @@ char **leer_paises (char *archivoPaises, int *numPaises){
     return arrayPaises;
 }
 
-int *genera_lista_random(int cantDatos, int numPaises){
+int *genera_lista_random(int cantDatos, int cantPersonas){
     int i;
     int *arrayRandoms;
     arrayRandoms = malloc(sizeof(int) * cantDatos);
     for(i = 0; i < cantDatos; i++){
-        arrayRandoms[i] = rand() % (numPaises+1);
+        arrayRandoms[i] = (rand() % (cantPersonas+1));
     }
-    printf("Paso el qsort");
     qsort(arrayRandoms, cantDatos, sizeof(int), greater_equal);
-    printf("Paso el qsort");
     return arrayRandoms;
 }
 
 void generar_personas (int numPaises, char **arrayPaises, char *archivoPersonas, char *archivoSalida, int cantDatos){
-    int cantLeidos=0, edad, *arrayRandoms, i;
+    int cantLeidos=0, edad, *arrayRandoms, i=0, cantPersonas;
     char nombre[TAM_LINEA], lugarDeNacimiento[TAM_LINEA];
     
-    arrayRandoms = genera_lista_random(cantDatos, numPaises);
-
-    for(i=0;i<cantDatos;i++){
-        printf("%d\n", arrayRandoms[i]);
-    }
-    printf("hgola");
-
     FILE *puntPersonas = fopen(archivoPersonas, "r");
 
-    FILE *puntSalida = fopen(archivoSalida, "w+");
+    cantPersonas = contar_lineas(puntPersonas);
 
-    for(i=0; cantLeidos < cantDatos; i++){
+    arrayRandoms = genera_lista_random(cantDatos, cantPersonas);
+
+    for(i=0;i<cantDatos;i++){
+    printf("i: %d  %d\n",i, arrayRandoms[i]);}
+    i=0;
+    FILE *puntSalida = fopen(archivoSalida, "w+");
+    
+    while(cantLeidos < cantDatos){
         fscanf(puntPersonas,"%[^\n]\n", nombre);
+        while((arrayRandoms[cantLeidos] == arrayRandoms[cantLeidos+1]) && (i == arrayRandoms[cantLeidos])){
+            edad = (rand() % 100) + 1;
+            strcpy(lugarDeNacimiento, arrayPaises[rand() % numPaises]);
+            fprintf(puntSalida, "%s, %d, %s\n", nombre, edad, lugarDeNacimiento);
+            cantLeidos++;
+        }
         if(i == arrayRandoms[cantLeidos]){
             edad = (rand() % 100) + 1;
             strcpy(lugarDeNacimiento, arrayPaises[rand() % numPaises]);
             fprintf(puntSalida, "%s, %d, %s\n", nombre, edad, lugarDeNacimiento);
             cantLeidos++;
         }
+        i++;
     }
 
     fclose(puntPersonas);
@@ -97,10 +102,8 @@ int main(int argc, char *argv[]){
 
     printf("Ingrese el numero de datos a generar:\n");
     scanf("%d", &cantDatos);
-    printf("#\n");
     arrayPaises = leer_paises("paises.txt", &numPaises);
     generar_personas(numPaises, arrayPaises, "nombres1.txt", "output.txt", cantDatos);
     
-    printf("#\n");
     return 0;
 }
