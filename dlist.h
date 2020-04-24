@@ -2,6 +2,7 @@
 #define __DLIST_H__
 
 #include <stddef.h>
+#include <stdio.h>
 
 #define TAM_LINEA 200
 
@@ -53,5 +54,7 @@ DList* dlist_agregar_inicio(DList* lista, Persona dato);
  * Recorrido de la lista, utilizando la funcion pasada.
  */
 void dlist_recorrer(DList* lista, FuncionVisitante visit);
+
+void imprimir_dlist_archivo(DList* lista, FILE* fp);
 
 #endif /* __DLIST_H__ */

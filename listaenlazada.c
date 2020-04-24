@@ -4,7 +4,7 @@
 #include "dlist.h"
 
 static void imprimir_persona(Persona persona) {
-  printf("Nombre: %s,Edad: %d,Pais: %s\n", persona.nombre, persona.edad, persona.lugarDeNacimiento);
+  printf("Nombre: %s, Edad: %d, Pais: %s\n", persona.nombre, persona.edad, persona.lugarDeNacimiento);
 }
 
 void leer_archivo_personas(char *nombreArchivo, DList* lista){
@@ -33,6 +33,10 @@ int main(int argc, char *argv[]) {
 
   dlist_recorrer(lista, imprimir_persona);
   puts("");
+
+  FILE *puntSalida = fopen("linked.txt", "w+");
+  imprimir_dlist_archivo(lista, puntSalida);
+  fclose(puntSalida);
 
   dlist_destruir(lista);
 

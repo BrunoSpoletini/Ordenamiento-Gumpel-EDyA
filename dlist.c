@@ -1,6 +1,5 @@
 #include "dlist.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 DList* dlist_crear() {
   DList *lista = malloc(sizeof(DList));
@@ -58,5 +57,11 @@ DList* dlist_agregar_inicio(DList* lista, Persona dato) {
 void dlist_recorrer(DList* lista, FuncionVisitante visit) {
   for (DNodo *nodo = lista->primero; nodo != NULL; nodo = nodo->sig)
     visit(nodo->dato);
+}
+
+void imprimir_dlist_archivo(DList* lista, FILE* fp) {
+  for (DNodo *nodo = lista->primero; nodo != NULL; nodo = nodo->sig){
+    fprintf(fp, "Nombre: %s, Edad: %d, Pais: %s\n", nodo->dato.nombre, nodo->dato.edad, nodo->dato.lugarDeNacimiento);
+  }
 }
 

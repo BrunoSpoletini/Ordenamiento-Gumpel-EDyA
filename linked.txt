@@ -1,0 +1,10 @@
+Nombre: EDUVINA JIMENEZ, Edad: 81, Pais: Sofía
+Nombre: AGUSTIN JIMENEZ, Edad: 59, Pais: Washington D. C.
+Nombre: CLEMENTINA MESEN, Edad: 13, Pais: Palau
+Nombre: OFELIA GUZMAN, Edad: 48, Pais: Bermudas
+Nombre: JORGE MORA, Edad: 78, Pais: Iraq
+Nombre: MARIA ROSA VALVERDE, Edad: 18, Pais: Conakri
+Nombre: JUAN DE DIOS RAMIREZ, Edad: 98, Pais: Islas Virgenes Americanas
+Nombre: FLORA SOJO, Edad: 25, Pais: Iraq
+Nombre: VIRGINIA ARAYA, Edad: 43, Pais: Islas Turcas y Caicos
+Nombre: MARIA DE LOS ANGELES QUIROS, Edad: 7, Pais: Moscú
