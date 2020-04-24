@@ -28,18 +28,17 @@ int greater_equal(const void *a, const void *b) {
 }
 
 char **leer_paises (char *archivoPaises, int *numPaises){
+    int i;
     FILE* puntPaises = fopen(archivoPaises, "r");
 
     (*numPaises) = contar_lineas(puntPaises);
     char pais[TAM_LINEA];
-
     char **arrayPaises = malloc(sizeof(char*) * (*numPaises));
     
-    for(int i=0; (fscanf(puntPaises, "%[^\n]\n", pais) != EOF); i++){
+    for(i=0; (fscanf(puntPaises, "%[^\n]\n", pais) != EOF); i++){
         arrayPaises[i] = malloc(sizeof(pais));
         strcpy(arrayPaises[i], pais);
     }
-
     fclose(puntPaises);
     return arrayPaises;
 }
@@ -51,7 +50,9 @@ int *genera_lista_random(int cantDatos, int numPaises){
     for(i = 0; i < cantDatos; i++){
         arrayRandoms[i] = rand() % (numPaises+1);
     }
+    printf("Paso el qsort");
     qsort(arrayRandoms, cantDatos, sizeof(int), greater_equal);
+    printf("Paso el qsort");
     return arrayRandoms;
 }
 
@@ -60,6 +61,11 @@ void generar_personas (int numPaises, char **arrayPaises, char *archivoPersonas,
     char nombre[TAM_LINEA], lugarDeNacimiento[TAM_LINEA];
     
     arrayRandoms = genera_lista_random(cantDatos, numPaises);
+
+    for(i=0;i<cantDatos;i++){
+        printf("%d\n", arrayRandoms[i]);
+    }
+    printf("hgola");
 
     FILE *puntPersonas = fopen(archivoPersonas, "r");
 
@@ -93,7 +99,6 @@ int main(int argc, char *argv[]){
     scanf("%d", &cantDatos);
     printf("#\n");
     arrayPaises = leer_paises("paises.txt", &numPaises);
-    printf("#\n");
     generar_personas(numPaises, arrayPaises, "nombres1.txt", "output.txt", cantDatos);
     
     printf("#\n");
