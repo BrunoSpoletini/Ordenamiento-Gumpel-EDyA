@@ -14,6 +14,8 @@ void dlist_destruir(DList* lista) {
   while (lista->primero != NULL) {
     nodoAEliminar = lista->primero;
     lista->primero = nodoAEliminar->sig;
+    free(nodoAEliminar->dato.nombre);
+    free(nodoAEliminar->dato.lugarDeNacimiento);
     free(nodoAEliminar);
   }
 }
@@ -22,7 +24,7 @@ int dlist_vacia(DList* lista) {
   return lista == NULL;
 }
 
-DList* dlist_agregar_final(DList* lista, int dato) {
+DList* dlist_agregar_final(DList* lista, Persona dato) {
   DNodo *nuevoNodo = malloc(sizeof(DNodo));
   nuevoNodo->dato = dato;
   nuevoNodo->sig = NULL;
@@ -38,7 +40,7 @@ DList* dlist_agregar_final(DList* lista, int dato) {
   return lista;
 }
 
-DList* dlist_agregar_inicio(DList* lista, int dato) {
+DList* dlist_agregar_inicio(DList* lista, Persona dato) {
   DNodo *nuevoNodo = malloc(sizeof(DNodo));
   nuevoNodo->dato = dato;
   nuevoNodo->sig = lista->primero;

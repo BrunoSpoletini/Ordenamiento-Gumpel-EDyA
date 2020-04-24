@@ -3,10 +3,18 @@
 
 #include <stddef.h>
 
-typedef void (*FuncionVisitante) (int dato);
+#define TAM_LINEA 200
+
+typedef struct {
+char *nombre;
+int edad;
+char *lugarDeNacimiento; // pais o capital
+} Persona;
+
+typedef void (*FuncionVisitante) (Persona dato);
 
 typedef struct _DNodo{
-  int dato;
+  Persona dato;
   struct _DNodo *ant;
   struct _DNodo *sig;
 } DNodo;
@@ -34,12 +42,12 @@ int dlist_vacia(DList* lista);
 /**
  * Agrega un elemento al final de la lista.
  */
-DList* dlist_agregar_final(DList* lista, int dato);
+DList* dlist_agregar_final(DList* lista, Persona dato);
 
 /**
  * Agrega un elemento al inicio de la lista.
  */
-DList* dlist_agregar_inicio(DList* lista, int dato);
+DList* dlist_agregar_inicio(DList* lista, Persona dato);
 
 /**
  * Recorrido de la lista, utilizando la funcion pasada.
