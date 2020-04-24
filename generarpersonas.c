@@ -29,46 +29,38 @@ int greater_equal(const void *a, const void *b) {
    return ( *(int*)a - *(int*)b );
 }
 
-int* genera_lista_random(FILE* fp, int cantDatos) {
-    int i, random;
+int *genera_lista_random(FILE* puntPersonas, int cantDatos){
+    int* arrayRandoms = malloc(sizeof(int) * cantDatos);
+    int cantPersonas = contar_lineas(puntPersonas);
 
-    int cantLineas = contar_lineas(fp);
-
-    int *arrayContinuo = malloc(sizeof(int) * cantLineas);
-    int *arrayRandoms = malloc(sizeof(int) * cantDatos);
-
-    for (i=0; i<cantLineas; i++) {
-        arrayContinuo[i]=i;
+    for(int i=0; i < cantDatos; i++){
+        arrayRandoms[i] = (rand() % (cantPersonas+1));
     }
-
-    for(i=0; i < cantDatos; i++){
-        random = rand() % (cantLineas-i-1);
-        arrayRandoms[i]=arrayContinuo[random];
-        arrayContinuo[random]=arrayContinuo[cantLineas-i-1];
-    }
-    
-    free (arrayContinuo);
 
     qsort(arrayRandoms, cantDatos, sizeof(int), greater_equal);
 
     return arrayRandoms;
 }
 
-void generar_personas (char* archivoPersonas, char* archivoPaises, char* archivoSalida, int cantDatos){
+char **leer_paises (char *archivoPaises, int *numPaises){
     char pais[TAM_LINEA];
-
     FILE* puntPaises = fopen(archivoPaises, "r");
-    int numPaises = contar_lineas(puntPaises);
 
-    char **arrayPaises = malloc(sizeof(char*) * numPaises);
+    (*numPaises) = contar_lineas(puntPaises);
+    char **arrayPaises = malloc(sizeof(char*) * (*numPaises));
     
     for(int i=0; (fscanf(puntPaises, "%[^\n]\n", pais) != EOF); i++){
-    
         arrayPaises[i] = malloc(sizeof(pais));
         strcpy(arrayPaises[i], pais);
     }
 
     fclose(puntPaises);
+    return arrayPaises;
+}
+
+void generar_personas (char* archivoPersonas, char* archivoPaises, char* archivoSalida, int cantDatos){
+    int numPaises;
+    char** arrayPaises = leer_paises(archivoPaises, &numPaises);
 
     FILE* puntPersonas = fopen(archivoPersonas, "r");
     int cantLeidos=0, edad;
@@ -78,13 +70,15 @@ void generar_personas (char* archivoPersonas, char* archivoPaises, char* archivo
 
     FILE *puntSalida = fopen(archivoSalida, "w+");
 
-    for(int i=0; cantLeidos < cantDatos; i++){
+    for (int linea=0; cantLeidos < cantDatos; linea++) {
         fscanf(puntPersonas,"%[^\n]\n", nombre);
-        if(i == arrayRandoms[cantLeidos]){
-            edad = (rand() % 100) + 1;
-            strcpy(lugarDeNacimiento, arrayPaises[rand() % numPaises]);
-            fprintf(puntSalida, "%s, %d, %s\n", nombre, edad, lugarDeNacimiento);
-            cantLeidos++;
+        if(linea == arrayRandoms[cantLeidos]){
+            do{
+                edad = (rand() % 100) + 1;
+                strcpy(lugarDeNacimiento, arrayPaises[rand() % numPaises]);
+                fprintf(puntSalida, "%s, %d, %s\n", nombre, edad, lugarDeNacimiento);
+                cantLeidos++;
+            }while(arrayRandoms[cantLeidos] == arrayRandoms[cantLeidos+1]);
         }
     }
 
@@ -95,7 +89,6 @@ void generar_personas (char* archivoPersonas, char* archivoPaises, char* archivo
         free(arrayPaises[i]);
     }
     free(arrayPaises);
-
     free(arrayRandoms);
 
 }

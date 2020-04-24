@@ -31,8 +31,8 @@ int main(int argc, char *argv[]) {
 
   leer_archivo_personas("output.txt", lista);
 
-  dlist_recorrer(lista, imprimir_persona);
-  puts("");
+  //dlist_recorrer(lista, imprimir_persona);
+  //puts("");
 
   FILE *puntSalida = fopen("linked.txt", "w+");
   imprimir_dlist_archivo(lista, puntSalida);
