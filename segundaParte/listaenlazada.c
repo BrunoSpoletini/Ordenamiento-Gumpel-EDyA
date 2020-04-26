@@ -36,20 +36,29 @@ static void escribir_persona(void* persona, FILE* fp){
   fprintf(fp, "Nombre: %s, Edad: %d, Pais: %s\n", ((Persona*)persona)->nombre, ((Persona*)persona)->edad, ((Persona*)persona)->lugarDeNacimiento);
 }
 
+static int compara_por_edad(void* dato1, void* dato2){
+  return ((Persona*)dato1)->edad - ((Persona*)dato2)->edad;
+}
+
+static int compara_por_localidad(void* dato1, void* dato2){
+  return strcmp(((Persona*)dato1)->lugarDeNacimiento, ((Persona*)dato2)->lugarDeNacimiento);
+}
+
 int main(int argc, char *argv[]) {
 
   DList* lista = dlist_crear();
 
   leer_archivo_personas("output.txt", lista);
 
-  //dlist_recorrer(lista, imprimir_persona);
-  //puts("");
+  dlist_recorrer(lista, imprimir_persona);
 
-  imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
+  //lista = dlist_selectionSort (lista, compara_por_localidad);
+  
+  //imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
+
+  //dlist_recorrer(lista, imprimir_persona);
 
   dlist_destruir(lista, liberar_persona);
-
-  printf("ok");
 
   return 0;
 }

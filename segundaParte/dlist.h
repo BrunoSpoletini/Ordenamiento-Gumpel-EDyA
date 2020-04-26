@@ -62,4 +62,6 @@ void dlist_recorrer(DList* lista, FuncionVisitante imprimir_persona);
 
 void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribir_persona);
 
+DList* dlist_selectionSort (DList* lista, Compara comparar);
+
 #endif /* __DLIST_H__ */

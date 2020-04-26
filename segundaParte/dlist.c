@@ -66,3 +66,23 @@ void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribi
   }
   fclose(fp);
 }
+
+DList* dlist_selectionSort (DList* lista, Compara comparar){
+  DNodo *menor, *aux=malloc(sizeof(DNodo));
+  for (DNodo *nodo1 = lista->primero; nodo1 != NULL; nodo1 = nodo1->sig){
+    menor = nodo1;
+    for(DNodo *nodo2 = nodo1->sig; nodo2 != NULL; nodo2 = nodo2->sig){
+      if(comparar(menor->dato, nodo2->dato) > 0){
+        menor = nodo2;
+      }
+    }
+    aux->dato = nodo1->dato;
+    nodo1->dato = menor->dato;
+    menor->dato = aux->dato;
+  }
+  return lista;
+}
+
+//DList* dlist_insertionSort (DList* lista, Compara comparar)
+
+//DList* dlist_mergeSort (DList* lista, Compara comparar)
