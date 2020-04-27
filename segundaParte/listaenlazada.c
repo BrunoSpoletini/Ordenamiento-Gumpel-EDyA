@@ -52,9 +52,11 @@ int main(int argc, char *argv[]) {
 
   dlist_recorrer(lista, imprimir_persona);
 
-  //lista = dlist_selectionSort (lista, compara_por_localidad);
+  //lista = dlist_selectionSort (lista, compara_por_edad);
+
+  lista = dlist_insertionSort (lista, compara_por_edad);
   
-  //imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
+  imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
 
   //dlist_recorrer(lista, imprimir_persona);
 

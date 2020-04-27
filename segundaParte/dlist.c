@@ -68,7 +68,7 @@ void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribi
 }
 
 DList* dlist_selectionSort (DList* lista, Compara comparar){
-  DNodo *menor, *aux=malloc(sizeof(DNodo));
+  DNodo *menor, *aux = malloc(sizeof(DNodo));
   for (DNodo *nodo1 = lista->primero; nodo1 != NULL; nodo1 = nodo1->sig){
     menor = nodo1;
     for(DNodo *nodo2 = nodo1->sig; nodo2 != NULL; nodo2 = nodo2->sig){
@@ -80,9 +80,32 @@ DList* dlist_selectionSort (DList* lista, Compara comparar){
     nodo1->dato = menor->dato;
     menor->dato = aux->dato;
   }
+  free(aux);
   return lista;
 }
 
-//DList* dlist_insertionSort (DList* lista, Compara comparar)
+DList* dlist_insertionSort (DList* lista, Compara comparar){
+  DNodo *nodoAComparar;
+  DNodo *nodoMovil;
+  nodoAComparar = lista->ultimo;
+  while(nodoAComparar != NULL){
+    printf("hi");
+    
+    nodoMovil = nodoAComparar->ant;
+    while((nodoMovil != NULL) && (comparar(nodoAComparar->dato, nodoMovil->dato) > 0)){
+      nodoMovil = nodoMovil->ant;
+    }
+    printf("hi");
+    nodoAComparar->ant = nodoMovil;
+    nodoAComparar->sig = nodoMovil->sig;
+    nodoMovil->sig->ant = nodoAComparar;
+    nodoMovil->sig = nodoAComparar;
+
+    nodoAComparar = nodoAComparar->ant;
+  }
+
+  return lista;
+}
+
 
 //DList* dlist_mergeSort (DList* lista, Compara comparar)

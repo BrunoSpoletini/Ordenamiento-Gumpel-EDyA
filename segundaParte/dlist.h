@@ -64,4 +64,6 @@ void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribi
 
 DList* dlist_selectionSort (DList* lista, Compara comparar);
 
+DList* dlist_insertionSort (DList* lista, Compara comparar);
+
 #endif /* __DLIST_H__ */
