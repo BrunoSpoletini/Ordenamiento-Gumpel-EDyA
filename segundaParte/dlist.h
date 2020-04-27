@@ -20,7 +20,6 @@ typedef int (*Compara) (void* dato1, void* dato2);
 
 typedef struct _DNodo{
   void *dato ;
-  //Persona dato; Esto es lo que estaba antes, pero no sirve ya que la estructura de listas pierde generalidad
   struct _DNodo *ant;
   struct _DNodo *sig;
 } DNodo;

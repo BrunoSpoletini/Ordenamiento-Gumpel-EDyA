@@ -1,20 +1,20 @@
-Nombre: MARIA SALAS, Edad: 1, Pais: Managua
 Nombre: CARMEN CORRALES, Edad: 2, Pais: Riad
-Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 11, Pais: Finlandia
-Nombre: MANUEL JIMENEZ, Edad: 14, Pais: Madrid
-Nombre: MARTA VILLALTA, Edad: 16, Pais: Maseru
-Nombre: MARINA HERRERA, Edad: 20, Pais: Costa Rica
-Nombre: ISABEL VEGA, Edad: 20, Pais: Jordania
-Nombre: DELFINA SEGURA, Edad: 22, Pais: Sáhara Occidental
-Nombre: JOSE MENA, Edad: 26, Pais: Islas Caimán
-Nombre: MARINA HERRERA, Edad: 28, Pais: Palau
-Nombre: MARINA HERRERA, Edad: 31, Pais: Australia
-Nombre: ADINA CARPIO, Edad: 38, Pais: Libia
-Nombre: MARINA ASTUA, Edad: 61, Pais: Islas Salomón
-Nombre: MARINA HERRERA, Edad: 62, Pais: Norfolk Island
+Nombre: 8l, Edad: 7082296, Pais: (null)
 Nombre: MANUEL DELGADO, Edad: 71, Pais: Azerbaiyán
-Nombre: CARMEN ARIAS, Edad: 76, Pais: Pakistán
-Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 78, Pais: Islas Marshall
-Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 82, Pais: Ucrania
+Nombre: MARIA SALAS, Edad: 1, Pais: Managua
+Nombre: ISABEL VEGA, Edad: 20, Pais: Jordania
 Nombre: FELICIA VEGA, Edad: 84, Pais: Damasco
+Nombre: ADINA CARPIO, Edad: 38, Pais: Libia
+Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 11, Pais: Finlandia
+Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 82, Pais: Ucrania
+Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 78, Pais: Islas Marshall
+Nombre: MARINA HERRERA, Edad: 20, Pais: Costa Rica
+Nombre: MARINA HERRERA, Edad: 28, Pais: Palau
+Nombre: MARINA HERRERA, Edad: 62, Pais: Norfolk Island
+Nombre: MARINA HERRERA, Edad: 31, Pais: Australia
+Nombre: JOSE MENA, Edad: 26, Pais: Islas Caimán
+Nombre: CARMEN ARIAS, Edad: 76, Pais: Pakistán
+Nombre: MARINA ASTUA, Edad: 61, Pais: Islas Salomón
+Nombre: MANUEL JIMENEZ, Edad: 14, Pais: Madrid
 Nombre: MARINA QUIROS, Edad: 92, Pais: Bangladesh
+Nombre: DELFINA SEGURA, Edad: 22, Pais: Sáhara Occidental

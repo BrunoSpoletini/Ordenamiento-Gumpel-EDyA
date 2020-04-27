@@ -87,23 +87,35 @@ DList* dlist_selectionSort (DList* lista, Compara comparar){
 DList* dlist_insertionSort (DList* lista, Compara comparar){
   DNodo *nodoAComparar;
   DNodo *nodoMovil;
-  nodoAComparar = lista->ultimo;
+  DNodo *aux = malloc(sizeof(DNodo));
+  aux = lista->primero->sig;
+  nodoAComparar = aux;
   while(nodoAComparar != NULL){
-    printf("hi");
-    
-    nodoMovil = nodoAComparar->ant;
-    while((nodoMovil != NULL) && (comparar(nodoAComparar->dato, nodoMovil->dato) > 0)){
+    nodoAComparar = aux;
+    nodoMovil = nodoAComparar;
+    while((nodoMovil->ant != NULL) && (comparar(nodoAComparar->dato, nodoMovil->ant->dato) > 0)){
       nodoMovil = nodoMovil->ant;
     }
-    printf("hi");
-    nodoAComparar->ant = nodoMovil;
-    nodoAComparar->sig = nodoMovil->sig;
-    nodoMovil->sig->ant = nodoAComparar;
-    nodoMovil->sig = nodoAComparar;
+    aux = nodoAComparar->sig;
+    printf("1");
+    (nodoAComparar->ant)->sig = nodoAComparar->sig;
+    printf("2");
+    if(nodoAComparar->sig != NULL){
+      (nodoAComparar->sig)->ant = nodoAComparar->ant;
+    }
+    printf("3");
+    nodoAComparar->ant = nodoMovil->ant;
+    printf("4");
+    nodoAComparar->sig = nodoMovil;
+    printf("5");
+    if(nodoMovil->ant != NULL){
+      nodoMovil->ant->sig = nodoAComparar;
+    }
+    printf("6\n");
+    nodoMovil->ant = nodoAComparar;
 
-    nodoAComparar = nodoAComparar->ant;
   }
-
+  free(aux);
   return lista;
 }
 
