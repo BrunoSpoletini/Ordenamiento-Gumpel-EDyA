@@ -67,8 +67,36 @@ void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribi
   fclose(fp);
 }
 
+void swap_dato(DNodo* lista1, DNodo* lista2){
+  DNodo* aux = malloc(sizeof(DNodo));
+  aux->dato = lista1->dato;
+  lista1->dato = lista2->dato;
+  lista2->dato = aux->dato;
+  free(aux);
+}
+
+void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar){
+  if(nodoAInsertar->ant != NULL)
+    (nodoAInsertar->ant)->sig = nodoAInsertar->sig;
+  if(nodoAInsertar->sig != NULL)
+    (nodoAInsertar->sig)->ant = nodoAInsertar->ant;
+  else
+    lista->ultimo = nodoAInsertar->ant;
+
+  nodoAInsertar->sig = nodoPivote;
+  nodoAInsertar->ant = nodoPivote->ant;
+
+  if(nodoPivote->ant == NULL)
+    lista->primero = nodoAInsertar;
+  
+  nodoPivote->ant = nodoAInsertar;
+
+  if(nodoPivote->ant->ant != NULL)
+    nodoPivote->ant->ant->sig = nodoAInsertar;
+}
+
 DList* dlist_selectionSort (DList* lista, Compara comparar){
-  DNodo *menor, *aux = malloc(sizeof(DNodo));
+  DNodo *menor;
   for (DNodo *nodo1 = lista->primero; nodo1 != NULL; nodo1 = nodo1->sig){
     menor = nodo1;
     for(DNodo *nodo2 = nodo1->sig; nodo2 != NULL; nodo2 = nodo2->sig){
@@ -76,62 +104,89 @@ DList* dlist_selectionSort (DList* lista, Compara comparar){
         menor = nodo2;
       }
     }
-    aux->dato = nodo1->dato;
-    nodo1->dato = menor->dato;
-    menor->dato = aux->dato;
+    swap_dato(nodo1, menor);
   }
-  free(aux);
   return lista;
 }
-
+//Mover nodo delaante de(posPivot, nodoAMover)
 DList* dlist_insertionSort (DList* lista, Compara comparar){
-  DNodo *nodoAComparar;
-  DNodo *nodoMovil;
-  DNodo *aux = malloc(sizeof(DNodo));
-  if(lista->primero == NULL){
+  DNodo *nodoAComparar, *nodoMovil, *aux = malloc(sizeof(DNodo));
+  if(lista->primero == NULL || lista->primero->sig == NULL){
     return lista;
   }
   aux = lista->primero->sig;
   nodoAComparar = aux;
   while(nodoAComparar != NULL){
     nodoMovil = nodoAComparar;
-    while((nodoMovil->ant != NULL) && (comparar(nodoAComparar->dato, nodoMovil->ant->dato) > 0)){
+    while((nodoMovil->ant != NULL) && (comparar(nodoAComparar->dato, nodoMovil->ant->dato) < 0)){
       nodoMovil = nodoMovil->ant;
-      printf("a");
     }
     aux = nodoAComparar->sig;
-    if(nodoMovil->ant != nodoAComparar){
-      printf("1");
-      (nodoAComparar->ant)->sig = nodoAComparar->sig;
-      printf("2");
-      if(nodoAComparar->sig != NULL){
-        (nodoAComparar->sig)->ant = nodoAComparar->ant;
-      }
-      printf("3");
-      nodoAComparar->ant = nodoMovil->ant;
-      printf("4");
-      nodoAComparar->sig = nodoMovil;
-      printf("5");
-      if(nodoMovil->ant != NULL){
-        nodoMovil->ant->sig = nodoAComparar;
-      }
-      printf("6\n");
-      nodoMovil->ant = nodoAComparar;
-    }
-    if(nodoAComparar->sig == NULL){
-      lista->ultimo = nodoAComparar;
-    }
-    if(nodoAComparar->ant == NULL){
-      lista->primero = nodoAComparar;
+    if(nodoAComparar != nodoMovil){
+      mover_a_izquierda_de(lista, nodoMovil, nodoAComparar);
     }
     nodoAComparar = aux;
-    
   }
-  
   free(aux);
-     
   return lista;
 }
 
 
-//DList* dlist_mergeSort (DList* lista, Compara comparar)
+DList* dlist_mergeSort (DList* lista, Compara comparar){
+  if(lista->primero == NULL || lista->primero->sig == NULL){ 
+    return lista; //Ya que la lista ya estará ordenada
+  }
+
+}
+
+/*/
+DList* dlist_insertionSort (DList* lista, Compara comparar) {
+    DNodo *sec_data = malloc(sizeof(DNodo));
+    DNodo *temp = malloc(sizeof(DNodo));
+    for (DNodo* t1 = lista->primero->sig; t1!= NULL; t1 = t1->sig) {
+        sec_data->dato = t1->dato;
+        int found = 0;
+        DNodo* t2 = lista->primero;
+        for (; t2 != t1; t2 = t2->sig) {
+            if((comparar(t2->dato, t1->dato) > 0) && found == 0) {
+                sec_data->dato = t2->dato;
+                t2->dato = t1->dato;
+                found = 1;
+            } else if (found == 1) {
+                    temp->dato = sec_data->dato;
+                    sec_data->dato = t2->dato;
+                    t2->dato = temp->dato;
+            }
+        }
+        t2->dato = sec_data->dato;
+    }
+    return lista;
+}/*/
+
+/*/
+GList glist_insertion_sort(GList list, Compare function) {
+  if (list) {
+    GNode* auxNode = list->next;
+    do {
+      GNode* node = auxNode->prev;
+      for (; function(node->data, auxNode->data) > 0 && node != list->prev; node = node->prev);
+      GNode* newLastPosition = auxNode->next;
+      if (node != auxNode->prev) {
+        node = node->next;
+        if (node == list) {
+          list = auxNode;
+        }
+        //Sacando node de su posicion
+        auxNode->prev->next = auxNode->next;
+        auxNode->next->prev = auxNode->prev;
+        //Moviendo node a la izquierda de nodeHastaSwapear
+        auxNode->next = node;
+        auxNode->prev = node->prev;
+        node->prev->next = auxNode;
+        node->prev = auxNode;
+      }
+      auxNode = newLastPosition;
+    } while (auxNode != list);
+  }
+  return list;
+}/*/

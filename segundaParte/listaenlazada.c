@@ -50,17 +50,20 @@ int main(int argc, char *argv[]) {
 
   leer_archivo_personas("output.txt", lista);
 
-  dlist_recorrer(lista, imprimir_persona);
+  //dlist_recorrer(lista, imprimir_persona);
 
   //lista = dlist_selectionSort (lista, compara_por_edad);
 
   lista = dlist_insertionSort (lista, compara_por_edad);
-  
-  imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
 
-  //dlist_recorrer(lista, imprimir_persona);
+  //mover_a_izquierda_de(lista, lista->primero, lista->primero->sig->sig->sig);
 
+  printf("!a\n");
+  //imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
+
+  dlist_recorrer(lista, imprimir_persona);
+  //printf("hola");
   dlist_destruir(lista, liberar_persona);
-
+  //printf("hola");
   return 0;
 }

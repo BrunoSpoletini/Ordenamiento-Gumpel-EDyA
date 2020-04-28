@@ -61,8 +61,14 @@ void dlist_recorrer(DList* lista, FuncionVisitante imprimir_persona);
 
 void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribir_persona);
 
+void swap_dato(DNodo* lista1, DNodo* lista2);
+
+void mover_a_izquierda_de(DList *lista, DNodo* nodoAInsertar, DNodo* nodoPivote);
+
 DList* dlist_selectionSort (DList* lista, Compara comparar);
 
 DList* dlist_insertionSort (DList* lista, Compara comparar);
+
+DList* dlist_mergeSort (DList* lista, Compara comparar);
 
 #endif /* __DLIST_H__ */

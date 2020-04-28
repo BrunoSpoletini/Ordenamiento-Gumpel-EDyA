@@ -1,19 +1,4 @@
-Nombre: MARINA QUIROS, Edad: 92, Pais: Bangladesh
-Nombre: FELICIA VEGA, Edad: 84, Pais: Damasco
-Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 82, Pais: Ucrania
-Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 78, Pais: Islas Marshall
-Nombre: CARMEN ARIAS, Edad: 76, Pais: Pakistán
+Nombre: MARIA SALAS, Edad: 1, Pais: Managua
+Nombre: MARTA VILLALTA, Edad: 9, Pais: Maseru
+Nombre: CARMEN CORRALES, Edad: 10, Pais: Riad
 Nombre: MANUEL DELGADO, Edad: 71, Pais: Azerbaiyán
-Nombre: MARINA HERRERA, Edad: 62, Pais: Norfolk Island
-Nombre: MARINA ASTUA, Edad: 61, Pais: Islas Salomón
-Nombre: ADINA CARPIO, Edad: 38, Pais: Libia
-Nombre: MARINA HERRERA, Edad: 31, Pais: Australia
-Nombre: MARINA HERRERA, Edad: 28, Pais: Palau
-Nombre: JOSE MENA, Edad: 26, Pais: Islas Caimán
-Nombre: DELFINA SEGURA, Edad: 22, Pais: Sáhara Occidental
-Nombre: ISABEL VEGA, Edad: 20, Pais: Jordania
-Nombre: MARINA HERRERA, Edad: 20, Pais: Costa Rica
-Nombre: MARTA VILLALTA, Edad: 16, Pais: Maseru
-Nombre: MANUEL JIMENEZ, Edad: 14, Pais: Madrid
-Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 11, Pais: Finlandia
-Nombre: CARMEN CORRALES, Edad: 2, Pais: Riad

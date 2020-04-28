@@ -1,5 +1,5 @@
-CARMEN CORRALES, 2, Riad
-MARTA VILLALTA, 16, Maseru
+CARMEN CORRALES, 10, Riad
+MARTA VILLALTA, 10, Maseru
 MANUEL DELGADO, 71, Azerbaiyán
 MARIA SALAS, 1, Managua
 ISABEL VEGA, 20, Jordania
@@ -16,5 +16,5 @@ JOSE MENA, 26, Islas Caimán
 CARMEN ARIAS, 76, Pakistán
 MARINA ASTUA, 61, Islas Salomón
 MANUEL JIMENEZ, 14, Madrid
-MARINA QUIROS, 92, Bangladesh
-DELFINA SEGURA, 22, Sáhara Occidental
+MARINA QUIROS, 33, Bangladesh
+DELFINA SEGURA, 80, Sáhara Occidental
