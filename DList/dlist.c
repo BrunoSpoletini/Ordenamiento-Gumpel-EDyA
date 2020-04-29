@@ -67,11 +67,13 @@ void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribi
   fclose(fp);
 }
 
-void swap_dato(DNodo* lista1, DNodo* lista2) {
+void swap_dato(DNodo* nodo1, DNodo* nodo2) {
   DNodo* aux = malloc(sizeof(DNodo));
-  aux->dato = lista1->dato;
-  lista1->dato = lista2->dato;
-  lista2->dato = aux->dato;
+
+  aux->dato = nodo1->dato;
+  nodo1->dato = nodo2->dato;
+  nodo2->dato = aux->dato;
+
   free(aux);
 }
 
@@ -96,43 +98,6 @@ void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar)
 
   if(nodoPivote->ant->ant != NULL)
     nodoPivote->ant->ant->sig = nodoAInsertar;
-}
-
-DList* dlist_selection_sort(DList* lista, Compara comparar){
-  DNodo *menor;
-  for (DNodo *nodo1 = lista->primero; nodo1 != NULL; nodo1 = nodo1->sig){
-    menor = nodo1;
-    for(DNodo *nodo2 = nodo1->sig; nodo2 != NULL; nodo2 = nodo2->sig){
-      if(comparar(menor->dato, nodo2->dato) > 0){
-        menor = nodo2;
-      }
-    }
-    swap_dato(nodo1, menor);
-  }
-  return lista;
-}
-
-//Mover nodo delaante de(posPivot, nodoAMover)
-DList* dlist_insertion_sort(DList* lista, Compara comparar) {
-  DNodo *nodoAComparar, *nodoMovil, *aux = malloc(sizeof(DNodo));
-  if (lista->primero == NULL || lista->primero->sig == NULL)
-    return lista;
-
-  aux = lista->primero->sig;
-  nodoAComparar = aux;
-  while (nodoAComparar != NULL) {
-    nodoMovil = nodoAComparar;
-    while ((nodoMovil->ant != NULL) && (comparar(nodoAComparar->dato, nodoMovil->ant->dato) < 0)) {
-      nodoMovil = nodoMovil->ant;
-    }
-    aux = nodoAComparar->sig;
-    if (nodoAComparar != nodoMovil) {
-      mover_a_izquierda_de(lista, nodoMovil, nodoAComparar);
-    }
-    nodoAComparar = aux;
-  }
-  free(aux);
-  return lista;
 }
 
 DNodo* nodo_medio(DList* lista) { 
@@ -170,6 +135,43 @@ DList* merge(DList* lista1, DList* lista2, Compara comparar) {
       return mergedList;
     } 
 } 
+
+DList* dlist_selection_sort(DList* lista, Compara comparar){
+  DNodo *menor;
+  for (DNodo *nodo1 = lista->primero; nodo1 != NULL; nodo1 = nodo1->sig){
+    menor = nodo1;
+    for(DNodo *nodo2 = nodo1->sig; nodo2 != NULL; nodo2 = nodo2->sig){
+      if(comparar(menor->dato, nodo2->dato) > 0){
+        menor = nodo2;
+      }
+    }
+    swap_dato(nodo1, menor);
+  }
+  return lista;
+}
+
+//Mover nodo delaante de(posPivot, nodoAMover)
+DList* dlist_insertion_sort(DList* lista, Compara comparar) {
+  DNodo *nodoAComparar, *nodoMovil, *aux = malloc(sizeof(DNodo));
+  if (lista->primero == NULL || lista->primero->sig == NULL)
+    return lista;
+
+  aux = lista->primero->sig;
+  nodoAComparar = aux;
+  while (nodoAComparar != NULL) {
+    nodoMovil = nodoAComparar;
+    while ((nodoMovil->ant != NULL) && (comparar(nodoAComparar->dato, nodoMovil->ant->dato) < 0)) {
+      nodoMovil = nodoMovil->ant;
+    }
+    aux = nodoAComparar->sig;
+    if (nodoAComparar != nodoMovil) {
+      mover_a_izquierda_de(lista, nodoMovil, nodoAComparar);
+    }
+    nodoAComparar = aux;
+  }
+  free(aux);
+  return lista;
+}
   
 DList* dlist_merge_sort(DList* lista, Compara comparar) { 
 
