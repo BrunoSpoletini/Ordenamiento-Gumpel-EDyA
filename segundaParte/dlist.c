@@ -67,7 +67,7 @@ void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribi
   fclose(fp);
 }
 
-void swap_dato(DNodo* lista1, DNodo* lista2){
+void swap_dato(DNodo* lista1, DNodo* lista2) {
   DNodo* aux = malloc(sizeof(DNodo));
   aux->dato = lista1->dato;
   lista1->dato = lista2->dato;
@@ -75,11 +75,14 @@ void swap_dato(DNodo* lista1, DNodo* lista2){
   free(aux);
 }
 
-void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar){
+void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar) {
+
   if(nodoAInsertar->ant != NULL)
     (nodoAInsertar->ant)->sig = nodoAInsertar->sig;
+
   if(nodoAInsertar->sig != NULL)
     (nodoAInsertar->sig)->ant = nodoAInsertar->ant;
+
   else
     lista->ultimo = nodoAInsertar->ant;
 
@@ -95,7 +98,7 @@ void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar)
     nodoPivote->ant->ant->sig = nodoAInsertar;
 }
 
-DList* dlist_selectionSort (DList* lista, Compara comparar){
+DList* dlist_selection_sort(DList* lista, Compara comparar){
   DNodo *menor;
   for (DNodo *nodo1 = lista->primero; nodo1 != NULL; nodo1 = nodo1->sig){
     menor = nodo1;
@@ -108,21 +111,22 @@ DList* dlist_selectionSort (DList* lista, Compara comparar){
   }
   return lista;
 }
+
 //Mover nodo delaante de(posPivot, nodoAMover)
-DList* dlist_insertionSort (DList* lista, Compara comparar){
+DList* dlist_insertion_sort(DList* lista, Compara comparar) {
   DNodo *nodoAComparar, *nodoMovil, *aux = malloc(sizeof(DNodo));
-  if(lista->primero == NULL || lista->primero->sig == NULL){
+  if (lista->primero == NULL || lista->primero->sig == NULL)
     return lista;
-  }
+
   aux = lista->primero->sig;
   nodoAComparar = aux;
-  while(nodoAComparar != NULL){
+  while (nodoAComparar != NULL) {
     nodoMovil = nodoAComparar;
-    while((nodoMovil->ant != NULL) && (comparar(nodoAComparar->dato, nodoMovil->ant->dato) < 0)){
+    while ((nodoMovil->ant != NULL) && (comparar(nodoAComparar->dato, nodoMovil->ant->dato) < 0)) {
       nodoMovil = nodoMovil->ant;
     }
     aux = nodoAComparar->sig;
-    if(nodoAComparar != nodoMovil){
+    if (nodoAComparar != nodoMovil) {
       mover_a_izquierda_de(lista, nodoMovil, nodoAComparar);
     }
     nodoAComparar = aux;
@@ -131,13 +135,62 @@ DList* dlist_insertionSort (DList* lista, Compara comparar){
   return lista;
 }
 
+DNodo* nodo_medio(DList* lista) { 
+    DNodo *saltoDe2 = lista->primero;
+    DNodo *saltoDe1 = lista->primero;
 
-DList* dlist_mergeSort (DList* lista, Compara comparar){
-  if(lista->primero == NULL || lista->primero->sig == NULL){ 
-    return lista; //Ya que la lista ya estará ordenada
-  }
+    while (saltoDe2->sig && saltoDe2->sig->sig) { 
+      saltoDe2 = saltoDe2->sig->sig; 
+      saltoDe1 = saltoDe1->sig; 
+    } 
+    DNodo *mitad = saltoDe1->sig;
 
-}
+    return mitad; 
+} 
+
+DList* merge(DList* lista1, DList* lista2, Compara comparar) { 
+    DList* mergedList = dlist_crear();
+
+    if (lista1->primero == NULL)
+      return lista2; 
+  
+    if (lista2->primero == NULL) 
+      return lista1; 
+  
+    if (comparar(lista1->primero->dato, lista2->primero->dato) < 0) {
+      mergedList->primero = lista1->primero;
+      lista1->primero = lista1->primero->sig;   
+      mergedList->primero->sig = merge(lista1,lista2, comparar)->primero;
+      return mergedList; 
+
+    } else { 
+      mergedList->primero = lista2->primero;
+      lista2->primero = lista2->primero->sig;   
+      mergedList->primero->sig = merge(lista1,lista2, comparar)->primero;
+      return mergedList;
+    } 
+} 
+  
+DList* dlist_merge_sort(DList* lista, Compara comparar) { 
+
+    if (lista->primero == NULL || lista->primero->sig == NULL)
+      return lista; 
+
+    DNodo *mitad = nodo_medio(lista);
+    DList *lista1 = malloc(sizeof(DList));
+    DList *lista2 = malloc(sizeof(DList));
+
+    lista1->primero = lista->primero;
+    lista1->ultimo = mitad->ant;
+    lista1->ultimo->sig = NULL;
+    lista2->primero = mitad;
+    lista2->ultimo = lista->ultimo;
+    
+    lista1 = dlist_merge_sort(lista1, comparar); 
+    lista2 = dlist_merge_sort(lista2, comparar); 
+  
+    return merge(lista1, lista2, comparar); 
+} 
 
 /*/
 DList* dlist_insertionSort (DList* lista, Compara comparar) {

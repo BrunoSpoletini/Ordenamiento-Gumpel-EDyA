@@ -65,10 +65,14 @@ void swap_dato(DNodo* lista1, DNodo* lista2);
 
 void mover_a_izquierda_de(DList *lista, DNodo* nodoAInsertar, DNodo* nodoPivote);
 
-DList* dlist_selectionSort (DList* lista, Compara comparar);
+DList* dlist_selection_sort (DList* lista, Compara comparar);
 
-DList* dlist_insertionSort (DList* lista, Compara comparar);
+DList* dlist_insertion_sort (DList* lista, Compara comparar);
 
-DList* dlist_mergeSort (DList* lista, Compara comparar);
+DNodo* nodo_medio(DList* lista);
+
+DList* merge(DList* lista1, DList* lista2, Compara comparar);
+
+DList* dlist_merge_sort(DList* lista, Compara comparar);
 
 #endif /* __DLIST_H__ */

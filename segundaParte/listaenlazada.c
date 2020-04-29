@@ -7,20 +7,20 @@ static void imprimir_persona(void* persona) {
   printf("Nombre: %s, Edad: %d, Pais: %s\n", ((Persona*)persona)->nombre, ((Persona*)persona)->edad, ((Persona*)persona)->lugarDeNacimiento);
 }
 
-static void liberar_persona(void* persona){
+static void liberar_persona(void* persona) {
   free(((Persona*)persona)->lugarDeNacimiento);
   free(((Persona*)persona)->nombre);
   free((Persona*)persona);
 }
 
-static void leer_archivo_personas(char *nombreArchivo, DList* lista){
+static void leer_archivo_personas(char *nombreArchivo, DList* lista) {
     Persona* persona;
     int edad;
     char nombre[TAM_LINEA], lugarDeNacimiento[TAM_LINEA];
 
     FILE* fp = fopen(nombreArchivo, "r");
 
-    while(fscanf(fp, "%[^,], %d, %[^\n]\n", nombre, &edad, lugarDeNacimiento) != EOF){
+    while (fscanf(fp, "%[^,], %d, %[^\n]\n", nombre, &edad, lugarDeNacimiento) != EOF) {
       persona = malloc(sizeof(Persona));
       persona->nombre = malloc(sizeof(nombre));
       strcpy(persona->nombre, nombre);
@@ -32,15 +32,15 @@ static void leer_archivo_personas(char *nombreArchivo, DList* lista){
     }
 }
 
-static void escribir_persona(void* persona, FILE* fp){
+static void escribir_persona(void* persona, FILE* fp) {
   fprintf(fp, "Nombre: %s, Edad: %d, Pais: %s\n", ((Persona*)persona)->nombre, ((Persona*)persona)->edad, ((Persona*)persona)->lugarDeNacimiento);
 }
 
-static int compara_por_edad(void* dato1, void* dato2){
+static int compara_por_edad(void* dato1, void* dato2) {
   return ((Persona*)dato1)->edad - ((Persona*)dato2)->edad;
 }
 
-static int compara_por_localidad(void* dato1, void* dato2){
+static int compara_por_localidad(void* dato1, void* dato2) {
   return strcmp(((Persona*)dato1)->lugarDeNacimiento, ((Persona*)dato2)->lugarDeNacimiento);
 }
 
@@ -52,16 +52,18 @@ int main(int argc, char *argv[]) {
 
   //dlist_recorrer(lista, imprimir_persona);
 
-  //lista = dlist_selectionSort (lista, compara_por_edad);
+  //lista = dlist_selection_sort (lista, compara_por_edad);
 
-  lista = dlist_insertionSort (lista, compara_por_edad);
+  //lista = dlist_insertion_sort (lista, compara_por_edad);
+
+  lista = dlist_merge_sort (lista, compara_por_edad);
 
   //mover_a_izquierda_de(lista, lista->primero, lista->primero->sig->sig->sig);
 
   printf("!a\n");
-  //imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
+  imprimir_dlist_archivo(lista, "linkedList.txt", escribir_persona);
 
-  dlist_recorrer(lista, imprimir_persona);
+  //dlist_recorrer(lista, imprimir_persona);
   //printf("hola");
   dlist_destruir(lista, liberar_persona);
   //printf("hola");
