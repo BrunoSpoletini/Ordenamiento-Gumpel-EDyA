@@ -84,7 +84,7 @@ void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar)
 
   if(nodoAInsertar->sig != NULL)
     (nodoAInsertar->sig)->ant = nodoAInsertar->ant;
-
+    
   else
     lista->ultimo = nodoAInsertar->ant;
 
