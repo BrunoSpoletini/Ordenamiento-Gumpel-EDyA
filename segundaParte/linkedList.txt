@@ -1,0 +1,4 @@
+Nombre: MARIA SALAS, Edad: 1, Pais: Managua
+Nombre: MARTA VILLALTA, Edad: 9, Pais: Maseru
+Nombre: CARMEN CORRALES, Edad: 10, Pais: Riad
+Nombre: MANUEL DELGADO, Edad: 71, Pais: Azerbaiyán
