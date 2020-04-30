@@ -68,7 +68,7 @@ void generar_personas (char* archivoPersonas, char* archivoPaises, char* archivo
                 strcpy(lugarDeNacimiento, arrayPaises[rand() % numPaises]);
                 fprintf(puntSalida, "%s, %d, %s\n", nombre, edad, lugarDeNacimiento);
                 cantLeidos++;
-            } while (arrayRandoms[cantLeidos - 1] == arrayRandoms[cantLeidos]);
+            } while ((cantLeidos < cantDatos) && (arrayRandoms[cantLeidos - 1] == arrayRandoms[cantLeidos]));
         }
     }
 
@@ -80,5 +80,4 @@ void generar_personas (char* archivoPersonas, char* archivoPaises, char* archivo
     }
     free(arrayPaises);
     free(arrayRandoms);
-
 }

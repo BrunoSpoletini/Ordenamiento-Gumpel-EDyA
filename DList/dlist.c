@@ -114,25 +114,32 @@ DNodo* nodo_medio(DList* lista) {
 } 
 
 DList* merge(DList* lista1, DList* lista2, Compara comparar) { 
-    DList* mergedList = dlist_crear();
 
-    if (lista1->primero == NULL)
+    if (lista1->primero == NULL) {
+      free(lista1);
       return lista2; 
+    }
   
-    if (lista2->primero == NULL) 
+    if (lista2->primero == NULL) {
+      free(lista2);
       return lista1; 
+    } 
+
+    DList* mergedList = dlist_crear();
   
     if (comparar(lista1->primero->dato, lista2->primero->dato) < 0) {
-      mergedList->primero = lista1->primero;
-      lista1->primero = lista1->primero->sig;   
-      mergedList->primero->sig = merge(lista1,lista2, comparar)->primero;
-      return mergedList; 
+      mergedList->primero = lista1->primero->sig;
+      lista1->primero->sig = merge(mergedList,lista2, comparar)->primero;
+      free(mergedList);
+      free(lista2);
+      return lista1; 
 
     } else { 
-      mergedList->primero = lista2->primero;
-      lista2->primero = lista2->primero->sig;   
-      mergedList->primero->sig = merge(lista1,lista2, comparar)->primero;
-      return mergedList;
+      mergedList->primero = lista2->primero->sig;
+      lista2->primero->sig = merge(lista1, mergedList, comparar)->primero;
+      free(mergedList);
+      free(lista1);
+      return lista2;
     } 
 } 
 
@@ -152,7 +159,7 @@ DList* dlist_selection_sort(DList* lista, Compara comparar){
 
 //Mover nodo delaante de(posPivot, nodoAMover)
 DList* dlist_insertion_sort(DList* lista, Compara comparar) {
-  DNodo *nodoAComparar, *nodoMovil, *aux = malloc(sizeof(DNodo));
+  DNodo *nodoAComparar, *nodoMovil, *aux;
   if (lista->primero == NULL || lista->primero->sig == NULL)
     return lista;
 
@@ -169,7 +176,6 @@ DList* dlist_insertion_sort(DList* lista, Compara comparar) {
     }
     nodoAComparar = aux;
   }
-  free(aux);
   return lista;
 }
   
