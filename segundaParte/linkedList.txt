@@ -1,10 +1,10 @@
-Nombre: MANUEL DELGADO, Edad: 71, Pais: Azerbaiyán
-Nombre: FELICIA VEGA, Edad: 84, Pais: Damasco
+Nombre: MARIA SALAS, Edad: 1, Pais: Managua
+Nombre: CARMEN CORRALES, Edad: 2, Pais: Riad
 Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 11, Pais: Finlandia
-Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 78, Pais: Islas Marshall
+Nombre: MARTA VILLALTA, Edad: 16, Pais: Maseru
 Nombre: ISABEL VEGA, Edad: 20, Pais: Jordania
 Nombre: ADINA CARPIO, Edad: 38, Pais: Libia
-Nombre: MARIA SALAS, Edad: 1, Pais: Managua
-Nombre: MARTA VILLALTA, Edad: 16, Pais: Maseru
-Nombre: CARMEN CORRALES, Edad: 2, Pais: Riad
+Nombre: MANUEL DELGADO, Edad: 71, Pais: Azerbaiyán
+Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 78, Pais: Islas Marshall
 Nombre: CLAUDIA MANUELA ESPINOZA, Edad: 82, Pais: Ucrania
+Nombre: FELICIA VEGA, Edad: 84, Pais: Damasco
