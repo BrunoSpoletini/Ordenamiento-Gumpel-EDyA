@@ -3,6 +3,7 @@ gcc -c .\funcgenerarpersonas.c
 gcc -o generarpersonas generarpersonas.c funcgenerarpersonas.o
 cd..
 
+
 cd .\DList\
 gcc -c .\dlist.c 
 cd..
@@ -13,4 +14,6 @@ cd .\segundaParte\
 gcc -o listaenlazada listaenlazada.c ..\DList\dlist.o ..\Persona\persona.o
 .\listaenlazada.exe
 
-cd .\DList\ & gcc -c .\dlist.c & cd.. & cd .\Persona\ & gcc -c .\persona.c & cd.. & cd .\segundaParte\ & gcc -o listaenlazada listaenlazada.c ..\DList\dlist.o ..\Persona\persona.o & cd..
+
+(para bash)
+cd ./DList/ && gcc -c ./dlist.c  && cd .. && cd ./Persona/ && gcc -c ./persona.c && cd .. && cd ./segundaParte/ && gcc -o listaenlazada listaenlazada.c ../DList/dlist.o ../Persona/persona.o && ./listaenlazada.exe && cd ..
