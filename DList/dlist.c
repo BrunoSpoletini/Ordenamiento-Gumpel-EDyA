@@ -130,14 +130,12 @@ DList* merge(DList* lista1, DList* lista2, Compara comparar) {
     if (comparar(lista1->primero->dato, lista2->primero->dato) < 0) {
       mergedList->primero = lista1->primero->sig;
       lista1->primero->sig = merge(mergedList,lista2, comparar)->primero;
-      free(mergedList);
       free(lista2);
       return lista1; 
 
     } else { 
       mergedList->primero = lista2->primero->sig;
       lista2->primero->sig = merge(lista1, mergedList, comparar)->primero;
-      free(mergedList);
       free(lista1);
       return lista2;
     } 
