@@ -4,12 +4,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
-
-typedef void (*FuncionVisitante) (void* dato); 
-
-typedef void (*FuncionEscritura) (void* dato1, FILE* fp);
-
-typedef int (*Compara) (void* dato1, void* dato2);
+#include <time.h>
 
 typedef struct _DNodo{
   void *dato ;
@@ -21,6 +16,14 @@ typedef struct {
   DNodo *primero;
   DNodo *ultimo;
 } DList;
+
+typedef void (*FuncionVisitante) (void* dato); 
+
+typedef void (*FuncionEscritura) (void* dato1, FILE* fp);
+
+typedef int (*Compara) (void* dato1, void* dato2);
+
+typedef DList* (*TipoDeOrdenamiento) (DList* lista, Compara funcion);
 
 //  Devuelve una lista vacía.
 DList* dlist_crear();
@@ -42,7 +45,7 @@ void dlist_recorrer(DList* lista, FuncionVisitante imprimir_persona); // testeo 
 
 //  Dados un dlist, un archivo, y una funcion, 
 //  escribe la persona en el archivo correspondiente utilizando la funcion.
-void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribir_persona);
+void imprimir_dlist_archivo(DList* lista, FILE *fp, FuncionEscritura escribir_persona);
 
 //  Dados 2 nodos, intercambia sus datos
 void swap_dato(DNodo* nodo1, DNodo* nodo2);
@@ -63,11 +66,22 @@ DList* merge(DList* lista1, DList* lista2, Compara comparar);
 DList* dlist_selection_sort (DList* lista, Compara comparar);
 
 //  Dadas una dlist y una funcion de comparacion,
-//  devuelve una dlist ordenada por insertion sort mediante esa funcion
+//  devuelve una dlist ordenada por insertion sort mediante esa funcion.
 DList* dlist_insertion_sort (DList* lista, Compara comparar);
 
 //  Dadas una dlist y una funcion de comparacion,
-//  devuelve una dlist ordenada por merge sort mediante esa funcion
+//  devuelve una dlist ordenada por merge sort mediante esa funcion.
 DList* dlist_merge_sort(DList* lista, Compara comparar);
+
+//  Dada una dlist, crea una copia de esta con los mismos datos
+//  y devuelve una dlist.
+DList* dlist_copia(DList* lista);
+
+//  Dada una dlist, destruye los nodos de la lista sin liberar los datos de los nodos.
+void dlist_destruir_copia(DList* lista);
+
+//  Dadas una dlist, un tipo de ordenamiento, una funcion de comparacion, el nombre de un archivo de salida y una funcion para escribir,
+//  crea una copia de la lista, le aplica el algoritmo y la imprime en un archivo con el tiempo que tardo en ejecutarse.
+void dlist_ordenar_lista(DList* lista, TipoDeOrdenamiento algoritmo, Compara compara, char* output, FuncionEscritura escribir);
 
 #endif /* __DLIST_H__ */

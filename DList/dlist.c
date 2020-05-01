@@ -59,12 +59,10 @@ void dlist_recorrer(DList* lista, FuncionVisitante imprimir_persona) {
     imprimir_persona(nodo->dato);
 }
 
-void imprimir_dlist_archivo(DList* lista, char *output, FuncionEscritura escribir_persona) {
-  FILE *fp = fopen(output, "w+");
+void imprimir_dlist_archivo(DList* lista, FILE *fp, FuncionEscritura escribir_persona) {
   for (DNodo *nodo = lista->primero; nodo != NULL; nodo = nodo->sig){
     escribir_persona(nodo->dato, fp);
   }
-  fclose(fp);
 }
 
 void swap_dato(DNodo* nodo1, DNodo* nodo2) {
@@ -197,6 +195,41 @@ DList* dlist_merge_sort(DList* lista, Compara comparar) {
   
     return merge(lista1, lista2, comparar); 
 } 
+
+DList* dlist_copia(DList* lista) {
+  DList* copiaLista = dlist_crear();
+  for (DNodo *nodo = lista->primero; nodo != NULL; nodo = nodo->sig) {
+    dlist_agregar_final(copiaLista, nodo->dato);
+  }
+  return copiaLista;
+}
+
+void dlist_destruir_copia(DList* lista) {
+  DNodo *nodoAEliminar;
+  while (lista->primero != NULL) {
+    nodoAEliminar = lista->primero;
+    lista->primero = nodoAEliminar->sig;
+    free(nodoAEliminar);
+  }
+  free(lista);
+}
+
+void dlist_ordenar_lista(DList* lista, TipoDeOrdenamiento algoritmo,
+  Compara compara, char* output, FuncionEscritura escribir) {
+  DList* copiaLista = dlist_copia(lista);
+  clock_t tiempo = clock();
+
+  copiaLista = algoritmo(copiaLista, compara);
+  tiempo = clock() - tiempo;
+  double tiempoSegundos = ((double)tiempo)/CLOCKS_PER_SEC;
+
+  FILE* fp = fopen(output, "w+");
+  fprintf(fp, "Tiempo: %lf\n\n", tiempoSegundos);
+  imprimir_dlist_archivo(copiaLista, fp, escribir);
+  fclose(fp);
+
+  dlist_destruir_copia(copiaLista);
+}
 
 /*/
 DList* dlist_insertionSort (DList* lista, Compara comparar) {
