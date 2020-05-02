@@ -13,7 +13,7 @@ funcgenerarpersonas.o: primeraParte/funcgenerarpersonas.c primeraParte/funcgener
     
 
 #Ordenar listas - Segunda parte
-ejecutableListas: segundaParte/DList/dlist.o segundaParte/Persona/persona.o
+ejecutableListas: segundaParte/DList/dlist.o segundaParte/Persona/persona.o segundaParte/listaenlazada.c
 	gcc -o ejecutableListas segundaParte/listaenlazada.c segundaParte/DList/dlist.o segundaParte/Persona/persona.o
 
 dlist.o: segundaParte/DList/dlist.c

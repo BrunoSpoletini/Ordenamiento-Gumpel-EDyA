@@ -1,8 +1,19 @@
+(Para Linux)
+make makefile
+
+./ejecutablePersona ./primeraParte/nombres1.txt ./primeraParte/paises.txt ./primeraParte/output.txt 1000
+
+./ejecutableListas ./primeraParte/output.txt
+
+make clean #Opcional, es para borrar los .o
+
+
+(Para windows) //ya que no funciona el makefile 
+
 gcc -c ./funcgenerarpersonas.c
 gcc -o ejecutable generarpersonas.c funcgenerarpersonas.o
 ./ejecutable.exe nombres1.txt paises.txt output.txt 10
 cd ..
-
 
 cd ./DList/
 gcc -c ./dlist.c 
@@ -15,5 +26,3 @@ gcc -o listaenlazada listaenlazada.c ../DList/dlist.o ../Persona/persona.o
 ./listaenlazada.exe
 
 
-(para bash)
-cd ./DList/ && gcc -c ./dlist.c  && cd .. && cd ./Persona/ && gcc -c ./persona.c && cd .. && cd ./segundaParte/ && gcc -o listaenlazada listaenlazada.c ../DList/dlist.o ../Persona/persona.o && ./listaenlazada.exe && cd ..
