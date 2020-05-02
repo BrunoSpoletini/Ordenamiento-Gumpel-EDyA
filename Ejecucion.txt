@@ -1,3 +1,7 @@
+ valgrind --leak-check=yes ./ejecutablePersona ./primeraParte/nombres1.txt ./primeraParte/paises.txt ./primeraParte/output.txt 1000
+
+
+
 (Para Linux)
 make makefile
 

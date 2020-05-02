@@ -55,11 +55,15 @@ void swap_dato(DNodo* nodo1, DNodo* nodo2);
 void mover_a_izquierda_de(DList *lista, DNodo* nodoAInsertar, DNodo* nodoPivote);
 
 //  Dada una dlist, devuelve el nodo que seria su mitad.
-DNodo* nodo_medio(DList* lista);
+//DNodo* nodo_medio(DList* lista);
 
 //  Dadas 2 dlist y una funcion de comparacion,
 //  devuelve una dlist union de ambas ordenadas mediante la funcion.
-DList* merge(DList* lista1, DList* lista2, Compara comparar);
+//DList* merge(DList* lista1, DList* lista2, Compara comparar);
+
+DNodo* dividir_lista(DNodo* primero);
+DNodo* merge(DNodo* primero, DNodo* medio, Compara comparar);
+DNodo* merge_sort(DNodo* primero, Compara comparar);
 
 //  Dadas una dlist y una funcion de comparacion,
 //  devuelve una dlist ordenada por selection sort mediante esa funcion

@@ -1,172 +1,172 @@
-Tiempo: 0.092909
+Tiempo: 0.003229
 
-Nombre: OLDEMAR ARIAS, Edad: 47, Pais: Abuya
 Nombre: DAISY MARIA OLIVARES, Edad: 3, Pais: Abuya
-Nombre: ARACELLY CASTRO, Edad: 42, Pais: Accra
+Nombre: OLDEMAR ARIAS, Edad: 47, Pais: Abuya
 Nombre: ODILIE NAVARRO, Edad: 11, Pais: Accra
-Nombre: RAMON ALCIBIADES ZAMORA, Edad: 87, Pais: Adís Abeba
-Nombre: URBANO CARDENAS, Edad: 75, Pais: Adís Abeba
+Nombre: ARACELLY CASTRO, Edad: 42, Pais: Accra
 Nombre: CARLOS JESUS DELGADO, Edad: 55, Pais: Adís Abeba
+Nombre: URBANO CARDENAS, Edad: 75, Pais: Adís Abeba
+Nombre: RAMON ALCIBIADES ZAMORA, Edad: 87, Pais: Adís Abeba
 Nombre: MARIA CRISTINA QUESADA, Edad: 52, Pais: Afganistán
-Nombre: MARGARITA SANCHEZ, Edad: 79, Pais: Albania
 Nombre: ANDREA VIRGINIA ALVAREZ, Edad: 58, Pais: Albania
-Nombre: DAISY HIDALGO, Edad: 33, Pais: Alemania
+Nombre: MARGARITA SANCHEZ, Edad: 79, Pais: Albania
 Nombre: ELICINIO ZUÑIGA, Edad: 15, Pais: Alemania
-Nombre: PATROCINIO QUIROS, Edad: 19, Pais: Amán
+Nombre: DAISY HIDALGO, Edad: 33, Pais: Alemania
 Nombre: MARIA DE LOS ANGELES MORA, Edad: 20, Pais: Amán
-Nombre: ANTONIO ESQUIVEL, Edad: 31, Pais: Andorra
-Nombre: AGUEDA EUGENIA MUÑOZ, Edad: 36, Pais: Andorra
+Nombre: PATROCINIO QUIROS, Edad: 19, Pais: Amán
 Nombre: LILLIAM MARIA UREÑA, Edad: 82, Pais: Andorra
-Nombre: MAYRA CUBERO, Edad: 40, Pais: Angola
-Nombre: RICARDO ENRIQUE MORA, Edad: 40, Pais: Angola
+Nombre: AGUEDA EUGENIA MUÑOZ, Edad: 36, Pais: Andorra
+Nombre: ANTONIO ESQUIVEL, Edad: 31, Pais: Andorra
 Nombre: GERMAN CERDAS, Edad: 35, Pais: Angola
-Nombre: FLORA GOLFIN, Edad: 23, Pais: Ankara
+Nombre: RICARDO ENRIQUE MORA, Edad: 40, Pais: Angola
+Nombre: MAYRA CUBERO, Edad: 40, Pais: Angola
 Nombre: GERARDO ENRIQUE MELENDEZ, Edad: 65, Pais: Ankara
-Nombre: EFRAIN PORFIRIO CASTRO, Edad: 12, Pais: Antigua y Barbuda
+Nombre: FLORA GOLFIN, Edad: 23, Pais: Ankara
 Nombre: ALONSO IGNACIO RETANA, Edad: 58, Pais: Antigua y Barbuda
-Nombre: CARMEN RETANA, Edad: 77, Pais: Antillas Holandesas
-Nombre: JOSE LUIS ZUÑIGA, Edad: 30, Pais: Antillas Holandesas
-Nombre: ALVARO FRANCISCO NARANJO, Edad: 91, Pais: Antillas Holandesas
-Nombre: MARIA ROSA ZUÑIGA, Edad: 79, Pais: Antillas Holandesas
+Nombre: EFRAIN PORFIRIO CASTRO, Edad: 12, Pais: Antigua y Barbuda
 Nombre: ELIZABETH ARTAVIA, Edad: 100, Pais: Antillas Holandesas
-Nombre: ANIBAL SEGURA, Edad: 5, Pais: Apia
-Nombre: RAFAEL ANGEL RAMIREZ, Edad: 38, Pais: Apia
-Nombre: RODRIGO MORA, Edad: 89, Pais: Apia
-Nombre: ANA MARIA MADRIGAL, Edad: 35, Pais: Apia
+Nombre: MARIA ROSA ZUÑIGA, Edad: 79, Pais: Antillas Holandesas
+Nombre: ALVARO FRANCISCO NARANJO, Edad: 91, Pais: Antillas Holandesas
+Nombre: JOSE LUIS ZUÑIGA, Edad: 30, Pais: Antillas Holandesas
+Nombre: CARMEN RETANA, Edad: 77, Pais: Antillas Holandesas
 Nombre: DINORAH VENEGAS, Edad: 9, Pais: Apia
-Nombre: JOSE JOAQUIN ALVARADO, Edad: 47, Pais: Arabia Saudita
-Nombre: DONALD WILLIAM MONROE, Edad: 50, Pais: Arabia Saudita
-Nombre: JEANNETTE RAMIREZ, Edad: 20, Pais: Arabia Saudita
-Nombre: CARLOS MENDEZ, Edad: 98, Pais: Arabia Saudita
+Nombre: ANA MARIA MADRIGAL, Edad: 35, Pais: Apia
+Nombre: RODRIGO MORA, Edad: 89, Pais: Apia
+Nombre: RAFAEL ANGEL RAMIREZ, Edad: 38, Pais: Apia
+Nombre: ANIBAL SEGURA, Edad: 5, Pais: Apia
 Nombre: ADELA SOLIS, Edad: 81, Pais: Arabia Saudita
+Nombre: JEANNETTE RAMIREZ, Edad: 20, Pais: Arabia Saudita
+Nombre: DONALD WILLIAM MONROE, Edad: 50, Pais: Arabia Saudita
+Nombre: JOSE JOAQUIN ALVARADO, Edad: 47, Pais: Arabia Saudita
+Nombre: CARLOS MENDEZ, Edad: 98, Pais: Arabia Saudita
 Nombre: MANUEL ANTONIO ULLOA, Edad: 14, Pais: Archipiélago de Svalbard
 Nombre: JOSE ANGEL LEDEZMA, Edad: 31, Pais: Argelia
 Nombre: FULVIA ISABEL NACARADO, Edad: 8, Pais: Argentina
-Nombre: GERARDO ROJAS, Edad: 55, Pais: Armenia
 Nombre: LUIS GERARDO CARAZO, Edad: 35, Pais: Armenia
-Nombre: ANADELE ELBA GAMBOA, Edad: 70, Pais: Aruba
-Nombre: JOSE LUIS SOLANO, Edad: 26, Pais: Aruba
+Nombre: GERARDO ROJAS, Edad: 55, Pais: Armenia
 Nombre: JOSE RODOLFO CARVAJAL, Edad: 88, Pais: Aruba
-Nombre: FANNY RITA GUERRERO, Edad: 8, Pais: Asjabad
-Nombre: MARIA DE LOS ANGELES ARTAVIA, Edad: 18, Pais: Asjabad
-Nombre: DEYANIRA CESPEDES, Edad: 56, Pais: Asjabad
+Nombre: JOSE LUIS SOLANO, Edad: 26, Pais: Aruba
+Nombre: ANADELE ELBA GAMBOA, Edad: 70, Pais: Aruba
 Nombre: ESTER LIA ZUÑIGA, Edad: 90, Pais: Asjabad
-Nombre: AGUSTIN CORRALES, Edad: 15, Pais: Asmara
-Nombre: CAMILO GAMBOA, Edad: 79, Pais: Asmara
+Nombre: DEYANIRA CESPEDES, Edad: 56, Pais: Asjabad
+Nombre: MARIA DE LOS ANGELES ARTAVIA, Edad: 18, Pais: Asjabad
+Nombre: FANNY RITA GUERRERO, Edad: 8, Pais: Asjabad
 Nombre: CLAUDIO GERARDO BOLAÑOS, Edad: 50, Pais: Asmara
-Nombre: MARIA ANA CARDENAS, Edad: 69, Pais: Astaná
-Nombre: MARINA BERROCAL, Edad: 67, Pais: Astaná
+Nombre: CAMILO GAMBOA, Edad: 79, Pais: Asmara
+Nombre: AGUSTIN CORRALES, Edad: 15, Pais: Asmara
 Nombre: ELIECER MURILLO, Edad: 6, Pais: Astaná
-Nombre: MARIA JULIA ARGUEDAS, Edad: 16, Pais: Asunción
-Nombre: MIGUEL ANGEL BEJARANO, Edad: 57, Pais: Asunción
-Nombre: MARTA MARIA HERNANDEZ, Edad: 47, Pais: Asunción
+Nombre: MARINA BERROCAL, Edad: 67, Pais: Astaná
+Nombre: MARIA ANA CARDENAS, Edad: 69, Pais: Astaná
 Nombre: TERESITA HERRERA, Edad: 95, Pais: Asunción
-Nombre: MARIA ELENA LOPEZ, Edad: 28, Pais: Atenas
+Nombre: MARTA MARIA HERNANDEZ, Edad: 47, Pais: Asunción
+Nombre: MIGUEL ANGEL BEJARANO, Edad: 57, Pais: Asunción
+Nombre: MARIA JULIA ARGUEDAS, Edad: 16, Pais: Asunción
 Nombre: GERMAN CANTILLO, Edad: 26, Pais: Atenas
+Nombre: MARIA ELENA LOPEZ, Edad: 28, Pais: Atenas
 Nombre: MARTA EUGENIA CASTILLO, Edad: 98, Pais: Australia
 Nombre: VERA MARIA VINDAS, Edad: 68, Pais: Austria
 Nombre: MIRIAM CECILIA SANCHEZ, Edad: 51, Pais: Azerbaiyán
-Nombre: JUAN TAPIA, Edad: 13, Pais: Bagdad
-Nombre: MARIA EMILIA ALVAREZ, Edad: 16, Pais: Bagdad
-Nombre: JOSE MARCELINO LUNA, Edad: 38, Pais: Bagdad
-Nombre: MARCO TULIO VILLALOBOS, Edad: 72, Pais: Bagdad
-Nombre: LEON PEREZ, Edad: 97, Pais: Bagdad
-Nombre: MIREYA SANCHEZ, Edad: 55, Pais: Bagdad
-Nombre: MARGARITA LEON, Edad: 99, Pais: Bagdad
-Nombre: BETTY VARGAS, Edad: 34, Pais: Bagdad
 Nombre: OLGA MARIA PICADO, Edad: 77, Pais: Bagdad
-Nombre: VICTOR MANUEL MORA, Edad: 21, Pais: Bahrein
+Nombre: BETTY VARGAS, Edad: 34, Pais: Bagdad
+Nombre: MARGARITA LEON, Edad: 99, Pais: Bagdad
+Nombre: MIREYA SANCHEZ, Edad: 55, Pais: Bagdad
+Nombre: LEON PEREZ, Edad: 97, Pais: Bagdad
+Nombre: MARCO TULIO VILLALOBOS, Edad: 72, Pais: Bagdad
+Nombre: JOSE MARCELINO LUNA, Edad: 38, Pais: Bagdad
+Nombre: MARIA EMILIA ALVAREZ, Edad: 16, Pais: Bagdad
+Nombre: JUAN TAPIA, Edad: 13, Pais: Bagdad
 Nombre: RAFAEL ANGEL MORA, Edad: 18, Pais: Bahrein
+Nombre: VICTOR MANUEL MORA, Edad: 21, Pais: Bahrein
 Nombre: RICARDO ODIO, Edad: 73, Pais: Bakú
-Nombre: MERCEDES DURAN, Edad: 47, Pais: Bamako
-Nombre: HERBERT CERVANTES, Edad: 33, Pais: Bamako
-Nombre: RAFAEL PORRAS, Edad: 4, Pais: Bamako
 Nombre: MERCEDES GARCIA, Edad: 13, Pais: Bamako
-Nombre: LUZ MENA, Edad: 38, Pais: Bandar Seri Begawan
-Nombre: RICARDO GAMBOA, Edad: 39, Pais: Bandar Seri Begawan
-Nombre: FLOR DE MARIA CALDERON, Edad: 14, Pais: Bandar Seri Begawan
+Nombre: RAFAEL PORRAS, Edad: 4, Pais: Bamako
+Nombre: HERBERT CERVANTES, Edad: 33, Pais: Bamako
+Nombre: MERCEDES DURAN, Edad: 47, Pais: Bamako
 Nombre: CARLOS ANTONIO AGUERO, Edad: 26, Pais: Bandar Seri Begawan
-Nombre: LUZMILDA VEGA, Edad: 56, Pais: Bangkok
+Nombre: FLOR DE MARIA CALDERON, Edad: 14, Pais: Bandar Seri Begawan
+Nombre: RICARDO GAMBOA, Edad: 39, Pais: Bandar Seri Begawan
+Nombre: LUZ MENA, Edad: 38, Pais: Bandar Seri Begawan
 Nombre: FERNANDO GAMBOA, Edad: 17, Pais: Bangkok
+Nombre: LUZMILDA VEGA, Edad: 56, Pais: Bangkok
 Nombre: MANUEL GUILLERMO QUESADA, Edad: 9, Pais: Bangladesh
 Nombre: XINIA SALINAS, Edad: 48, Pais: Bangui
-Nombre: CARLOS DAUBE HIDALGO, Edad: 50, Pais: Banjul
-Nombre: MARIA EUGENIA SOTO, Edad: 15, Pais: Banjul
 Nombre: GERARDO RODRIGUEZ, Edad: 47, Pais: Banjul
-Nombre: VICTOR MANUEL CRUZ, Edad: 81, Pais: Barbados
-Nombre: ANA JOSEFA CAMBRONERO, Edad: 39, Pais: Barbados
-Nombre: GERARDO CHAVES, Edad: 35, Pais: Barbados
+Nombre: MARIA EUGENIA SOTO, Edad: 15, Pais: Banjul
+Nombre: CARLOS DAUBE HIDALGO, Edad: 50, Pais: Banjul
 Nombre: RAFAEL MENDEZ, Edad: 56, Pais: Barbados
+Nombre: GERARDO CHAVES, Edad: 35, Pais: Barbados
+Nombre: ANA JOSEFA CAMBRONERO, Edad: 39, Pais: Barbados
+Nombre: VICTOR MANUEL CRUZ, Edad: 81, Pais: Barbados
 Nombre: JOSE FRANCISCO SANCHEZ, Edad: 22, Pais: Basseterre
 Nombre: MARIA LIDIA MONGE, Edad: 18, Pais: Basseterre
-Nombre: MARGARITA GARCIA, Edad: 31, Pais: Beirut
-Nombre: IRIS CORREDERA, Edad: 64, Pais: Beirut
 Nombre: MARIO JORGE TORRES, Edad: 34, Pais: Beirut
-Nombre: RAFAEL JIMENEZ, Edad: 59, Pais: Belice
+Nombre: IRIS CORREDERA, Edad: 64, Pais: Beirut
+Nombre: MARGARITA GARCIA, Edad: 31, Pais: Beirut
 Nombre: ALVARO MADRIGAL, Edad: 84, Pais: Belice
+Nombre: RAFAEL JIMENEZ, Edad: 59, Pais: Belice
 Nombre: JOSE LUIS PADILLA, Edad: 15, Pais: Belmopán
+Nombre: IVONNE MARIA BAGNARELLO, Edad: 84, Pais: Benín
 Nombre: ALFREDO CASTILLO, Edad: 55, Pais: Benín
 Nombre: CONCEPCION ACUÑA, Edad: 15, Pais: Benín
-Nombre: IVONNE MARIA BAGNARELLO, Edad: 84, Pais: Benín
-Nombre: ELIZABETH GOMEZ, Edad: 99, Pais: Berlín
 Nombre: MARIA DE LOS ANGELES VALLE, Edad: 11, Pais: Berlín
+Nombre: ELIZABETH GOMEZ, Edad: 99, Pais: Berlín
 Nombre: CARLOS ACOSTA, Edad: 9, Pais: Berna
-Nombre: VIRGINIA QUIROS, Edad: 94, Pais: Bielorrusia
-Nombre: GLORIA MARIA BARRIENTOS, Edad: 57, Pais: Bielorrusia
 Nombre: JOSE RAMON AZOFEIFA, Edad: 47, Pais: Bielorrusia
-Nombre: JULIO LUIS BERMUDEZ, Edad: 48, Pais: Birmania
-Nombre: VERA VIOLETA GARCIA, Edad: 100, Pais: Birmania
+Nombre: GLORIA MARIA BARRIENTOS, Edad: 57, Pais: Bielorrusia
+Nombre: VIRGINIA QUIROS, Edad: 94, Pais: Bielorrusia
 Nombre: ZAIDA CECILIA CARPIO, Edad: 57, Pais: Birmania
-Nombre: FLORA LARA, Edad: 82, Pais: Bisáu
-Nombre: DEYANIRA VARGAS, Edad: 51, Pais: Bisáu
+Nombre: VERA VIOLETA GARCIA, Edad: 100, Pais: Birmania
+Nombre: JULIO LUIS BERMUDEZ, Edad: 48, Pais: Birmania
 Nombre: ROSA MARIA QUESADA, Edad: 6, Pais: Bisáu
-Nombre: HERMINIA AGUILAR, Edad: 4, Pais: Bogotá
+Nombre: DEYANIRA VARGAS, Edad: 51, Pais: Bisáu
+Nombre: FLORA LARA, Edad: 82, Pais: Bisáu
 Nombre: MIGUEL ANGEL LOPEZ, Edad: 55, Pais: Bogotá
-Nombre: YOLANDA CAMPOS, Edad: 1, Pais: Bolivia
+Nombre: HERMINIA AGUILAR, Edad: 4, Pais: Bogotá
 Nombre: ADRIAN FERNANDO ACUÑA, Edad: 66, Pais: Bolivia
-Nombre: VICTOR HUGO QUIROS, Edad: 58, Pais: Bosnia-Herzegovina
-Nombre: JOSE LUIS CHAVERRI, Edad: 15, Pais: Bosnia-Herzegovina
-Nombre: GERARDO ANTONIO MORA, Edad: 9, Pais: Bosnia-Herzegovina
-Nombre: JOSE MANUEL RAMIREZ, Edad: 75, Pais: Bosnia-Herzegovina
+Nombre: YOLANDA CAMPOS, Edad: 1, Pais: Bolivia
 Nombre: RIGOBERTO ZUÑIGA, Edad: 66, Pais: Bosnia-Herzegovina
-Nombre: COSME ACUÑA, Edad: 34, Pais: Botswana
-Nombre: EMILCE CHAVARRIA, Edad: 1, Pais: Botswana
+Nombre: JOSE MANUEL RAMIREZ, Edad: 75, Pais: Bosnia-Herzegovina
+Nombre: GERARDO ANTONIO MORA, Edad: 9, Pais: Bosnia-Herzegovina
+Nombre: JOSE LUIS CHAVERRI, Edad: 15, Pais: Bosnia-Herzegovina
+Nombre: VICTOR HUGO QUIROS, Edad: 58, Pais: Bosnia-Herzegovina
 Nombre: JORGE ISAAC MONGE, Edad: 51, Pais: Botswana
+Nombre: EMILCE CHAVARRIA, Edad: 1, Pais: Botswana
+Nombre: COSME ACUÑA, Edad: 34, Pais: Botswana
 Nombre: BERNARD BOKENFOHR, Edad: 30, Pais: Brasil
-Nombre: MARTA ARCE, Edad: 25, Pais: Brasilia
-Nombre: CARLOS MONTEALEGRE, Edad: 43, Pais: Brasilia
 Nombre: MARIO ALBERTO MELENDEZ, Edad: 98, Pais: Brasilia
-Nombre: FLORY MAYELA CORDERO, Edad: 74, Pais: Bratislava
+Nombre: CARLOS MONTEALEGRE, Edad: 43, Pais: Brasilia
+Nombre: MARTA ARCE, Edad: 25, Pais: Brasilia
 Nombre: JOSE CASTILLO, Edad: 75, Pais: Bratislava
+Nombre: FLORY MAYELA CORDERO, Edad: 74, Pais: Bratislava
 Nombre: FLOR MARIA ARROYO, Edad: 7, Pais: Bratislava
-Nombre: CARMEN AMERICA CHAVES, Edad: 30, Pais: Brazzaville
-Nombre: MARIA TERESA DELGADO, Edad: 4, Pais: Brazzaville
 Nombre: MARLIN BOZA, Edad: 14, Pais: Brazzaville
-Nombre: MARIA CECILIA CASTRO, Edad: 59, Pais: Bridgetown
+Nombre: MARIA TERESA DELGADO, Edad: 4, Pais: Brazzaville
+Nombre: CARMEN AMERICA CHAVES, Edad: 30, Pais: Brazzaville
 Nombre: ORLANDO JIMENEZ, Edad: 24, Pais: Bridgetown
+Nombre: MARIA CECILIA CASTRO, Edad: 59, Pais: Bridgetown
 Nombre: EDGAR ANTONIO MORA, Edad: 89, Pais: Brunei Darussalam
 Nombre: VIRGINIA MURILLO, Edad: 78, Pais: Bucarest
-Nombre: RAFAEL MATAMOROS, Edad: 43, Pais: Budapest
-Nombre: FLOR MARIA ALVARADO, Edad: 2, Pais: Budapest
-Nombre: GERARDO OLMEDO ARCE, Edad: 71, Pais: Budapest
 Nombre: DORIS MARIA MADRIGAL, Edad: 16, Pais: Budapest
-Nombre: MARIA DELFINA CHAVES, Edad: 95, Pais: Buenos Aires
-Nombre: MERCEDES CORDERO, Edad: 35, Pais: Buenos Aires
-Nombre: JORGE LUIS SILES, Edad: 82, Pais: Buenos Aires
+Nombre: GERARDO OLMEDO ARCE, Edad: 71, Pais: Budapest
+Nombre: FLOR MARIA ALVARADO, Edad: 2, Pais: Budapest
+Nombre: RAFAEL MATAMOROS, Edad: 43, Pais: Budapest
 Nombre: ANA ISABEL SANCHEZ, Edad: 15, Pais: Buenos Aires
+Nombre: JORGE LUIS SILES, Edad: 82, Pais: Buenos Aires
+Nombre: MERCEDES CORDERO, Edad: 35, Pais: Buenos Aires
+Nombre: MARIA DELFINA CHAVES, Edad: 95, Pais: Buenos Aires
 Nombre: CARMEN LIDIETTE ALFARO, Edad: 22, Pais: Bulgaria
 Nombre: RODRIGO HERNANDEZ, Edad: 5, Pais: Burkina Faso
 Nombre: BETTY PETRONILA FALLAS, Edad: 41, Pais: Burkina Faso
 Nombre: ELVIRA RAMIREZ, Edad: 98, Pais: Buyumbura
-Nombre: JOAQUIN MENA, Edad: 45, Pais: Bélgica
 Nombre: VILMA DIAZ, Edad: 50, Pais: Bélgica
 Nombre: ROSARIA MENA, Edad: 18, Pais: Bélgica
-Nombre: CHARLINE JIMENEZ, Edad: 45, Pais: Cabo Verde
+Nombre: JOAQUIN MENA, Edad: 45, Pais: Bélgica
 Nombre: RAMON RIGOBERTO ARIAS, Edad: 71, Pais: Cabo Verde
-Nombre: AMABLE CHINCHILLA, Edad: 37, Pais: Camboya
+Nombre: CHARLINE JIMENEZ, Edad: 45, Pais: Cabo Verde
 Nombre: JORGE ARTURO QUESADA, Edad: 99, Pais: Camboya
-Nombre: MANUEL CALVO, Edad: 21, Pais: Canadá
+Nombre: AMABLE CHINCHILLA, Edad: 37, Pais: Camboya
 Nombre: SAMUEL CRUZ, Edad: 18, Pais: Canadá
+Nombre: MANUEL CALVO, Edad: 21, Pais: Canadá
 Nombre: GLORIA SALAZAR, Edad: 2, Pais: Canadá
 Nombre: RODOLFO ARAYA, Edad: 4, Pais: Canberra
 Nombre: CARMEN ARIAS, Edad: 82, Pais: Canberra
@@ -174,392 +174,392 @@ Nombre: VENANCIO HUGO MESEN, Edad: 86, Pais: Caracas
 Nombre: RAFAELA HERRERA, Edad: 61, Pais: Caracas
 Nombre: RAMON URBINO CHINCHILLA, Edad: 29, Pais: Castries
 Nombre: JUAN MANUEL PORRAS, Edad: 90, Pais: Chad
-Nombre: ELIZABETH RIVERA, Edad: 29, Pais: Chile
 Nombre: RENE MARIN, Edad: 70, Pais: Chile
-Nombre: FLOR DE MARIA VALVERDE, Edad: 31, Pais: China
+Nombre: ELIZABETH RIVERA, Edad: 29, Pais: Chile
 Nombre: MARIANA VARGAS, Edad: 89, Pais: China
-Nombre: JOSE ANTONIO MADRIGAL, Edad: 1, Pais: Chipre
-Nombre: MARIO ANTONIO JIMENEZ, Edad: 14, Pais: Chipre
-Nombre: DAISY SOLIS, Edad: 61, Pais: Chipre
-Nombre: LIGIA MARIA QUIROS, Edad: 46, Pais: Chipre
+Nombre: FLOR DE MARIA VALVERDE, Edad: 31, Pais: China
 Nombre: MILAY CASTRO, Edad: 38, Pais: Chipre
-Nombre: MARIA DEL CARMEN CALVO, Edad: 92, Pais: Chisináu
+Nombre: LIGIA MARIA QUIROS, Edad: 46, Pais: Chipre
+Nombre: DAISY SOLIS, Edad: 61, Pais: Chipre
+Nombre: MARIO ANTONIO JIMENEZ, Edad: 14, Pais: Chipre
+Nombre: JOSE ANTONIO MADRIGAL, Edad: 1, Pais: Chipre
 Nombre: MARIA DAMARIS JIMENEZ, Edad: 76, Pais: Chisináu
-Nombre: CARLOS LUIS BARRIENTOS, Edad: 90, Pais: Colombia
+Nombre: MARIA DEL CARMEN CALVO, Edad: 92, Pais: Chisináu
 Nombre: MIRNA MARIA HERNANDEZ, Edad: 95, Pais: Colombia
-Nombre: VIRGILIO VILLARREAL, Edad: 30, Pais: Comores
+Nombre: CARLOS LUIS BARRIENTOS, Edad: 90, Pais: Colombia
 Nombre: GLADYS CALVO, Edad: 31, Pais: Comores
+Nombre: VIRGILIO VILLARREAL, Edad: 30, Pais: Comores
+Nombre: VILMA AZOFEIFA, Edad: 45, Pais: Conakri
 Nombre: JOSE MANUEL JIMENEZ, Edad: 97, Pais: Conakri
 Nombre: MYRIAM PANA, Edad: 77, Pais: Conakri
-Nombre: VILMA AZOFEIFA, Edad: 45, Pais: Conakri
 Nombre: CLARISA DAMARIS CASTRO, Edad: 74, Pais: Copenhague
 Nombre: EULALIA HERNANDEZ, Edad: 78, Pais: Corea del Norte
-Nombre: CLAUDIA JARA, Edad: 67, Pais: Corea del Sur
 Nombre: LIGIA ARAYA, Edad: 35, Pais: Corea del Sur
+Nombre: CLAUDIA JARA, Edad: 67, Pais: Corea del Sur
 Nombre: RAFAEL ANTONIO RODRIGUEZ, Edad: 69, Pais: Corea del Sur
 Nombre: ADOLFO CARVAJAL, Edad: 33, Pais: Costa Rica
 Nombre: ISOLINA GOMEZ, Edad: 10, Pais: Costa Rica
-Nombre: OLGA VILLALOBOS, Edad: 40, Pais: Costa de Marfil
 Nombre: NELLY CORDERO, Edad: 91, Pais: Costa de Marfil
-Nombre: LUIS ARIAS, Edad: 72, Pais: Croacia
+Nombre: OLGA VILLALOBOS, Edad: 40, Pais: Costa de Marfil
 Nombre: OLGA MARIA VASQUEZ, Edad: 54, Pais: Croacia
-Nombre: ROMUALDO LOPEZ, Edad: 40, Pais: Cuba
+Nombre: LUIS ARIAS, Edad: 72, Pais: Croacia
 Nombre: GERARDO ROMERO, Edad: 54, Pais: Cuba
+Nombre: ROMUALDO LOPEZ, Edad: 40, Pais: Cuba
 Nombre: MARIA ESTER MORA, Edad: 82, Pais: Daca
 Nombre: HILDA MARIA FLORES, Edad: 47, Pais: Dakar
-Nombre: ELIECER ALTAMIRANO, Edad: 33, Pais: Damasco
 Nombre: ZELMIRA SANCHEZ, Edad: 60, Pais: Damasco
+Nombre: ELIECER ALTAMIRANO, Edad: 33, Pais: Damasco
 Nombre: MARITZA PACHECO, Edad: 24, Pais: Dili
 Nombre: TITO ROJAS, Edad: 6, Pais: Dinamarca
-Nombre: IVET QUESADA, Edad: 31, Pais: Dodoma
-Nombre: CARMEN MARIA RETANA, Edad: 13, Pais: Dodoma
-Nombre: NELSON ULLOA, Edad: 69, Pais: Dodoma
 Nombre: CECILIA MARIA SOLORZANO, Edad: 22, Pais: Dodoma
-Nombre: OSCAR BONILLA, Edad: 75, Pais: Doha
-Nombre: MARCO TULIO GARRO, Edad: 95, Pais: Doha
-Nombre: IRENE BEATRIZ MORA, Edad: 64, Pais: Doha
+Nombre: NELSON ULLOA, Edad: 69, Pais: Dodoma
+Nombre: CARMEN MARIA RETANA, Edad: 13, Pais: Dodoma
+Nombre: IVET QUESADA, Edad: 31, Pais: Dodoma
 Nombre: ZENEIDA MURILLO, Edad: 44, Pais: Doha
+Nombre: IRENE BEATRIZ MORA, Edad: 64, Pais: Doha
+Nombre: MARCO TULIO GARRO, Edad: 95, Pais: Doha
+Nombre: OSCAR BONILLA, Edad: 75, Pais: Doha
 Nombre: MIGUEL ANGEL GUTIERREZ, Edad: 21, Pais: Doha
 Nombre: JEDIT OCONITRILLO, Edad: 88, Pais: Dominica
 Nombre: BHOTTO REINALDO GONZALEZ, Edad: 2, Pais: Dominica
+Nombre: JOSE ANTONIO BLANCO, Edad: 61, Pais: Dublín
 Nombre: CARLOS LUIS BARRANTES, Edad: 93, Pais: Dublín
+Nombre: CARLOS ALBERTO ZAMORA, Edad: 73, Pais: Dublín
 Nombre: MARIA JULIA CHAVES, Edad: 48, Pais: Dublín
 Nombre: BLANCA MEZA, Edad: 61, Pais: Dublín
-Nombre: CARLOS ALBERTO ZAMORA, Edad: 73, Pais: Dublín
-Nombre: JOSE ANTONIO BLANCO, Edad: 61, Pais: Dublín
-Nombre: ALCIA LIYI TENORIO, Edad: 32, Pais: Dusambé
 Nombre: OLGER VICENTE BARTELS, Edad: 86, Pais: Dusambé
-Nombre: MANUEL FRANCISCO GRANADOS, Edad: 81, Pais: Ecuador
+Nombre: ALCIA LIYI TENORIO, Edad: 32, Pais: Dusambé
 Nombre: MARIA FELICIA CASTRO, Edad: 16, Pais: Ecuador
-Nombre: RODOLFO BORBON, Edad: 51, Pais: Egipto
-Nombre: ELIZABETH CRUZ, Edad: 95, Pais: Egipto
-Nombre: MARIA LUISA MENDEZ, Edad: 43, Pais: Egipto
-Nombre: HANNIA MARIA MARIN, Edad: 1, Pais: Egipto
+Nombre: MANUEL FRANCISCO GRANADOS, Edad: 81, Pais: Ecuador
 Nombre: MARTA GERARDINA ARGUELLO, Edad: 77, Pais: Egipto
+Nombre: HANNIA MARIA MARIN, Edad: 1, Pais: Egipto
+Nombre: MARIA LUISA MENDEZ, Edad: 43, Pais: Egipto
+Nombre: ELIZABETH CRUZ, Edad: 95, Pais: Egipto
+Nombre: RODOLFO BORBON, Edad: 51, Pais: Egipto
 Nombre: ALVARO BLANCO, Edad: 70, Pais: El Cairo
-Nombre: FLERIDA ELIZONDO, Edad: 64, Pais: El Salvador
 Nombre: JORGE DIAZ, Edad: 98, Pais: El Salvador
-Nombre: MARIA ELENA VALVERDE, Edad: 59, Pais: Emiratos Árabes Unidos
+Nombre: FLERIDA ELIZONDO, Edad: 64, Pais: El Salvador
 Nombre: JUAN MERCADO, Edad: 30, Pais: Emiratos Árabes Unidos
-Nombre: ANA MARIA ROJAS, Edad: 73, Pais: Ereván
-Nombre: RAMON AVALOS, Edad: 51, Pais: Ereván
-Nombre: MARIA EUGENIA MORA, Edad: 62, Pais: Ereván
+Nombre: MARIA ELENA VALVERDE, Edad: 59, Pais: Emiratos Árabes Unidos
 Nombre: CARLOS GOMEZ, Edad: 84, Pais: Ereván
-Nombre: FLORY SOLANO, Edad: 62, Pais: Eritrea
+Nombre: MARIA EUGENIA MORA, Edad: 62, Pais: Ereván
+Nombre: RAMON AVALOS, Edad: 51, Pais: Ereván
+Nombre: ANA MARIA ROJAS, Edad: 73, Pais: Ereván
 Nombre: CARMEN VIOLETA MORA, Edad: 77, Pais: Eritrea
+Nombre: FLORY SOLANO, Edad: 62, Pais: Eritrea
+Nombre: JUAN MANUEL CORDOBA, Edad: 81, Pais: Eslovaquia
 Nombre: HERNAN ALBERTO NAVARRO, Edad: 55, Pais: Eslovaquia
 Nombre: ROSA MARIA FONSECA, Edad: 79, Pais: Eslovaquia
-Nombre: JUAN MANUEL CORDOBA, Edad: 81, Pais: Eslovaquia
-Nombre: MIGUEL ANGEL BARBOZA, Edad: 1, Pais: Eslovenia
-Nombre: LUIS FRANCISCO OCONITRILLO, Edad: 1, Pais: Eslovenia
 Nombre: GERMAN GERARDO CASCANTE, Edad: 58, Pais: Eslovenia
-Nombre: GUILLERMO MANSO, Edad: 86, Pais: España
+Nombre: LUIS FRANCISCO OCONITRILLO, Edad: 1, Pais: Eslovenia
+Nombre: MIGUEL ANGEL BARBOZA, Edad: 1, Pais: Eslovenia
 Nombre: FLOR MARIA ARCE, Edad: 87, Pais: España
+Nombre: GUILLERMO MANSO, Edad: 86, Pais: España
+Nombre: MARGARITA DURAN, Edad: 81, Pais: Estados Federados de Micronesia
+Nombre: MARIA CRISTINA PERALTA, Edad: 85, Pais: Estados Federados de Micronesia
+Nombre: HELIODORA MORA, Edad: 37, Pais: Estados Federados de Micronesia
 Nombre: JORGE ARTURO CHAVARRIA, Edad: 29, Pais: Estados Federados de Micronesia
 Nombre: RAFAEL SANDI, Edad: 6, Pais: Estados Federados de Micronesia
-Nombre: HELIODORA MORA, Edad: 37, Pais: Estados Federados de Micronesia
-Nombre: MARIA CRISTINA PERALTA, Edad: 85, Pais: Estados Federados de Micronesia
-Nombre: MARGARITA DURAN, Edad: 81, Pais: Estados Federados de Micronesia
 Nombre: MIGUEL ANGEL ULATE, Edad: 78, Pais: Estados Federados de Micronesia
+Nombre: VICENTA ELIETH MENDEZ, Edad: 74, Pais: Estados Unidos
 Nombre: ULISES ALVARADO, Edad: 60, Pais: Estados Unidos
 Nombre: ANA ISABEL SIBAJA, Edad: 98, Pais: Estados Unidos
-Nombre: VICENTA ELIETH MENDEZ, Edad: 74, Pais: Estados Unidos
-Nombre: IRIA MARIA RODRIGUEZ, Edad: 11, Pais: Estocolmo
-Nombre: ROBERTO GERARDO HERNANDEZ, Edad: 26, Pais: Estocolmo
 Nombre: MARIO GERARDO CHACON, Edad: 56, Pais: Estocolmo
+Nombre: ROBERTO GERARDO HERNANDEZ, Edad: 26, Pais: Estocolmo
+Nombre: IRIA MARIA RODRIGUEZ, Edad: 11, Pais: Estocolmo
+Nombre: JORGE ARTURO MATA, Edad: 45, Pais: Etiopía
 Nombre: HILDA MARIA DURAN, Edad: 27, Pais: Etiopía
 Nombre: JOSE ANGEL BLANCO, Edad: 44, Pais: Etiopía
-Nombre: JORGE ARTURO MATA, Edad: 45, Pais: Etiopía
 Nombre: EDGAR GUERRERO, Edad: 98, Pais: Federación Rusa
-Nombre: FERNANDO CASTILLO, Edad: 50, Pais: Fidji
-Nombre: NELLY CERDAS, Edad: 87, Pais: Fidji
 Nombre: GONZALO GERARDO MADRIZ, Edad: 55, Pais: Fidji
+Nombre: FERNANDO CASTILLO, Edad: 50, Pais: Fidji
 Nombre: MERCEDES ELENA SIBAJA, Edad: 58, Pais: Fidji
-Nombre: MARIA ELENA MORA, Edad: 51, Pais: Filipinas
-Nombre: BLANCA NIDIA PIZARRO, Edad: 20, Pais: Filipinas
-Nombre: ALFREDO SOLIS, Edad: 17, Pais: Filipinas
+Nombre: NELLY CERDAS, Edad: 87, Pais: Fidji
 Nombre: MARIA ANGELA OROZCO, Edad: 90, Pais: Filipinas
+Nombre: BLANCA NIDIA PIZARRO, Edad: 20, Pais: Filipinas
+Nombre: MARIA ELENA MORA, Edad: 51, Pais: Filipinas
+Nombre: ALFREDO SOLIS, Edad: 17, Pais: Filipinas
 Nombre: MYRIAM MENDEZ, Edad: 41, Pais: Finlandia
-Nombre: WILLIAM SAENZ, Edad: 89, Pais: Francia
 Nombre: MARIA ISABEL ROJAS, Edad: 73, Pais: Francia
+Nombre: WILLIAM SAENZ, Edad: 89, Pais: Francia
 Nombre: MALAQUIAS FERNANDEZ, Edad: 96, Pais: Freetown
-Nombre: MARIA ANTONIETA CAMPOS, Edad: 51, Pais: Funafuti
 Nombre: CARLOS EDUARDO RAMIREZ, Edad: 69, Pais: Funafuti
-Nombre: JOSE CORDERO, Edad: 7, Pais: Gaborone
-Nombre: GUILLERMO GUEVARA, Edad: 71, Pais: Gaborone
-Nombre: FLOR DE MARIA BORBON, Edad: 69, Pais: Gaborone
-Nombre: ARMANDO ALFARO, Edad: 53, Pais: Gaborone
-Nombre: CARMEN BARQUERO, Edad: 74, Pais: Gaborone
+Nombre: MARIA ANTONIETA CAMPOS, Edad: 51, Pais: Funafuti
 Nombre: CECILIA QUIROS, Edad: 24, Pais: Gaborone
+Nombre: CARMEN BARQUERO, Edad: 74, Pais: Gaborone
+Nombre: ARMANDO ALFARO, Edad: 53, Pais: Gaborone
+Nombre: FLOR DE MARIA BORBON, Edad: 69, Pais: Gaborone
+Nombre: GUILLERMO GUEVARA, Edad: 71, Pais: Gaborone
+Nombre: JOSE CORDERO, Edad: 7, Pais: Gaborone
 Nombre: JOSE ANDRES MONTERO, Edad: 81, Pais: Gabón
 Nombre: TELSIE VALVERDE, Edad: 5, Pais: Gabón
-Nombre: MARIA ELENA MORA, Edad: 65, Pais: Gambia
-Nombre: DINORAH VIRGINIA CHACON, Edad: 69, Pais: Gambia
 Nombre: JENNY CERVANTES, Edad: 99, Pais: Gambia
+Nombre: DINORAH VIRGINIA CHACON, Edad: 69, Pais: Gambia
+Nombre: MARIA ELENA MORA, Edad: 65, Pais: Gambia
 Nombre: DAISY FERNANDEZ, Edad: 25, Pais: Gambia
 Nombre: FLORIA CARBONI, Edad: 17, Pais: Georgetown
-Nombre: FLOR DE MARIA MADRIGAL, Edad: 15, Pais: Georgia
 Nombre: MARCO ARTURO VALVERDE, Edad: 16, Pais: Georgia
+Nombre: FLOR DE MARIA MADRIGAL, Edad: 15, Pais: Georgia
 Nombre: MELITINA CABRERA, Edad: 19, Pais: Georgia
-Nombre: LUZ MARINA FONSECA, Edad: 76, Pais: Ghana
-Nombre: IRMA UMAÑA, Edad: 96, Pais: Ghana
 Nombre: ANABELLA ALVARADO, Edad: 63, Pais: Ghana
+Nombre: IRMA UMAÑA, Edad: 96, Pais: Ghana
+Nombre: LUZ MARINA FONSECA, Edad: 76, Pais: Ghana
 Nombre: RODOLFO MONTOYA, Edad: 28, Pais: Gibraltar
-Nombre: MYRIAM ZUMBADO, Edad: 95, Pais: Gran Bretaña
 Nombre: JEANNETTE GARCIA, Edad: 90, Pais: Gran Bretaña
+Nombre: MYRIAM ZUMBADO, Edad: 95, Pais: Gran Bretaña
 Nombre: RODRIGO JIMENEZ, Edad: 37, Pais: Granada
 Nombre: OFELIA GUTIERREZ, Edad: 30, Pais: Grecia
 Nombre: FLORA MARIA OBANDO, Edad: 37, Pais: Grecia
 Nombre: FLORY ISABEL BRAVO, Edad: 24, Pais: Guadalupe
-Nombre: ANA FELICIA VARGAS, Edad: 19, Pais: Guam
 Nombre: EMERITA MARIN, Edad: 53, Pais: Guam
-Nombre: MIRIAM VILLALOBOS, Edad: 72, Pais: Guatemala
-Nombre: CARLOS FALLAS, Edad: 61, Pais: Guatemala
-Nombre: ODILIE UREÑA, Edad: 79, Pais: Guatemala
-Nombre: JOSE GERARDO MORA, Edad: 30, Pais: Guatemala
+Nombre: ANA FELICIA VARGAS, Edad: 19, Pais: Guam
 Nombre: MIGUEL ANGEL MORALES, Edad: 59, Pais: Guatemala
-Nombre: EVELIO RAMIREZ, Edad: 6, Pais: Guernsey
-Nombre: LUIS GERARDO SERRANO, Edad: 71, Pais: Guernsey
+Nombre: JOSE GERARDO MORA, Edad: 30, Pais: Guatemala
+Nombre: ODILIE UREÑA, Edad: 79, Pais: Guatemala
+Nombre: CARLOS FALLAS, Edad: 61, Pais: Guatemala
+Nombre: MIRIAM VILLALOBOS, Edad: 72, Pais: Guatemala
 Nombre: ALEXIS RODRIGUEZ, Edad: 100, Pais: Guernsey
+Nombre: LUIS GERARDO SERRANO, Edad: 71, Pais: Guernsey
+Nombre: EVELIO RAMIREZ, Edad: 6, Pais: Guernsey
 Nombre: CASIMIRO CARVAJAL, Edad: 55, Pais: Guinea Bissau
 Nombre: AIDA MARIA ROJAS, Edad: 66, Pais: Guinea Ecuatorial
-Nombre: ANA HERMINIA PORTUGUEZ, Edad: 84, Pais: Guyana
 Nombre: OLGA CLAUDIA ZUÑIGA, Edad: 31, Pais: Guyana
-Nombre: CARLOS ROJAS, Edad: 1, Pais: Haiti
+Nombre: ANA HERMINIA PORTUGUEZ, Edad: 84, Pais: Guyana
 Nombre: JORGE RAMOS, Edad: 43, Pais: Haiti
+Nombre: CARLOS ROJAS, Edad: 1, Pais: Haiti
 Nombre: ELIA CHACON, Edad: 26, Pais: Hanói
 Nombre: MARIA GUILLERMINA GODINEZ, Edad: 36, Pais: Harare
 Nombre: ALICIA MASIS, Edad: 17, Pais: Helsinki
-Nombre: MARIO ANTONIO TORRES, Edad: 86, Pais: Honduras
-Nombre: FLORENTINA MORA, Edad: 49, Pais: Honduras
 Nombre: ELIETH DELGADO, Edad: 54, Pais: Honduras
+Nombre: FLORENTINA MORA, Edad: 49, Pais: Honduras
+Nombre: MARIO ANTONIO TORRES, Edad: 86, Pais: Honduras
 Nombre: JOSEFINA ZAMORA, Edad: 34, Pais: Honduras
-Nombre: CATALINA ROMAN, Edad: 30, Pais: Hong Kong
 Nombre: LUIS GUILLERMO LOPEZ, Edad: 24, Pais: Hong Kong
+Nombre: CATALINA ROMAN, Edad: 30, Pais: Hong Kong
 Nombre: ALFREDO CHAVES, Edad: 71, Pais: Honiara
 Nombre: ANTONIA MARIA ACUÑA, Edad: 39, Pais: Honiara
-Nombre: JUSTA MARTA VAUGHAN, Edad: 70, Pais: Hungría
-Nombre: GERMAN ZUÑIGA, Edad: 35, Pais: Hungría
 Nombre: LUIS ANGEL MORALES, Edad: 69, Pais: Hungría
-Nombre: ESTER MARIA GONZALEZ, Edad: 27, Pais: India
+Nombre: GERMAN ZUÑIGA, Edad: 35, Pais: Hungría
+Nombre: JUSTA MARTA VAUGHAN, Edad: 70, Pais: Hungría
 Nombre: ROLANDO GUILLERMO CORDERO, Edad: 8, Pais: India
+Nombre: ESTER MARIA GONZALEZ, Edad: 27, Pais: India
 Nombre: JOSE ANGEL BARRERA, Edad: 11, Pais: Indonesia
 Nombre: MARIA MORA, Edad: 38, Pais: Indonesia
 Nombre: ABILIO VALVERDE, Edad: 96, Pais: Indonesia
-Nombre: MARIA EUGENIA CASTRO, Edad: 1, Pais: Iraq
 Nombre: CRISTOBAL ROMERO, Edad: 18, Pais: Iraq
-Nombre: DEISY CAMPOS, Edad: 12, Pais: Irlanda
+Nombre: MARIA EUGENIA CASTRO, Edad: 1, Pais: Iraq
 Nombre: JOSE GERARDO FERNANDEZ, Edad: 70, Pais: Irlanda
+Nombre: DEISY CAMPOS, Edad: 12, Pais: Irlanda
 Nombre: JUAN JOSE ZUÑIGA, Edad: 93, Pais: Irlanda
 Nombre: ANALIVE SOLIS, Edad: 9, Pais: Irán
 Nombre: JUAN MENA, Edad: 55, Pais: Isla Ascension
 Nombre: ROSA MINTZ, Edad: 20, Pais: Isla Bouvet
-Nombre: ROSA BENAVIDES, Edad: 8, Pais: Isla Christmas
 Nombre: MARIA CECILIA MARTINEZ, Edad: 6, Pais: Isla Christmas
-Nombre: DORA PATRICIA RODRIGUEZ, Edad: 74, Pais: Isla De Navidad
-Nombre: CARLOS ENRIQUE GUTIERREZ, Edad: 86, Pais: Isla De Navidad
+Nombre: ROSA BENAVIDES, Edad: 8, Pais: Isla Christmas
 Nombre: ROBERTO GERARDO CALDERON, Edad: 87, Pais: Isla De Navidad
-Nombre: ADELAIDA BADILLA, Edad: 77, Pais: Isla Jan Mayen
+Nombre: CARLOS ENRIQUE GUTIERREZ, Edad: 86, Pais: Isla De Navidad
+Nombre: DORA PATRICIA RODRIGUEZ, Edad: 74, Pais: Isla De Navidad
 Nombre: IRIS MARIA UREÑA, Edad: 83, Pais: Isla Jan Mayen
+Nombre: ADELAIDA BADILLA, Edad: 77, Pais: Isla Jan Mayen
 Nombre: CARMEN MOLINA, Edad: 7, Pais: Isla Jan Mayen
-Nombre: ANA CECILIA GOMEZ, Edad: 7, Pais: Isla Pitcairn
 Nombre: FABIOLA CHAVES, Edad: 94, Pais: Isla Pitcairn
-Nombre: GERMAN NAVARRO, Edad: 6, Pais: Islamabad
-Nombre: IVETTE HEATHLY CARTER, Edad: 67, Pais: Islamabad
+Nombre: ANA CECILIA GOMEZ, Edad: 7, Pais: Isla Pitcairn
 Nombre: MIRIAM MORA, Edad: 48, Pais: Islamabad
+Nombre: IVETTE HEATHLY CARTER, Edad: 67, Pais: Islamabad
+Nombre: GERMAN NAVARRO, Edad: 6, Pais: Islamabad
 Nombre: MARIA CECILIA DIAZ, Edad: 9, Pais: Islandia
 Nombre: GUILLERMO SECO, Edad: 49, Pais: Islas Caimán
+Nombre: ROSALINA RETANA, Edad: 11, Pais: Islas Cocos
 Nombre: LUZ MYRIAM SIBAJA, Edad: 70, Pais: Islas Cocos
 Nombre: ELENO RAFAEL ELIZONDO, Edad: 46, Pais: Islas Cocos
-Nombre: ROSALINA RETANA, Edad: 11, Pais: Islas Cocos
-Nombre: ROSA MARIA ANGULO, Edad: 41, Pais: Islas Cook
-Nombre: GERARDO ZUÑIGA, Edad: 31, Pais: Islas Cook
 Nombre: GERARDO FLORES, Edad: 8, Pais: Islas Cook
+Nombre: GERARDO ZUÑIGA, Edad: 31, Pais: Islas Cook
+Nombre: ROSA MARIA ANGULO, Edad: 41, Pais: Islas Cook
 Nombre: ESTELA DEL CARMEN VALVERDE, Edad: 6, Pais: Islas Cook
 Nombre: BERTA QUIROS, Edad: 37, Pais: Islas Feroe
 Nombre: TERESA RAMIREZ, Edad: 12, Pais: Islas Feroe
 Nombre: FLORIA CORDERO, Edad: 10, Pais: Islas Malvinas
 Nombre: PAULINA ROJAS, Edad: 21, Pais: Islas Malvinas
 Nombre: MANUEL UREÑA, Edad: 86, Pais: Islas Marshall
-Nombre: ABEL LOPEZ, Edad: 73, Pais: Islas Turcas y Caicos
 Nombre: VICTOR MAX SOLEY, Edad: 23, Pais: Islas Turcas y Caicos
+Nombre: ABEL LOPEZ, Edad: 73, Pais: Islas Turcas y Caicos
 Nombre: HUGO MORA, Edad: 96, Pais: Islas Virgenes Americanas
 Nombre: FLORIBETH BOLAÑOS, Edad: 93, Pais: Islas Virgenes Británicas
 Nombre: FULGENCIO LEDEZMA, Edad: 63, Pais: Islas de Heard y McDonald
 Nombre: MANUEL EMILIO BARAHONA, Edad: 88, Pais: Israel
+Nombre: MARIA IRIS NAVARRO, Edad: 37, Pais: Italia
+Nombre: MARIA DE LOS ANGELES MURILLO, Edad: 28, Pais: Italia
+Nombre: OLGA ISABEL ECHEVERRIA, Edad: 90, Pais: Italia
 Nombre: MARIA OFELIA QUESADA, Edad: 13, Pais: Italia
 Nombre: ANA ISABEL SEGURA, Edad: 72, Pais: Italia
-Nombre: OLGA ISABEL ECHEVERRIA, Edad: 90, Pais: Italia
-Nombre: MARIA FLORES, Edad: 14, Pais: Italia
-Nombre: MARIA DE LOS ANGELES MURILLO, Edad: 28, Pais: Italia
 Nombre: CARMEN SOLIS, Edad: 39, Pais: Italia
-Nombre: MARIA IRIS NAVARRO, Edad: 37, Pais: Italia
+Nombre: MARIA FLORES, Edad: 14, Pais: Italia
 Nombre: IBO MADRIGAL, Edad: 43, Pais: Jamaica
-Nombre: LIDIETTE MATA, Edad: 4, Pais: Japón
 Nombre: MARIA ISABEL ROJAS, Edad: 36, Pais: Japón
+Nombre: LIDIETTE MATA, Edad: 4, Pais: Japón
 Nombre: RODRIGO SARAVIA, Edad: 74, Pais: Japón
 Nombre: TOBIAS BERNABE ARIAS, Edad: 95, Pais: Jartum
 Nombre: RONALDO HIRSCH, Edad: 91, Pais: Jartum
 Nombre: RODOLFO ORTIZ, Edad: 7, Pais: Jersey
-Nombre: VICTOR MANUEL ARIAS, Edad: 98, Pais: Jerusalén
 Nombre: HERMENEGILDO SOLIS, Edad: 55, Pais: Jerusalén
-Nombre: MARIA ISABEL CESPEDES, Edad: 89, Pais: Jerusalén
 Nombre: JORGE ENRIQUE RAMIREZ, Edad: 54, Pais: Jerusalén
+Nombre: VICTOR MANUEL ARIAS, Edad: 98, Pais: Jerusalén
 Nombre: ELIECER VASQUEZ, Edad: 26, Pais: Jerusalén
-Nombre: RIGOBERTO CAMPOS, Edad: 68, Pais: Jerusalén Este
+Nombre: MARIA ISABEL CESPEDES, Edad: 89, Pais: Jerusalén
 Nombre: FLOR MARIA CHAVES, Edad: 54, Pais: Jerusalén Este
+Nombre: RIGOBERTO CAMPOS, Edad: 68, Pais: Jerusalén Este
 Nombre: VICTOR EMILIO FERNANDEZ, Edad: 82, Pais: Jordania
 Nombre: ROSA BARRANTES, Edad: 30, Pais: Jordania
 Nombre: NICOLAS JIMENEZ, Edad: 88, Pais: Jordania
 Nombre: ZULAY ELIZONDO, Edad: 71, Pais: Kabul
-Nombre: ELADIO ANGULO, Edad: 58, Pais: Kampala
-Nombre: MARIA CRISTINA ARIAS, Edad: 84, Pais: Kampala
 Nombre: MARIA CECILIA AGUERO, Edad: 20, Pais: Kampala
-Nombre: JOSE FRANCISCO ARIAS, Edad: 81, Pais: Kazajstán
+Nombre: MARIA CRISTINA ARIAS, Edad: 84, Pais: Kampala
+Nombre: ELADIO ANGULO, Edad: 58, Pais: Kampala
 Nombre: RIGOBERTO BARRIENTOS, Edad: 41, Pais: Kazajstán
+Nombre: JOSE FRANCISCO ARIAS, Edad: 81, Pais: Kazajstán
 Nombre: MARIA ELENA SALAZAR, Edad: 38, Pais: Kazajstán
 Nombre: RENE GARCIA, Edad: 16, Pais: Kenia
 Nombre: OTONIEL SANDI, Edad: 65, Pais: Kigali
 Nombre: MARIA EMILIA BRENES, Edad: 50, Pais: Kingston
-Nombre: MARIA ELENA VINDAS, Edad: 61, Pais: Kingstown
-Nombre: MIGUEL ANGEL ARGUEDAS, Edad: 70, Pais: Kingstown
-Nombre: CARMEN MARIA MARTINEZ, Edad: 87, Pais: Kingstown
 Nombre: ANA LORENA LOPEZ, Edad: 1, Pais: Kingstown
-Nombre: MARIO MURILLO, Edad: 79, Pais: Kinsasa
-Nombre: PASTORA HERNANDEZ, Edad: 51, Pais: Kinsasa
-Nombre: REINA CLAUDIA DURAN, Edad: 29, Pais: Kinsasa
-Nombre: OLMAN ALFARO, Edad: 6, Pais: Kinsasa
+Nombre: CARMEN MARIA MARTINEZ, Edad: 87, Pais: Kingstown
+Nombre: MIGUEL ANGEL ARGUEDAS, Edad: 70, Pais: Kingstown
+Nombre: MARIA ELENA VINDAS, Edad: 61, Pais: Kingstown
 Nombre: MARIA DE LOS ANGELES JIMENEZ, Edad: 54, Pais: Kinsasa
+Nombre: OLMAN ALFARO, Edad: 6, Pais: Kinsasa
+Nombre: REINA CLAUDIA DURAN, Edad: 29, Pais: Kinsasa
+Nombre: MARIO MURILLO, Edad: 79, Pais: Kinsasa
 Nombre: EFRAIN SIBAJA, Edad: 81, Pais: Kinsasa
-Nombre: ELOY SANCHEZ, Edad: 54, Pais: Kirguistán
+Nombre: PASTORA HERNANDEZ, Edad: 51, Pais: Kinsasa
 Nombre: ISRAEL MORALES, Edad: 93, Pais: Kirguistán
+Nombre: ELOY SANCHEZ, Edad: 54, Pais: Kirguistán
 Nombre: ALVARO ENRIQUE VALVERDE, Edad: 42, Pais: Kirguistán
 Nombre: BERTINA RIOS, Edad: 12, Pais: Kirguistán
 Nombre: EMILCE CASCANTE, Edad: 6, Pais: Kiribati
 Nombre: MARIA ISABEL ACUÑA, Edad: 83, Pais: Kiribati
-Nombre: OTILIO MARIN, Edad: 69, Pais: Kuwait
-Nombre: MARIA TERESA MORA, Edad: 99, Pais: Kuwait
-Nombre: ANA CECILIA BRENES, Edad: 100, Pais: Kuwait
 Nombre: HUGO CHAVARRIA, Edad: 27, Pais: Kuwait
+Nombre: ANA CECILIA BRENES, Edad: 100, Pais: Kuwait
+Nombre: MARIA TERESA MORA, Edad: 99, Pais: Kuwait
+Nombre: OTILIO MARIN, Edad: 69, Pais: Kuwait
 Nombre: BERNARDO MORA, Edad: 77, Pais: Kuwait City
-Nombre: WALDEMAR ALPIZAR, Edad: 83, Pais: La Habana
-Nombre: DAISY AZOFEIFA, Edad: 89, Pais: La Habana
 Nombre: HELBERT MORA, Edad: 80, Pais: La Habana
+Nombre: DAISY AZOFEIFA, Edad: 89, Pais: La Habana
+Nombre: WALDEMAR ALPIZAR, Edad: 83, Pais: La Habana
 Nombre: ALVARO SANDOVAL, Edad: 71, Pais: La Habana
 Nombre: MARIA CARMEN NARANJO, Edad: 35, Pais: La Valeta
 Nombre: JOSE ROGER MADRIZ, Edad: 58, Pais: La Valeta
 Nombre: BETSABE EMILIA BALTODANO, Edad: 78, Pais: Laos
-Nombre: JORGE ESPINOZA, Edad: 39, Pais: Lesotho
-Nombre: ANA CECILIA ESPINOZA, Edad: 34, Pais: Lesotho
 Nombre: MARTA ODILIA UREÑA, Edad: 7, Pais: Lesotho
-Nombre: FLOR MARIA VINDAS, Edad: 6, Pais: Letonia
+Nombre: ANA CECILIA ESPINOZA, Edad: 34, Pais: Lesotho
+Nombre: JORGE ESPINOZA, Edad: 39, Pais: Lesotho
 Nombre: FLOR DE MARIA ARAYA, Edad: 64, Pais: Letonia
-Nombre: CARLOS ESPINOZA, Edad: 51, Pais: Liberia
-Nombre: OBED JIMENEZ, Edad: 77, Pais: Liberia
-Nombre: ADILIA MORA, Edad: 41, Pais: Liberia
+Nombre: FLOR MARIA VINDAS, Edad: 6, Pais: Letonia
 Nombre: ADITH ALVARADO, Edad: 30, Pais: Liberia
+Nombre: OBED JIMENEZ, Edad: 77, Pais: Liberia
+Nombre: CARLOS ESPINOZA, Edad: 51, Pais: Liberia
+Nombre: ADILIA MORA, Edad: 41, Pais: Liberia
 Nombre: CARLOS EDUARTE, Edad: 95, Pais: Libia
 Nombre: OFELIA MARIN, Edad: 35, Pais: Libia
 Nombre: MARIA CRISTINA BRENES, Edad: 71, Pais: Libreville
-Nombre: RUTH MARIA BOLAÑOS, Edad: 85, Pais: Lilongüe
-Nombre: GONZALO SANDOVAL, Edad: 93, Pais: Lilongüe
-Nombre: RAFAEL WILLIAM PEREZ, Edad: 20, Pais: Lilongüe
-Nombre: EVELIA HERRERA, Edad: 95, Pais: Lilongüe
-Nombre: JOSE LAURO MORA, Edad: 40, Pais: Lilongüe
 Nombre: SONIA SOLIS, Edad: 44, Pais: Lilongüe
-Nombre: CARMEN EUGENIA MARIN, Edad: 88, Pais: Lima
-Nombre: PROSPERO BERMUDEZ, Edad: 95, Pais: Lima
-Nombre: MARIO ALFARO, Edad: 57, Pais: Lima
+Nombre: JOSE LAURO MORA, Edad: 40, Pais: Lilongüe
+Nombre: EVELIA HERRERA, Edad: 95, Pais: Lilongüe
+Nombre: RAFAEL WILLIAM PEREZ, Edad: 20, Pais: Lilongüe
+Nombre: GONZALO SANDOVAL, Edad: 93, Pais: Lilongüe
+Nombre: RUTH MARIA BOLAÑOS, Edad: 85, Pais: Lilongüe
 Nombre: MARIA LUISA VILLALOBOS, Edad: 21, Pais: Lima
+Nombre: MARIO ALFARO, Edad: 57, Pais: Lima
+Nombre: CARMEN EUGENIA MARIN, Edad: 88, Pais: Lima
 Nombre: DELIA BLANCO, Edad: 86, Pais: Lima
+Nombre: PROSPERO BERMUDEZ, Edad: 95, Pais: Lima
+Nombre: WILLIAM AGUILERA, Edad: 40, Pais: Lisboa
 Nombre: ROSARIO CHAVARRIA, Edad: 11, Pais: Lisboa
 Nombre: ANA MARIA ALVARADO, Edad: 29, Pais: Lisboa
-Nombre: WILLIAM AGUILERA, Edad: 40, Pais: Lisboa
-Nombre: TERESA CALVO, Edad: 37, Pais: Lituania
 Nombre: CECILIA MARIA ACUÑA, Edad: 85, Pais: Lituania
+Nombre: TERESA CALVO, Edad: 37, Pais: Lituania
 Nombre: GERARDO DURAN, Edad: 17, Pais: Liubliana
-Nombre: MIRYAM MORA, Edad: 21, Pais: Lomé
 Nombre: MARCO ANTONIO MARTINEZ, Edad: 73, Pais: Lomé
-Nombre: MIREYA MENDEZ, Edad: 10, Pais: Londres
-Nombre: DANILO QUIROS, Edad: 98, Pais: Londres
-Nombre: RICARDO MADRIGAL, Edad: 99, Pais: Londres
-Nombre: MARIA EUGENIA CAMPOS, Edad: 12, Pais: Londres
-Nombre: CARLOS GUILLERMO TREJOS, Edad: 10, Pais: Londres
+Nombre: MIRYAM MORA, Edad: 21, Pais: Lomé
 Nombre: ARACELLY ROBLES, Edad: 28, Pais: Londres
+Nombre: CARLOS GUILLERMO TREJOS, Edad: 10, Pais: Londres
+Nombre: DANILO QUIROS, Edad: 98, Pais: Londres
+Nombre: MIREYA MENDEZ, Edad: 10, Pais: Londres
+Nombre: MARIA EUGENIA CAMPOS, Edad: 12, Pais: Londres
+Nombre: RICARDO MADRIGAL, Edad: 99, Pais: Londres
 Nombre: ZORAIDA MORA, Edad: 46, Pais: Luanda
 Nombre: JOSE ANGEL MORA, Edad: 70, Pais: Lusaka
+Nombre: LIGIA MARIA NUÑEZ, Edad: 37, Pais: Luxemburgo
+Nombre: CARLOS EDUARDO MORA, Edad: 52, Pais: Luxemburgo
 Nombre: ANTONIO AGUILAR, Edad: 8, Pais: Luxemburgo
 Nombre: MARTA ESTRADA, Edad: 14, Pais: Luxemburgo
-Nombre: CARLOS EDUARDO MORA, Edad: 52, Pais: Luxemburgo
-Nombre: LIGIA MARIA NUÑEZ, Edad: 37, Pais: Luxemburgo
 Nombre: MARIA CECILIA ARRIETA, Edad: 16, Pais: Luxemburgo
+Nombre: EDWIN CHAVARRIA, Edad: 86, Pais: Líbano
 Nombre: ZULAY JIMENEZ, Edad: 21, Pais: Líbano
 Nombre: ALVARO MADRIGAL, Edad: 84, Pais: Líbano
-Nombre: EDWIN CHAVARRIA, Edad: 86, Pais: Líbano
 Nombre: MAYRA BARBOZA, Edad: 14, Pais: Líbano
-Nombre: RAFAEL MONTOYA, Edad: 1, Pais: Macao
-Nombre: RICARDO RODOLFO ULLOA, Edad: 2, Pais: Macao
 Nombre: SONIA MARIA SANDI, Edad: 38, Pais: Macao
+Nombre: RICARDO RODOLFO ULLOA, Edad: 2, Pais: Macao
 Nombre: AGUSTIN AGUERO, Edad: 14, Pais: Macao
+Nombre: RAFAEL MONTOYA, Edad: 1, Pais: Macao
 Nombre: VIOLETA MARIA CAMPOS, Edad: 18, Pais: Macao
 Nombre: JULIO HUMBERTO VARGAS, Edad: 63, Pais: Macedonia del Norte
-Nombre: OSCAR CHANTO, Edad: 98, Pais: Madagascar
 Nombre: JOSE LUIS ARIAS, Edad: 23, Pais: Madagascar
+Nombre: OSCAR CHANTO, Edad: 98, Pais: Madagascar
 Nombre: VIRGINIA CASTRO, Edad: 29, Pais: Madrid
-Nombre: OVIDIO MORA, Edad: 90, Pais: Madrid
 Nombre: NORMAN SCHROEDER, Edad: 10, Pais: Madrid
+Nombre: OVIDIO MORA, Edad: 90, Pais: Madrid
+Nombre: MARIA EUGENIA SANCHEZ, Edad: 84, Pais: Majuro
 Nombre: ADALBERTO JIMENEZ, Edad: 45, Pais: Majuro
 Nombre: LEONEL ARAYA, Edad: 91, Pais: Majuro
-Nombre: MARIA EUGENIA SANCHEZ, Edad: 84, Pais: Majuro
-Nombre: CLAUDIO WESLEY SOTO, Edad: 34, Pais: Malabo
-Nombre: LUIS MORALES, Edad: 34, Pais: Malabo
 Nombre: ROSARIO PIEDRA, Edad: 91, Pais: Malabo
+Nombre: LUIS MORALES, Edad: 34, Pais: Malabo
+Nombre: CLAUDIO WESLEY SOTO, Edad: 34, Pais: Malabo
+Nombre: MIGUEL ANGEL ARTAVIA, Edad: 52, Pais: Malasia
 Nombre: RUTH MARIA GARCIA, Edad: 11, Pais: Malasia
 Nombre: CARLOS RAMON MONTERO, Edad: 69, Pais: Malasia
-Nombre: MIGUEL ANGEL ARTAVIA, Edad: 52, Pais: Malasia
 Nombre: TERESITA JIMENEZ, Edad: 5, Pais: Malasia
 Nombre: CARIDAD TORRES, Edad: 50, Pais: Malawi
-Nombre: LINA RAFAELA PEREZ, Edad: 85, Pais: Maldivas
 Nombre: ENRIQUE ARTURO COB, Edad: 86, Pais: Maldivas
+Nombre: LINA RAFAELA PEREZ, Edad: 85, Pais: Maldivas
 Nombre: RAFAELA DE LOS ANGELES CHINCHILLA, Edad: 15, Pais: Maldivas
 Nombre: WILLIAM ZUÑIGA, Edad: 35, Pais: Malta
 Nombre: LUIS VIRGILIO MORA, Edad: 55, Pais: Malta
-Nombre: EMERITA MORA, Edad: 44, Pais: Malé
-Nombre: HILDA NAVARRO, Edad: 85, Pais: Malé
-Nombre: ROCIO MORA, Edad: 54, Pais: Malé
-Nombre: ROSIBEL MURILLO, Edad: 98, Pais: Malé
 Nombre: LENIS MORA, Edad: 89, Pais: Malé
-Nombre: SONIA DEL CARMEN CASTRO, Edad: 21, Pais: Malí
+Nombre: ROSIBEL MURILLO, Edad: 98, Pais: Malé
+Nombre: ROCIO MORA, Edad: 54, Pais: Malé
+Nombre: HILDA NAVARRO, Edad: 85, Pais: Malé
+Nombre: EMERITA MORA, Edad: 44, Pais: Malé
+Nombre: FERNANDO DEL VALLE, Edad: 73, Pais: Malí
 Nombre: MERCEDES GRANADOS, Edad: 39, Pais: Malí
+Nombre: SONIA DEL CARMEN CASTRO, Edad: 21, Pais: Malí
+Nombre: EMMA FERNANDEZ, Edad: 48, Pais: Malí
 Nombre: ARCENIO UREÑA, Edad: 8, Pais: Malí
 Nombre: JOAQUIN MENA, Edad: 55, Pais: Malí
-Nombre: EMMA FERNANDEZ, Edad: 48, Pais: Malí
-Nombre: FERNANDO DEL VALLE, Edad: 73, Pais: Malí
 Nombre: RAFAEL EDWIN ELIZONDO, Edad: 55, Pais: Managua
+Nombre: VICTOR MATA, Edad: 58, Pais: Manama
 Nombre: IRIS RIVERA, Edad: 8, Pais: Manama
 Nombre: ELVIRA ABARCA, Edad: 18, Pais: Manama
-Nombre: VICTOR MATA, Edad: 58, Pais: Manama
-Nombre: MARIA BELEN VALVERDE, Edad: 35, Pais: Manila
-Nombre: MARIA CECILIA ARIAS, Edad: 13, Pais: Manila
 Nombre: MARTA EUGENIA CAMACHO, Edad: 14, Pais: Manila
+Nombre: MARIA BELEN VALVERDE, Edad: 35, Pais: Manila
 Nombre: MARIO ANTONIO DELGADO, Edad: 61, Pais: Manila
+Nombre: MARIA CECILIA ARIAS, Edad: 13, Pais: Manila
 Nombre: ADELIA MARIA MUÑOZ, Edad: 11, Pais: Maputo
-Nombre: ANA ISABEL ROJAS, Edad: 44, Pais: Marianas del Nort
 Nombre: ALEXIS PABLO GARRO, Edad: 90, Pais: Marianas del Nort
+Nombre: ANA ISABEL ROJAS, Edad: 44, Pais: Marianas del Nort
 Nombre: ANA MARIA CORDERO, Edad: 52, Pais: Marianas del Nort
-Nombre: JOSE MANUEL CASTILLO, Edad: 96, Pais: Marruecos
-Nombre: FLORY ABARCA, Edad: 6, Pais: Marruecos
 Nombre: SANDRA REID, Edad: 29, Pais: Marruecos
-Nombre: NORMA ISABEL ROJAS, Edad: 85, Pais: Martinica
-Nombre: HUMBERTO MONTERO, Edad: 72, Pais: Martinica
-Nombre: MANUEL CORNEJO, Edad: 53, Pais: Martinica
+Nombre: FLORY ABARCA, Edad: 6, Pais: Marruecos
+Nombre: JOSE MANUEL CASTILLO, Edad: 96, Pais: Marruecos
 Nombre: ZULEMA VARGAS, Edad: 75, Pais: Martinica
+Nombre: NORMA ISABEL ROJAS, Edad: 85, Pais: Martinica
 Nombre: DEYANIRA BRENES, Edad: 46, Pais: Martinica
-Nombre: LUIS ALBERTO SOLIS, Edad: 72, Pais: Mascate
+Nombre: MANUEL CORNEJO, Edad: 53, Pais: Martinica
+Nombre: HUMBERTO MONTERO, Edad: 72, Pais: Martinica
 Nombre: LUIS FRANCISCO SANCHEZ, Edad: 70, Pais: Mascate
+Nombre: LUIS ALBERTO SOLIS, Edad: 72, Pais: Mascate
 Nombre: MARIA ISABEL GARDELA, Edad: 38, Pais: Maseru
-Nombre: JULIETA LOPEZ, Edad: 45, Pais: Mauricio
 Nombre: MARIA DEL ROSARIO NARANJO, Edad: 46, Pais: Mauricio
+Nombre: JULIETA LOPEZ, Edad: 45, Pais: Mauricio
 Nombre: VIDAL DIAZ, Edad: 61, Pais: Mauritania
 Nombre: JOSE JESUS CANALES, Edad: 69, Pais: Mayotte
 Nombre: JOSE FRANCISCO BEJARANO, Edad: 78, Pais: Mbabane
@@ -567,248 +567,248 @@ Nombre: CARLOS ALBERTO ROJAS, Edad: 96, Pais: Melekeok
 Nombre: MARLENE CASTILLO, Edad: 45, Pais: Micronesia
 Nombre: VIRIA ISABEL RAMIREZ, Edad: 4, Pais: Micronesia
 Nombre: GLADYS CHACON, Edad: 16, Pais: Minsk
-Nombre: LIGIA MARIA MEZA, Edad: 77, Pais: Mogadiscio
-Nombre: MIRNA MC KENZIE, Edad: 39, Pais: Mogadiscio
-Nombre: RODOLFO CUEVAS, Edad: 29, Pais: Mogadiscio
 Nombre: FRANCISCO CROOKS, Edad: 48, Pais: Mogadiscio
-Nombre: JOVITA BRENES, Edad: 85, Pais: Moldavia
+Nombre: RODOLFO CUEVAS, Edad: 29, Pais: Mogadiscio
+Nombre: MIRNA MC KENZIE, Edad: 39, Pais: Mogadiscio
+Nombre: LIGIA MARIA MEZA, Edad: 77, Pais: Mogadiscio
 Nombre: JUAN RAFAEL JIMENEZ, Edad: 9, Pais: Moldavia
-Nombre: VIRGINIA ARIAS, Edad: 91, Pais: Moldavia
 Nombre: EVELINA NAVARRO, Edad: 45, Pais: Moldavia
-Nombre: MARIA DE LOS ANGELES GOLDONI, Edad: 14, Pais: Mongolia
+Nombre: VIRGINIA ARIAS, Edad: 91, Pais: Moldavia
+Nombre: JOVITA BRENES, Edad: 85, Pais: Moldavia
 Nombre: FEDERICO JIMENEZ, Edad: 75, Pais: Mongolia
+Nombre: MARIA DE LOS ANGELES GOLDONI, Edad: 14, Pais: Mongolia
+Nombre: LUZ MARINA CASTRO, Edad: 90, Pais: Monrovia
 Nombre: RODOLFO STRUNZ, Edad: 4, Pais: Monrovia
 Nombre: URIAS BORBON, Edad: 36, Pais: Monrovia
-Nombre: LUZ MARINA CASTRO, Edad: 90, Pais: Monrovia
 Nombre: FLOR EMILCE MARIN, Edad: 28, Pais: Montenegro
 Nombre: CARMEN ELSY QUESADA, Edad: 3, Pais: Montenegro
 Nombre: JORGE AGUILAR, Edad: 88, Pais: Montenegro
-Nombre: IRENE MARIA MENDEZ, Edad: 5, Pais: Montevideo
-Nombre: FERNANDO MINOR CHINCHILLA, Edad: 79, Pais: Montevideo
 Nombre: DINORAH JIMENEZ, Edad: 71, Pais: Montevideo
+Nombre: FERNANDO MINOR CHINCHILLA, Edad: 79, Pais: Montevideo
+Nombre: IRENE MARIA MENDEZ, Edad: 5, Pais: Montevideo
 Nombre: JORGE ANTONIO BARRIENTOS, Edad: 78, Pais: Montserrat
 Nombre: JORGE CALDERON, Edad: 3, Pais: Montserrat
 Nombre: MARIA ISABEL ESQUIVEL, Edad: 51, Pais: Moroni
 Nombre: MIGUEL CASTRO, Edad: 79, Pais: Mozambique
 Nombre: LUZ BRIGIDA DELGADO, Edad: 80, Pais: Mozambique
-Nombre: ANABELLE VARGAS, Edad: 18, Pais: Myanmar
 Nombre: OLGA MARTA SOLANO, Edad: 12, Pais: Myanmar
+Nombre: ANABELLE VARGAS, Edad: 18, Pais: Myanmar
 Nombre: FRANCISCO JAVIER LUNA, Edad: 63, Pais: Myanmar
 Nombre: VIRGINIA JIMENEZ, Edad: 24, Pais: México
-Nombre: MARIA ROSA GUZMAN, Edad: 9, Pais: Mónaco
-Nombre: GERARDO CERDAS, Edad: 95, Pais: Mónaco
 Nombre: BETTY VALVERDE, Edad: 51, Pais: Mónaco
+Nombre: GERARDO CERDAS, Edad: 95, Pais: Mónaco
+Nombre: MARIA ROSA GUZMAN, Edad: 9, Pais: Mónaco
 Nombre: VERA RIVERA, Edad: 13, Pais: Mónaco
 Nombre: ANA LORENA JIMENEZ, Edad: 8, Pais: Naipyidó
-Nombre: VICTOR MANUEL ABARCA, Edad: 63, Pais: Naipyidó
-Nombre: MARIA ARCE, Edad: 35, Pais: Naipyidó
 Nombre: ARACELLY LOPEZ, Edad: 88, Pais: Naipyidó
+Nombre: MARIA ARCE, Edad: 35, Pais: Naipyidó
+Nombre: VICTOR MANUEL ABARCA, Edad: 63, Pais: Naipyidó
+Nombre: MAYRA CECILIA ARGUEDAS, Edad: 80, Pais: Nairobi
+Nombre: LIGIA MAGDALENA PALMA, Edad: 42, Pais: Nairobi
 Nombre: BLANCA RIVERA, Edad: 38, Pais: Nairobi
 Nombre: ALICE CERDAS, Edad: 77, Pais: Nairobi
-Nombre: LIGIA MAGDALENA PALMA, Edad: 42, Pais: Nairobi
-Nombre: MAYRA CECILIA ARGUEDAS, Edad: 80, Pais: Nairobi
 Nombre: SALOME QUIROS, Edad: 38, Pais: Namibia
-Nombre: ANTONIO ORTEGA, Edad: 91, Pais: Nasáu
 Nombre: ULISES ARGUEDAS, Edad: 94, Pais: Nasáu
-Nombre: VIELA CRISTINA MORA, Edad: 87, Pais: Nauru
+Nombre: ANTONIO ORTEGA, Edad: 91, Pais: Nasáu
 Nombre: HARRY BRENES, Edad: 34, Pais: Nauru
+Nombre: VIELA CRISTINA MORA, Edad: 87, Pais: Nauru
 Nombre: MARIA DE LOS ANGELES ORDOÑEZ, Edad: 72, Pais: Nepal
+Nombre: CRISTIAN MATAMOROS, Edad: 70, Pais: Niamey
 Nombre: MARIA EUGENIA ACUÑA, Edad: 93, Pais: Niamey
 Nombre: VIRGINIA ROBLES, Edad: 21, Pais: Niamey
 Nombre: JOSE CASCANTE, Edad: 62, Pais: Niamey
-Nombre: CRISTIAN MATAMOROS, Edad: 70, Pais: Niamey
-Nombre: ETILMA CESPEDES, Edad: 29, Pais: Nicaragua
 Nombre: CLAUDIO ULLOA, Edad: 23, Pais: Nicaragua
+Nombre: ETILMA CESPEDES, Edad: 29, Pais: Nicaragua
 Nombre: JULIETA ELIZONDO, Edad: 78, Pais: Nicaragua
-Nombre: SARA TRISTAN, Edad: 28, Pais: Nicosia
-Nombre: MARIA EDITH ROJAS, Edad: 89, Pais: Nicosia
 Nombre: DIONEL BURGOS, Edad: 85, Pais: Nicosia
-Nombre: TERESA SANDI, Edad: 90, Pais: Niger
-Nombre: MARIA MERCEDES ROMERO, Edad: 96, Pais: Niger
+Nombre: MARIA EDITH ROJAS, Edad: 89, Pais: Nicosia
+Nombre: SARA TRISTAN, Edad: 28, Pais: Nicosia
 Nombre: GERARDO ROJAS, Edad: 14, Pais: Niger
+Nombre: TERESA SANDI, Edad: 90, Pais: Niger
 Nombre: CARMEN MARIA RAMIREZ, Edad: 38, Pais: Niger
+Nombre: MARIA MERCEDES ROMERO, Edad: 96, Pais: Niger
 Nombre: CARMEN CORRALES, Edad: 76, Pais: Nigeria
 Nombre: CORINA SOLIS, Edad: 74, Pais: Nom Pen
 Nombre: ERESVIDA AZOFEIFA, Edad: 14, Pais: Nom Pen
+Nombre: OLGA MARTA ALFARO, Edad: 68, Pais: Norfolk Island
 Nombre: CARLOS GERARDO ABARCA, Edad: 4, Pais: Norfolk Island
 Nombre: JUAN LOBO, Edad: 47, Pais: Norfolk Island
-Nombre: OLGA MARTA ALFARO, Edad: 68, Pais: Norfolk Island
 Nombre: VIRGINIA RETANA, Edad: 27, Pais: Noruega
-Nombre: JOSE MORENO, Edad: 25, Pais: Nuakchot
 Nombre: MARIA ROSA LOPEZ, Edad: 30, Pais: Nuakchot
-Nombre: ANTONIO GILBERTO LOAIZA, Edad: 42, Pais: Nueva Caledonia
+Nombre: JOSE MORENO, Edad: 25, Pais: Nuakchot
 Nombre: FLOR MORA, Edad: 86, Pais: Nueva Caledonia
 Nombre: PASTORA NAVARRO, Edad: 72, Pais: Nueva Caledonia
-Nombre: CONCEPCION MONTIEL, Edad: 81, Pais: Nueva Delhi
-Nombre: GONZALO OTTO CHINCHILLA, Edad: 41, Pais: Nueva Delhi
-Nombre: DAMARIS JIMENEZ, Edad: 29, Pais: Nueva Delhi
+Nombre: ANTONIO GILBERTO LOAIZA, Edad: 42, Pais: Nueva Caledonia
 Nombre: RAFAEL ANGEL MONGE, Edad: 11, Pais: Nueva Delhi
+Nombre: CONCEPCION MONTIEL, Edad: 81, Pais: Nueva Delhi
+Nombre: DAMARIS JIMENEZ, Edad: 29, Pais: Nueva Delhi
+Nombre: GONZALO OTTO CHINCHILLA, Edad: 41, Pais: Nueva Delhi
 Nombre: MERCEDES PIEDRA, Edad: 92, Pais: Nueva Delhi
-Nombre: VICTOR MANUEL ZUÑIGA, Edad: 24, Pais: Nueva Zelanda
 Nombre: RICARDO BARRIENTOS, Edad: 32, Pais: Nueva Zelanda
+Nombre: VICTOR MANUEL ZUÑIGA, Edad: 24, Pais: Nueva Zelanda
 Nombre: ANGEL MARIN, Edad: 2, Pais: Nukualofa
-Nombre: EDGAR ALFARO, Edad: 6, Pais: Omán
 Nombre: DIMAS BARRANTES, Edad: 26, Pais: Omán
+Nombre: EDGAR ALFARO, Edad: 6, Pais: Omán
 Nombre: JORGE ROBINSON MADRIZ, Edad: 42, Pais: Ottawa
 Nombre: WILBER JIMENEZ, Edad: 35, Pais: Ottawa
 Nombre: FRANKLIN VALERIN, Edad: 99, Pais: Pakistán
-Nombre: PIEDADES FALLAS, Edad: 17, Pais: Palau
 Nombre: NURIA MARIA HERNANDEZ, Edad: 45, Pais: Palau
+Nombre: PIEDADES FALLAS, Edad: 17, Pais: Palau
 Nombre: ANTONIO VILLALOBOS, Edad: 45, Pais: Palau
 Nombre: MARIA AGUILAR, Edad: 62, Pais: Palestina
+Nombre: MARIO GERARDO SEGURA, Edad: 24, Pais: Palikir
 Nombre: JOSE ANTONIO MATA, Edad: 13, Pais: Palikir
 Nombre: HUMBERTO ORTIZ, Edad: 99, Pais: Palikir
-Nombre: MARIO GERARDO SEGURA, Edad: 24, Pais: Palikir
-Nombre: FERNANDO TENORIO, Edad: 100, Pais: Panamá
 Nombre: NOEMY GERARDINA QUESADA, Edad: 17, Pais: Panamá
+Nombre: FERNANDO TENORIO, Edad: 100, Pais: Panamá
 Nombre: ALFONSO CHAVES, Edad: 50, Pais: Papúa-Nueva Guinea
+Nombre: ALFREDO PADILLA, Edad: 90, Pais: Paraguay
+Nombre: GUILLERMO ENRIQUE RAMIREZ, Edad: 46, Pais: Paraguay
 Nombre: CARLOS VALVERDE, Edad: 46, Pais: Paraguay
+Nombre: MACARIO MENA, Edad: 46, Pais: Paraguay
 Nombre: JULIO ALBERTO ALVARADO, Edad: 63, Pais: Paraguay
 Nombre: RODRIGO NUÑEZ, Edad: 100, Pais: Paraguay
-Nombre: GUILLERMO ENRIQUE RAMIREZ, Edad: 46, Pais: Paraguay
-Nombre: ALFREDO PADILLA, Edad: 90, Pais: Paraguay
-Nombre: MACARIO MENA, Edad: 46, Pais: Paraguay
-Nombre: LIGIA PALMA, Edad: 13, Pais: Paramaribo
 Nombre: MARLENE TENORIO, Edad: 37, Pais: Paramaribo
+Nombre: LIGIA PALMA, Edad: 13, Pais: Paramaribo
 Nombre: GERARDO RAMON PORRAS, Edad: 15, Pais: París
 Nombre: MARGARITA CORRALES, Edad: 67, Pais: París
 Nombre: JUANA MONGE, Edad: 81, Pais: Países Bajos
-Nombre: JOSEFINA ARIAS, Edad: 27, Pais: Pekín
-Nombre: JOSE LUIS GONZALEZ, Edad: 46, Pais: Pekín
 Nombre: WILLIAM FERNANDEZ, Edad: 92, Pais: Pekín
 Nombre: GILBERTO FALLAS, Edad: 52, Pais: Pekín
+Nombre: JOSEFINA ARIAS, Edad: 27, Pais: Pekín
+Nombre: JOSE LUIS GONZALEZ, Edad: 46, Pais: Pekín
 Nombre: ELIECER BUSTAMANTE, Edad: 96, Pais: Perú
-Nombre: MANUEL ALEXIS CASTILLO, Edad: 88, Pais: Pionyang
-Nombre: MARIA DE LOS ANGELES GONZALEZ, Edad: 87, Pais: Pionyang
-Nombre: GUILLERMO SANCHEZ, Edad: 11, Pais: Pionyang
-Nombre: MANUELA CAMPOS, Edad: 29, Pais: Pionyang
-Nombre: CARLOS VALVERDE, Edad: 11, Pais: Pionyang
 Nombre: CECILIA ROMAN, Edad: 46, Pais: Pionyang
+Nombre: CARLOS VALVERDE, Edad: 11, Pais: Pionyang
+Nombre: MANUELA CAMPOS, Edad: 29, Pais: Pionyang
+Nombre: MARIA DE LOS ANGELES GONZALEZ, Edad: 87, Pais: Pionyang
 Nombre: LEONEL PORRAS, Edad: 75, Pais: Pionyang
-Nombre: TERESA MORALES, Edad: 94, Pais: Podgorica
-Nombre: LUCIA ANGULO, Edad: 59, Pais: Podgorica
+Nombre: MANUEL ALEXIS CASTILLO, Edad: 88, Pais: Pionyang
+Nombre: GUILLERMO SANCHEZ, Edad: 11, Pais: Pionyang
 Nombre: VICTOR MANUEL REYES, Edad: 32, Pais: Podgorica
+Nombre: LUCIA ANGULO, Edad: 59, Pais: Podgorica
+Nombre: TERESA MORALES, Edad: 94, Pais: Podgorica
 Nombre: TERESA ROJAS, Edad: 44, Pais: Polonia
 Nombre: MARIA DE LOS ANGELES VALERIO, Edad: 10, Pais: Polonia
 Nombre: RAMON MENA, Edad: 35, Pais: Port Louis
-Nombre: MARIO GRANADOS, Edad: 72, Pais: Port Louis
 Nombre: BONIFACIO CAMPOS, Edad: 29, Pais: Port Louis
-Nombre: EMILIA ARAUJO, Edad: 11, Pais: Port Vila
-Nombre: EDITA MARIN, Edad: 64, Pais: Port Vila
+Nombre: MARIO GRANADOS, Edad: 72, Pais: Port Louis
 Nombre: MERCEDES SANABRIA, Edad: 97, Pais: Port Vila
 Nombre: MARIA ISABEL NAVARRO, Edad: 61, Pais: Port Vila
+Nombre: EMILIA ARAUJO, Edad: 11, Pais: Port Vila
+Nombre: EDITA MARIN, Edad: 64, Pais: Port Vila
+Nombre: WILLIAM UREÑA, Edad: 21, Pais: Portugal
 Nombre: FERNANDO UMAÑA, Edad: 5, Pais: Portugal
 Nombre: CARMEN DELGADO, Edad: 42, Pais: Portugal
-Nombre: WILLIAM UREÑA, Edad: 21, Pais: Portugal
-Nombre: HAYDEE DURAN, Edad: 35, Pais: Praga
 Nombre: JOSE ROBERTO QUESADA, Edad: 98, Pais: Praga
-Nombre: FANNY LARIN, Edad: 65, Pais: Praia
+Nombre: HAYDEE DURAN, Edad: 35, Pais: Praga
 Nombre: ROXANA SANDI, Edad: 57, Pais: Praia
+Nombre: FANNY LARIN, Edad: 65, Pais: Praia
 Nombre: ALVIS MORA, Edad: 74, Pais: Praia
 Nombre: JOSE SOLIS, Edad: 33, Pais: Pretoria
 Nombre: MARIA EUGENIA SANCHEZ, Edad: 47, Pais: Pristina
-Nombre: BALVANERA FUENTES, Edad: 75, Pais: Pristina
 Nombre: CARMEN MARIA FATJO, Edad: 22, Pais: Pristina
+Nombre: BALVANERA FUENTES, Edad: 75, Pais: Pristina
 Nombre: SANDRA MARIA BLANCO, Edad: 73, Pais: Puerto España
 Nombre: ROSE MARY LANZA, Edad: 67, Pais: Puerto España
 Nombre: MARLENE MORALES, Edad: 29, Pais: Puerto España
-Nombre: ELIZABETH ALVAREZ, Edad: 70, Pais: Puerto Moresby
-Nombre: HERMAN EDWIN SOLANO, Edad: 19, Pais: Puerto Moresby
-Nombre: RODRIGO SANDI, Edad: 49, Pais: Puerto Moresby
 Nombre: CECILIA SANCHEZ, Edad: 82, Pais: Puerto Moresby
+Nombre: ELIZABETH ALVAREZ, Edad: 70, Pais: Puerto Moresby
+Nombre: RODRIGO SANDI, Edad: 49, Pais: Puerto Moresby
 Nombre: ALVARO JIMENEZ, Edad: 83, Pais: Puerto Moresby
-Nombre: JUAN LUIS CARVAJAL, Edad: 15, Pais: Puerto Príncipe
-Nombre: MARIANO SIBAJA, Edad: 30, Pais: Puerto Príncipe
+Nombre: HERMAN EDWIN SOLANO, Edad: 19, Pais: Puerto Moresby
 Nombre: MANUEL UREÑA, Edad: 41, Pais: Puerto Príncipe
+Nombre: JUAN LUIS CARVAJAL, Edad: 15, Pais: Puerto Príncipe
 Nombre: CIELO MARIA JIMENEZ, Edad: 66, Pais: Puerto Príncipe
+Nombre: MARIANO SIBAJA, Edad: 30, Pais: Puerto Príncipe
 Nombre: ELI HIDALGO, Edad: 81, Pais: Puerto Rico
 Nombre: ANA LUZ ARROYO, Edad: 43, Pais: Qatar
-Nombre: ALICIA ARRONIS, Edad: 70, Pais: Quito
 Nombre: MARCO TULIO GARRO, Edad: 64, Pais: Quito
+Nombre: ALICIA ARRONIS, Edad: 70, Pais: Quito
+Nombre: MAYELA GONZALEZ, Edad: 8, Pais: Rabat
 Nombre: BENIGNA PORTILLA, Edad: 55, Pais: Rabat
 Nombre: CARMEN SOLANO, Edad: 80, Pais: Rabat
-Nombre: MAYELA GONZALEZ, Edad: 8, Pais: Rabat
 Nombre: LUZ MARINA QUIROS, Edad: 56, Pais: Reino Unido
-Nombre: BLANCA ESTRELLA VILLALTA, Edad: 89, Pais: Reino Unido
-Nombre: VIVIANA LAMUGUE, Edad: 95, Pais: Reino Unido
 Nombre: YOLANDA SANCHEZ, Edad: 92, Pais: Reino Unido
-Nombre: VIRGINIA MENDEZ, Edad: 100, Pais: República Centroafricana
+Nombre: VIVIANA LAMUGUE, Edad: 95, Pais: Reino Unido
+Nombre: BLANCA ESTRELLA VILLALTA, Edad: 89, Pais: Reino Unido
 Nombre: VICTORIA EUGENIA ACUÑA, Edad: 65, Pais: República Centroafricana
+Nombre: VIRGINIA MENDEZ, Edad: 100, Pais: República Centroafricana
 Nombre: LETICIA CASTRO, Edad: 59, Pais: República Centroafricana
 Nombre: ALVARO HERRERA, Edad: 50, Pais: República Checa
-Nombre: CARMEN LIDIA NARANJO, Edad: 71, Pais: República Democrática del Congo
 Nombre: BERNARDO MANUEL HERSZKOPF, Edad: 67, Pais: República Democrática del Congo
+Nombre: CARMEN LIDIA NARANJO, Edad: 71, Pais: República Democrática del Congo
 Nombre: CARLOS LUIS UMAÑA, Edad: 14, Pais: República Democrática del Congo
-Nombre: JUAN HUMBERTO GOMEZ, Edad: 14, Pais: República Dominicana
-Nombre: JUAN RAFAEL SANCHEZ, Edad: 38, Pais: República Dominicana
 Nombre: ALVARO MARIN, Edad: 96, Pais: República Dominicana
+Nombre: JUAN HUMBERTO GOMEZ, Edad: 14, Pais: República Dominicana
 Nombre: MIRIAM GONZALEZ, Edad: 69, Pais: República Dominicana
-Nombre: RICARDO SEGURA, Edad: 20, Pais: República Guinea
+Nombre: JUAN RAFAEL SANCHEZ, Edad: 38, Pais: República Dominicana
 Nombre: MARCO ANTONIO MARTINEZ, Edad: 76, Pais: República Guinea
+Nombre: RICARDO SEGURA, Edad: 20, Pais: República Guinea
 Nombre: SERGIO CHAVARRIA, Edad: 24, Pais: República Guinea
 Nombre: ODILIE ROJAS, Edad: 63, Pais: República del Congo
-Nombre: OLMAN ALTAMIRANO, Edad: 18, Pais: Reunión
 Nombre: JOSE SARTI, Edad: 12, Pais: Reunión
-Nombre: AURORA PEREZ, Edad: 37, Pais: Riad
+Nombre: OLMAN ALTAMIRANO, Edad: 18, Pais: Reunión
 Nombre: MARIA CARMELINA CHAVES, Edad: 96, Pais: Riad
 Nombre: GUIDO ROJAS, Edad: 62, Pais: Riad
-Nombre: MARIA DEL CARMEN RAMIREZ, Edad: 57, Pais: Riga
-Nombre: JORGE CERDAS, Edad: 4, Pais: Riga
-Nombre: MANUEL RODRIGUEZ, Edad: 39, Pais: Riga
+Nombre: AURORA PEREZ, Edad: 37, Pais: Riad
 Nombre: MARIA DE LOS ANGELES YOCK, Edad: 21, Pais: Riga
-Nombre: FLORA ISABEL TREJOS, Edad: 37, Pais: Roma
-Nombre: GLORIA MORA, Edad: 25, Pais: Roma
+Nombre: MARIA DEL CARMEN RAMIREZ, Edad: 57, Pais: Riga
+Nombre: MANUEL RODRIGUEZ, Edad: 39, Pais: Riga
+Nombre: JORGE CERDAS, Edad: 4, Pais: Riga
 Nombre: EMILIA ORTIZ, Edad: 53, Pais: Roma
+Nombre: FLORA ISABEL TREJOS, Edad: 37, Pais: Roma
 Nombre: MARTA MARIA MARIN, Edad: 66, Pais: Roma
-Nombre: GUILLERMO EDUARDO MAYORGA, Edad: 36, Pais: Roseau
+Nombre: GLORIA MORA, Edad: 25, Pais: Roma
 Nombre: MARIA JULIA CALDERON, Edad: 62, Pais: Roseau
+Nombre: GUILLERMO EDUARDO MAYORGA, Edad: 36, Pais: Roseau
 Nombre: FANNY SANDI, Edad: 41, Pais: Roseau
 Nombre: JANET CRUZ, Edad: 5, Pais: Roseau
-Nombre: MARTA CHACON, Edad: 86, Pais: Ruanda
 Nombre: JORGE EDUARDO CHACON, Edad: 6, Pais: Ruanda
-Nombre: LUISA MARIA TREJOS, Edad: 81, Pais: Ruanda
+Nombre: MARTA CHACON, Edad: 86, Pais: Ruanda
 Nombre: MIGUEL ANGEL LEON, Edad: 41, Pais: Ruanda
+Nombre: LUISA MARIA TREJOS, Edad: 81, Pais: Ruanda
+Nombre: MARIA JIMENEZ, Edad: 74, Pais: Rumanía
 Nombre: JOSE BERNARDO UREÑA, Edad: 19, Pais: Rumanía
 Nombre: JOHEL MATA, Edad: 53, Pais: Rumanía
-Nombre: MARIA JIMENEZ, Edad: 74, Pais: Rumanía
 Nombre: GERARDO ANTONIO MURILLO, Edad: 9, Pais: Rusia
 Nombre: MARIA DEL ROSARIO SANDI, Edad: 85, Pais: Saint George
 Nombre: LUZ MARINA VALERIO, Edad: 54, Pais: Saint George
-Nombre: ELIECER FONSECA, Edad: 4, Pais: Samoa
 Nombre: MARIA ISABEL PADILLA, Edad: 83, Pais: Samoa
+Nombre: ELIECER FONSECA, Edad: 4, Pais: Samoa
 Nombre: JOSE VENEGAS, Edad: 85, Pais: Samoa Americana
 Nombre: JORGE LIZANO, Edad: 34, Pais: Samoa Americana
 Nombre: VILMA ORTIZ, Edad: 25, Pais: San José
 Nombre: EDIBERTO CHINCHILLA, Edad: 92, Pais: San José
+Nombre: MARIA AURORA CHAVES, Edad: 63, Pais: San Marino
+Nombre: ZACARIAS PEREZ, Edad: 4, Pais: San Marino
+Nombre: CRISTINA DELGADO, Edad: 80, Pais: San Marino
+Nombre: MANUEL GERARDO MORA, Edad: 95, Pais: San Marino
 Nombre: ARNULFO CHAVES, Edad: 78, Pais: San Marino
 Nombre: GERARDO OLMEDO ARCE, Edad: 14, Pais: San Marino
-Nombre: ZACARIAS PEREZ, Edad: 4, Pais: San Marino
 Nombre: BLANCA ESTRELLA LEIVA, Edad: 20, Pais: San Marino
-Nombre: CRISTINA DELGADO, Edad: 80, Pais: San Marino
 Nombre: MARIA ELENA NARANJO, Edad: 91, Pais: San Marino
-Nombre: MARIA AURORA CHAVES, Edad: 63, Pais: San Marino
-Nombre: MANUEL GERARDO MORA, Edad: 95, Pais: San Marino
 Nombre: BERNARDA BADILLA, Edad: 5, Pais: San Pedro y Miquelón
 Nombre: MARIANO BERMUDEZ, Edad: 67, Pais: San Pedro y Miquelón
-Nombre: RICARDO ABARCA, Edad: 48, Pais: San Tomé y Príncipe
 Nombre: MIRIAM SERRANO, Edad: 90, Pais: San Tomé y Príncipe
+Nombre: RICARDO ABARCA, Edad: 48, Pais: San Tomé y Príncipe
 Nombre: RAMON CARMEN CRUZ, Edad: 36, Pais: San Tomé y Príncipe
 Nombre: JOSE ERNESTO HIDALGO, Edad: 97, Pais: San Vincente y Granadinas
 Nombre: JUAN RAFAEL FALLAS, Edad: 72, Pais: San Vincente y Granadinas
 Nombre: JORGE LUIS HIDALGO, Edad: 4, Pais: San Vincente y Granadinas
 Nombre: ROSE MARY GUEVARA, Edad: 97, Pais: Santa Elena
-Nombre: RICARDO CHAVARRIA, Edad: 4, Pais: Santa Lucía
-Nombre: RAFAEL ANGEL BARBOZA, Edad: 27, Pais: Santa Lucía
+Nombre: GILDO BONILLA, Edad: 64, Pais: Santa Lucía
 Nombre: TERESITA AGUILAR, Edad: 84, Pais: Santa Lucía
 Nombre: NORMAN RONALD VALVERDE, Edad: 83, Pais: Santa Lucía
-Nombre: GILDO BONILLA, Edad: 64, Pais: Santa Lucía
+Nombre: RICARDO CHAVARRIA, Edad: 4, Pais: Santa Lucía
+Nombre: RAFAEL ANGEL BARBOZA, Edad: 27, Pais: Santa Lucía
 Nombre: SONIA MARTA VARGAS, Edad: 38, Pais: Santiago
 Nombre: VICTOR MANUEL QUIROS, Edad: 79, Pais: Santo Domingo
 Nombre: EDGAR EDUARDO SOLIS, Edad: 81, Pais: Santo Tomé
 Nombre: MARIA DINIA SANCHEZ, Edad: 61, Pais: Santo Tomé
 Nombre: RIGOBERTO HERNANDEZ, Edad: 46, Pais: Saná
-Nombre: MARIA DEL CARMEN GONZALEZ, Edad: 8, Pais: Sarajevo
 Nombre: JORGE EDUARDO QUESADA, Edad: 43, Pais: Sarajevo
+Nombre: MARIA DEL CARMEN GONZALEZ, Edad: 8, Pais: Sarajevo
 Nombre: MARIA ESTER MONDRAGON, Edad: 77, Pais: Senegal
 Nombre: VICTOR MANUEL VEGA, Edad: 33, Pais: Serbia
 Nombre: MARINA CALDERON, Edad: 92, Pais: Seychelles
@@ -816,187 +816,187 @@ Nombre: FRANCISCO ZUÑIGA, Edad: 57, Pais: Seúl
 Nombre: EMILCE ANTONIA MASIS, Edad: 95, Pais: Seúl
 Nombre: PILAR PORRAS, Edad: 1, Pais: Seúl
 Nombre: DINORAH SANDI, Edad: 89, Pais: Sierra Leona
-Nombre: MARTA EUGENIA LOPEZ, Edad: 40, Pais: Sierra Leona
 Nombre: MARIA CRISTINA JIMENEZ, Edad: 77, Pais: Sierra Leona
-Nombre: MIGUEL ANGEL QUIROS, Edad: 45, Pais: Singapur
-Nombre: MARIA DE LOS ANGELES SOLIS, Edad: 35, Pais: Singapur
+Nombre: MARTA EUGENIA LOPEZ, Edad: 40, Pais: Sierra Leona
 Nombre: ROSA MARIA HERNANDEZ, Edad: 80, Pais: Singapur
+Nombre: MARIA DE LOS ANGELES SOLIS, Edad: 35, Pais: Singapur
+Nombre: MIGUEL ANGEL QUIROS, Edad: 45, Pais: Singapur
 Nombre: FLORA MENA, Edad: 54, Pais: Singapur
 Nombre: IRIS PAEZ, Edad: 78, Pais: Singapur
+Nombre: GERARDO GUILLERMO SERRANO, Edad: 46, Pais: Siria
 Nombre: FLORY MARIA ARLEY, Edad: 73, Pais: Siria
-Nombre: LUZ QUIROS, Edad: 64, Pais: Siria
+Nombre: ANA MARIA MORALES, Edad: 37, Pais: Siria
 Nombre: CARLOS AUGUSTO LEIVA, Edad: 84, Pais: Siria
 Nombre: MARGARITA JIMENEZ, Edad: 3, Pais: Siria
-Nombre: GERARDO GUILLERMO SERRANO, Edad: 46, Pais: Siria
-Nombre: ANA MARIA MORALES, Edad: 37, Pais: Siria
 Nombre: JORGE CAMPOS, Edad: 61, Pais: Siria
-Nombre: JULIA CARMEN ALVAREZ, Edad: 73, Pais: Somalia
+Nombre: LUZ QUIROS, Edad: 64, Pais: Siria
 Nombre: JOSE ALBERTO CORDERO, Edad: 84, Pais: Somalia
+Nombre: JULIA CARMEN ALVAREZ, Edad: 73, Pais: Somalia
 Nombre: OLGA GARRO, Edad: 93, Pais: Sri Jayawardenapura Kotte
-Nombre: JOSEFINA BERMUDEZ, Edad: 10, Pais: Sri Jayawardenapura Kotte
 Nombre: VITALINA ROMERO, Edad: 64, Pais: Sri Jayawardenapura Kotte
+Nombre: JOSEFINA BERMUDEZ, Edad: 10, Pais: Sri Jayawardenapura Kotte
+Nombre: GISELLE CRESPI, Edad: 32, Pais: Sri Lanka
 Nombre: VICTOR MANUEL CALDERON, Edad: 69, Pais: Sri Lanka
 Nombre: FRANCISCO JESUS MARIN, Edad: 91, Pais: Sri Lanka
-Nombre: GISELLE CRESPI, Edad: 32, Pais: Sri Lanka
 Nombre: DIGNA ARAYA, Edad: 28, Pais: Sucre
 Nombre: MARIA EVA RIVERA, Edad: 72, Pais: Sucre
 Nombre: ANA CECILIA SALAZAR, Edad: 11, Pais: Sudo Georgia y los Islas Sandwich del Sur
 Nombre: JOSE MANUEL FERNANDEZ, Edad: 49, Pais: Sudáfrica
 Nombre: ALBA EMILCE VINDAS, Edad: 53, Pais: Surinam
 Nombre: MARIO ANTONIO SALAZAR, Edad: 18, Pais: Suva
-Nombre: ALBERTINA JIMENEZ, Edad: 79, Pais: Swazilandia
-Nombre: LIDIETH HERNANDEZ, Edad: 2, Pais: Swazilandia
 Nombre: CARLOS ENRIQUE UREÑA, Edad: 32, Pais: Swazilandia
+Nombre: LIDIETH HERNANDEZ, Edad: 2, Pais: Swazilandia
+Nombre: ALBERTINA JIMENEZ, Edad: 79, Pais: Swazilandia
 Nombre: ANA MARIA CORDERO, Edad: 59, Pais: Sáhara Occidental
 Nombre: YOLANDA BRENES, Edad: 60, Pais: Tadjikistan
-Nombre: TERESA CHARPENTIER, Edad: 33, Pais: Tailandia
 Nombre: GRACE VIOLETA RAMIREZ, Edad: 26, Pais: Tailandia
-Nombre: ODILIA MIREYA MORA, Edad: 57, Pais: Taipéi
+Nombre: TERESA CHARPENTIER, Edad: 33, Pais: Tailandia
 Nombre: ABILIO AGUILAR, Edad: 32, Pais: Taipéi
-Nombre: BENEDICTO MADRIGAL, Edad: 28, Pais: Taiwan
+Nombre: ODILIA MIREYA MORA, Edad: 57, Pais: Taipéi
 Nombre: MARIA TERESA GARRO, Edad: 36, Pais: Taiwan
+Nombre: BENEDICTO MADRIGAL, Edad: 28, Pais: Taiwan
 Nombre: JUDITH CASCANTE, Edad: 67, Pais: Taiwan
 Nombre: JOSE RAMIREZ, Edad: 8, Pais: Tallin
+Nombre: LUZ MARINA DELGADO, Edad: 31, Pais: Tanzania
+Nombre: VICTOR JIMENEZ, Edad: 4, Pais: Tanzania
+Nombre: MARIA EUGENIA GAMBOA, Edad: 45, Pais: Tanzania
 Nombre: FLOR DE MARIA TENORIO, Edad: 81, Pais: Tanzania
 Nombre: ALVARO JIMENEZ, Edad: 39, Pais: Tanzania
-Nombre: MARIA EUGENIA GAMBOA, Edad: 45, Pais: Tanzania
-Nombre: VICTOR JIMENEZ, Edad: 4, Pais: Tanzania
-Nombre: LUZ MARINA DELGADO, Edad: 31, Pais: Tanzania
-Nombre: BELCEBI VARGAS, Edad: 77, Pais: Tarawa
-Nombre: MARCELINO ARIAS, Edad: 78, Pais: Tarawa
 Nombre: RAFAELA MADRIGAL, Edad: 20, Pais: Tarawa
+Nombre: MARCELINO ARIAS, Edad: 78, Pais: Tarawa
+Nombre: BELCEBI VARGAS, Edad: 77, Pais: Tarawa
 Nombre: MARIA HERMINIA QUESADA, Edad: 31, Pais: Taskent
 Nombre: MARIA ELENA MORALES, Edad: 21, Pais: Taskent
 Nombre: GABRIEL ARAYA, Edad: 62, Pais: Taskent
 Nombre: FLOR DE MARIA JIMENEZ, Edad: 65, Pais: Tegucigalpa
-Nombre: GERARDO RODRIGO MARIN, Edad: 86, Pais: Teherán
-Nombre: CARLOS LUIS BRENES, Edad: 13, Pais: Teherán
 Nombre: EDWIN VARGAS, Edad: 70, Pais: Teherán
+Nombre: GERARDO RODRIGO MARIN, Edad: 86, Pais: Teherán
 Nombre: MARTA ZAMORA, Edad: 91, Pais: Teherán
+Nombre: CARLOS LUIS BRENES, Edad: 13, Pais: Teherán
+Nombre: ANDRES HIDALGO, Edad: 80, Pais: Thimphu
 Nombre: ROSA MARIA CAMPOS, Edad: 15, Pais: Thimphu
 Nombre: MIGUEL AVALOS, Edad: 68, Pais: Thimphu
-Nombre: ANDRES HIDALGO, Edad: 80, Pais: Thimphu
-Nombre: MARCO AURELIO ELIZONDO, Edad: 56, Pais: Tiflis
 Nombre: GILBERTO CHINCHILLA, Edad: 31, Pais: Tiflis
-Nombre: HERNAN BARBOZA, Edad: 93, Pais: Timor Oriental
-Nombre: EMILIA ROJAS, Edad: 74, Pais: Timor Oriental
+Nombre: MARCO AURELIO ELIZONDO, Edad: 56, Pais: Tiflis
 Nombre: ENRIQUE BARBOZA, Edad: 51, Pais: Timor Oriental
+Nombre: EMILIA ROJAS, Edad: 74, Pais: Timor Oriental
 Nombre: VERA MARIA VINDAS, Edad: 10, Pais: Timor Oriental
-Nombre: RITA BEATRIZ MENA, Edad: 79, Pais: Tirana
-Nombre: ORLANDO CAMPOS, Edad: 60, Pais: Tirana
+Nombre: HERNAN BARBOZA, Edad: 93, Pais: Timor Oriental
 Nombre: ELIZABETH MONTOYA, Edad: 90, Pais: Tirana
+Nombre: ORLANDO CAMPOS, Edad: 60, Pais: Tirana
+Nombre: RITA BEATRIZ MENA, Edad: 79, Pais: Tirana
 Nombre: ISAIAS NAVARRO, Edad: 48, Pais: Togo
-Nombre: FLORA VIRGINIA FERNANDEZ, Edad: 88, Pais: Tokelau
 Nombre: OBDULIO SOTO, Edad: 67, Pais: Tokelau
+Nombre: FLORA VIRGINIA FERNANDEZ, Edad: 88, Pais: Tokelau
 Nombre: RAFAEL GUZMAN, Edad: 28, Pais: Tokio
 Nombre: ANA MARIA JIMENEZ, Edad: 66, Pais: Tonga
 Nombre: EFRAIN CASTRO, Edad: 89, Pais: Trinidad y Tobago
 Nombre: DOMINGO MENA, Edad: 82, Pais: Turkmenistan
+Nombre: MARTA EUGENIA RUIZ, Edad: 26, Pais: Turkmenistan
 Nombre: JUAN DELGADO, Edad: 90, Pais: Turkmenistan
 Nombre: MARIA TERESA RODRIGUEZ, Edad: 29, Pais: Turkmenistan
-Nombre: MARTA EUGENIA RUIZ, Edad: 26, Pais: Turkmenistan
-Nombre: MELBA BRIZUELA, Edad: 54, Pais: Turquía
-Nombre: DULCE MARIA CHACON, Edad: 92, Pais: Turquía
 Nombre: LIDIETTE SOLANO, Edad: 40, Pais: Turquía
-Nombre: MARIA SOCORRO ROJAS, Edad: 1, Pais: Tuvalu
-Nombre: SAMUEL CASTRO, Edad: 75, Pais: Tuvalu
+Nombre: DULCE MARIA CHACON, Edad: 92, Pais: Turquía
+Nombre: MELBA BRIZUELA, Edad: 54, Pais: Turquía
 Nombre: ARACELLY ABARCA, Edad: 50, Pais: Tuvalu
-Nombre: GUIDO MONGE, Edad: 54, Pais: Tuvalu
 Nombre: EDUARDO JIMENEZ, Edad: 38, Pais: Tuvalu
-Nombre: CARLOS FERNANDO MUÑOZ, Edad: 55, Pais: Tíbet
+Nombre: MARIA SOCORRO ROJAS, Edad: 1, Pais: Tuvalu
+Nombre: GUIDO MONGE, Edad: 54, Pais: Tuvalu
+Nombre: SAMUEL CASTRO, Edad: 75, Pais: Tuvalu
 Nombre: HERNAN ROBERTO ECHEVERRIA, Edad: 52, Pais: Tíbet
-Nombre: NYDIA ALAN, Edad: 86, Pais: Tíbet
+Nombre: CARLOS FERNANDO MUÑOZ, Edad: 55, Pais: Tíbet
 Nombre: HERMES HERNANDEZ, Edad: 73, Pais: Tíbet
 Nombre: VIRGINIA MARIA RAMIREZ, Edad: 9, Pais: Tíbet
+Nombre: NYDIA ALAN, Edad: 86, Pais: Tíbet
 Nombre: NAHUM CECILIANO, Edad: 36, Pais: Túnez
 Nombre: MARGARITA MORALES, Edad: 77, Pais: Túnez
-Nombre: ROMILIO SANCHEZ, Edad: 15, Pais: Uagadugú
 Nombre: GINNETTE AUBERT, Edad: 3, Pais: Uagadugú
-Nombre: JUAN MANUEL PICADO, Edad: 34, Pais: Uagadugú
 Nombre: VIRGINIA BARBOZA, Edad: 35, Pais: Uagadugú
+Nombre: ROMILIO SANCHEZ, Edad: 15, Pais: Uagadugú
+Nombre: JUAN MANUEL PICADO, Edad: 34, Pais: Uagadugú
 Nombre: JOSE LUIS GARRO, Edad: 31, Pais: Ucrania
 Nombre: PABLO SILES, Edad: 26, Pais: Ucrania
-Nombre: SARA MARIA HUERTAS, Edad: 70, Pais: Ucrania
-Nombre: NARCISO AGUILAR, Edad: 2, Pais: Ucrania
 Nombre: XINIA LOPEZ, Edad: 31, Pais: Ucrania
+Nombre: NARCISO AGUILAR, Edad: 2, Pais: Ucrania
+Nombre: SARA MARIA HUERTAS, Edad: 70, Pais: Ucrania
 Nombre: ANA CORDERO, Edad: 1, Pais: Uganda
-Nombre: SARA EMILCE VARGAS, Edad: 77, Pais: Uganda
-Nombre: TERESITA NUÑEZ, Edad: 71, Pais: Uganda
-Nombre: JAVIER ROJAS, Edad: 99, Pais: Uganda
 Nombre: RAFAEL ANGEL FONSECA, Edad: 6, Pais: Uganda
+Nombre: SARA EMILCE VARGAS, Edad: 77, Pais: Uganda
+Nombre: JAVIER ROJAS, Edad: 99, Pais: Uganda
+Nombre: TERESITA NUÑEZ, Edad: 71, Pais: Uganda
 Nombre: LUIS GERARDO SANDOVAL, Edad: 86, Pais: Ulán Bator
 Nombre: EULOGIA MORA, Edad: 93, Pais: Uruguay
-Nombre: CLEMENCIA JIMENEZ, Edad: 73, Pais: Uzbekistán
 Nombre: ANA VICTORIA MORA, Edad: 10, Pais: Uzbekistán
-Nombre: CORALIA ROSA SEQUEIRA, Edad: 1, Pais: Vaduz
+Nombre: CLEMENCIA JIMENEZ, Edad: 73, Pais: Uzbekistán
 Nombre: ANA MARIA RODRIGUEZ, Edad: 76, Pais: Vaduz
 Nombre: EDUARDO QUESADA, Edad: 52, Pais: Vaduz
+Nombre: CORALIA ROSA SEQUEIRA, Edad: 1, Pais: Vaduz
 Nombre: GERARDO ENRIQUE FERNANDEZ, Edad: 72, Pais: Vanuatu
-Nombre: JOSE QUIROS, Edad: 96, Pais: Vanuatu
 Nombre: VIRGINIA MARIA BEJARANO, Edad: 23, Pais: Vanuatu
+Nombre: JOSE QUIROS, Edad: 96, Pais: Vanuatu
 Nombre: MARGARITA CORDOBA, Edad: 16, Pais: Varsovia
 Nombre: DAISY AVALOS, Edad: 37, Pais: Varsovia
-Nombre: MARIO ALFARO, Edad: 30, Pais: Vaticano
 Nombre: MARIA TERESA GUERRERO, Edad: 35, Pais: Vaticano
+Nombre: MARIO ALFARO, Edad: 30, Pais: Vaticano
 Nombre: CARMEN MARIA FICKLIN, Edad: 62, Pais: Vaticano
 Nombre: MERCEDES CASTILLO, Edad: 10, Pais: Vaticano
-Nombre: FLORA ROXANA CHACON, Edad: 40, Pais: Venezuela
 Nombre: ENILDA GAMBOA, Edad: 40, Pais: Venezuela
-Nombre: LUZ MARIA MONGE, Edad: 54, Pais: Venezuela
-Nombre: DELFINA CHINCHILLA, Edad: 73, Pais: Venezuela
 Nombre: LIZANIAS MARTINEZ, Edad: 10, Pais: Venezuela
+Nombre: LUZ MARIA MONGE, Edad: 54, Pais: Venezuela
+Nombre: FLORA ROXANA CHACON, Edad: 40, Pais: Venezuela
+Nombre: DELFINA CHINCHILLA, Edad: 73, Pais: Venezuela
 Nombre: TERESA RETANA, Edad: 81, Pais: Venezuela
+Nombre: ANA FRANCISCA DELGADO, Edad: 23, Pais: Victoria
+Nombre: RIGOBERTO ROJAS, Edad: 16, Pais: Victoria
 Nombre: TERESITA CHINCHILLA, Edad: 7, Pais: Victoria
 Nombre: JOSUE ARTAVIA, Edad: 61, Pais: Victoria
-Nombre: RIGOBERTO ROJAS, Edad: 16, Pais: Victoria
-Nombre: ANA FRANCISCA DELGADO, Edad: 23, Pais: Victoria
 Nombre: MARCO ANTONIO AGUILAR, Edad: 73, Pais: Viena
-Nombre: MARIA CASCANTE, Edad: 99, Pais: Vientián
 Nombre: ASDRUBAL GERARDO CASTRO, Edad: 95, Pais: Vientián
 Nombre: JORGE ENRIQUE SALAS, Edad: 16, Pais: Vientián
-Nombre: MARIA VIRGINIA NARANJO, Edad: 81, Pais: Vilna
-Nombre: ETILMA SOLANO, Edad: 73, Pais: Vilna
+Nombre: MARIA CASCANTE, Edad: 99, Pais: Vientián
 Nombre: OLMAN GERARDO NAJAR, Edad: 68, Pais: Vilna
+Nombre: ETILMA SOLANO, Edad: 73, Pais: Vilna
+Nombre: MARIA VIRGINIA NARANJO, Edad: 81, Pais: Vilna
 Nombre: LUIS ALBERTO PEREIRA, Edad: 37, Pais: Wallis y Futuna
-Nombre: LIGIA MARIA RODRIGUEZ, Edad: 4, Pais: Washington D. C.
 Nombre: ALEXANDER CUADRA, Edad: 28, Pais: Washington D. C.
 Nombre: HERMES MORA, Edad: 26, Pais: Washington D. C.
-Nombre: LUCIA GUEVARA, Edad: 91, Pais: Wellington
+Nombre: LIGIA MARIA RODRIGUEZ, Edad: 4, Pais: Washington D. C.
 Nombre: LUIS ENRIQUE BADILLA, Edad: 79, Pais: Wellington
 Nombre: ESTRELLA MARIN, Edad: 98, Pais: Wellington
+Nombre: LUCIA GUEVARA, Edad: 91, Pais: Wellington
 Nombre: JULIETA MARIA ALFARO, Edad: 52, Pais: Yamena
-Nombre: ZARAY VARGAS, Edad: 49, Pais: Yamena
-Nombre: CECILIA MARIA RUIZ, Edad: 39, Pais: Yamena
 Nombre: JOSE LUIS RODRIGUEZ, Edad: 55, Pais: Yamena
+Nombre: CECILIA MARIA RUIZ, Edad: 39, Pais: Yamena
 Nombre: CARLOS ALBERTO CALDERON, Edad: 28, Pais: Yamena
+Nombre: ZARAY VARGAS, Edad: 49, Pais: Yamena
 Nombre: DORA ELIZABETH GARCIA, Edad: 41, Pais: Yamusukro
 Nombre: JOSE MARIA MONTENEGRO, Edad: 65, Pais: Yaren
 Nombre: ELIAS SALAZAR, Edad: 78, Pais: Yaren
 Nombre: JUAN ELADIO SALAZAR, Edad: 7, Pais: Yaren
 Nombre: MARTA EMILIA FLORES, Edad: 79, Pais: Yaundé
-Nombre: JULIETA ASTORGA, Edad: 43, Pais: Yaundé
-Nombre: EMILCE HERNANDEZ, Edad: 43, Pais: Yaundé
 Nombre: MAXIMILIANO MENDEZ, Edad: 9, Pais: Yaundé
-Nombre: JUAN BAUTISTA CORDERO, Edad: 69, Pais: Yaundé
+Nombre: EMILCE HERNANDEZ, Edad: 43, Pais: Yaundé
+Nombre: JULIETA ASTORGA, Edad: 43, Pais: Yaundé
 Nombre: ROQUE BORBON, Edad: 1, Pais: Yaundé
+Nombre: JUAN BAUTISTA CORDERO, Edad: 69, Pais: Yaundé
 Nombre: ELIECER CUBILLO, Edad: 68, Pais: Yemen
-Nombre: VIRMA ESQUIVEL, Edad: 65, Pais: Yibuti
-Nombre: CLAUDIO CASTRO, Edad: 9, Pais: Yibuti
-Nombre: MARCO ANTONIO MOLINA, Edad: 85, Pais: Yibuti
 Nombre: MIGUEL ANGEL LEITON, Edad: 81, Pais: Yibuti
 Nombre: MIGUEL ANGEL DIAZ, Edad: 68, Pais: Yibuti
-Nombre: RAFAEL ANGEL ZAMORA, Edad: 14, Pais: Yuba
-Nombre: GERARDO RODRIGUEZ, Edad: 31, Pais: Yuba
-Nombre: ROSA MARIA VARGAS, Edad: 80, Pais: Yuba
-Nombre: VILMA VARGAS, Edad: 86, Pais: Yuba
+Nombre: CLAUDIO CASTRO, Edad: 9, Pais: Yibuti
+Nombre: VIRMA ESQUIVEL, Edad: 65, Pais: Yibuti
+Nombre: MARCO ANTONIO MOLINA, Edad: 85, Pais: Yibuti
 Nombre: JOSE FERNANDO BARBOZA, Edad: 36, Pais: Yuba
-Nombre: CONSUELO MARGARITA AGUERO, Edad: 89, Pais: Zagreb
+Nombre: ROSA MARIA VARGAS, Edad: 80, Pais: Yuba
+Nombre: GERARDO RODRIGUEZ, Edad: 31, Pais: Yuba
+Nombre: VILMA VARGAS, Edad: 86, Pais: Yuba
+Nombre: RAFAEL ANGEL ZAMORA, Edad: 14, Pais: Yuba
 Nombre: LIGIA MARIA VAN DER LAAT, Edad: 14, Pais: Zagreb
 Nombre: MICAELA AGUILAR, Edad: 63, Pais: Zagreb
 Nombre: CARLOS GUILLERMO TORRES, Edad: 71, Pais: Zagreb
+Nombre: CONSUELO MARGARITA AGUERO, Edad: 89, Pais: Zagreb
 Nombre: ELIZABETH SANCHEZ, Edad: 28, Pais: Zaire
 Nombre: NELLY LEIVA, Edad: 81, Pais: Zambia
-Nombre: DAISY MONTERO, Edad: 9, Pais: Zambia
 Nombre: MARIA CECILIA BEJARANO, Edad: 99, Pais: Zambia
+Nombre: DAISY MONTERO, Edad: 9, Pais: Zambia
 Nombre: MINOR TELLERIA, Edad: 100, Pais: Zimbabwe
 Nombre: DAGOBERTO GUEVARA, Edad: 33, Pais: Ámsterdam

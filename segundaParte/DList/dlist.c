@@ -75,7 +75,7 @@ void swap_dato(DNodo* nodo1, DNodo* nodo2) {
   free(aux);
 }
 
-void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar) {
+void mover_a_izquierda_de(DList* lista, DNodo* nodoPivote, DNodo* nodoAInsertar) {
 
   if(nodoAInsertar->ant != NULL)
     (nodoAInsertar->ant)->sig = nodoAInsertar->sig;
@@ -98,47 +98,50 @@ void mover_a_izquierda_de(DList *lista, DNodo* nodoPivote, DNodo* nodoAInsertar)
     nodoPivote->ant->ant->sig = nodoAInsertar;
 }
 
-DNodo* nodo_medio(DList* lista) { 
-    DNodo *saltoDe2 = lista->primero;
-    DNodo *saltoDe1 = lista->primero;
+DNodo* dividir_lista(DNodo* primero) { 
+    DNodo *saltoDe2 = primero;
+    DNodo *saltoDe1 = primero;
 
     while (saltoDe2->sig && saltoDe2->sig->sig) { 
       saltoDe2 = saltoDe2->sig->sig; 
       saltoDe1 = saltoDe1->sig; 
     } 
     DNodo *mitad = saltoDe1->sig;
+    saltoDe1->sig = NULL;
 
     return mitad; 
 } 
 
-DList* merge(DList* lista1, DList* lista2, Compara comparar) { 
-
-    if (lista1->primero == NULL) {
-      free(lista1);
-      return lista2; 
-    }
+DNodo* merge(DNodo* primero, DNodo* medio, Compara comparar) {  
+    if (primero == NULL)  
+        return medio;  
   
-    if (lista2->primero == NULL) {
-      free(lista2);
-      return lista1; 
-    } 
-
-    DList* mergedList = dlist_crear();
+    if (medio == NULL)  
+        return primero;  
   
-    if (comparar(lista1->primero->dato, lista2->primero->dato) < 0) {
-      mergedList->primero = lista1->primero->sig;
-      lista1->primero->sig = merge(mergedList,lista2, comparar)->primero;
-      free(lista2);
-      free(mergedList);
-      return lista1; 
-
-    } else { 
-      mergedList->primero = lista2->primero->sig;
-      lista2->primero->sig = merge(lista1, mergedList, comparar)->primero;
-      free(lista1);
-      free(mergedList);
-      return lista2;
-    } 
+    if (comparar(primero->dato, medio->dato) < 0) {  
+        primero->sig = merge(primero->sig, medio, comparar);  
+        primero->sig->ant = primero;  
+        primero->ant = NULL;  
+        return primero;  
+    } else {  
+        medio->sig = merge(primero, medio->sig, comparar);  
+        medio->sig->ant = medio;  
+        medio->ant = NULL;  
+        return medio;  
+    }  
+}  
+  
+DNodo* merge_sort(DNodo* primero, Compara comparar) {
+    if (primero == NULL || primero->sig == NULL)
+        return primero;   
+    
+    DNodo *mitad = dividir_lista(primero);  
+  
+    primero = merge_sort(primero, comparar);  
+    mitad = merge_sort(mitad, comparar);  
+  
+    return merge(primero, mitad, comparar);  
 } 
 
 DList* dlist_selection_sort(DList* lista, Compara comparar){
@@ -155,7 +158,6 @@ DList* dlist_selection_sort(DList* lista, Compara comparar){
   return lista;
 }
 
-//Mover nodo delaante de(posPivot, nodoAMover)
 DList* dlist_insertion_sort(DList* lista, Compara comparar) {
   DNodo *nodoAComparar, *nodoMovil, *aux;
   if (lista->primero == NULL || lista->primero->sig == NULL)
@@ -176,26 +178,18 @@ DList* dlist_insertion_sort(DList* lista, Compara comparar) {
   }
   return lista;
 }
-  
+
 DList* dlist_merge_sort(DList* lista, Compara comparar) { 
 
-    if (lista->primero == NULL || lista->primero->sig == NULL)
-      return lista; 
-    
-    DNodo *mitad = nodo_medio(lista);
-    DList *lista1 = malloc(sizeof(DList));
-    DList *lista2 = malloc(sizeof(DList));
+    DNodo *primero = lista->primero;
 
-    lista1->primero = lista->primero;
-    lista1->ultimo = mitad->ant;
-    lista1->ultimo->sig = NULL;
-    lista2->primero = mitad;
-    lista2->ultimo = lista->ultimo;
-    
-    lista1 = dlist_merge_sort(lista1, comparar); 
-    lista2 = dlist_merge_sort(lista2, comparar); 
-  
-    return merge(lista1, lista2, comparar); 
+    primero = merge_sort(primero, comparar);  
+
+    lista->primero = primero;
+
+    //Falta devolver la cola
+
+    return lista; 
 } 
 
 DList* dlist_copia(DList* lista) {
@@ -219,7 +213,7 @@ void dlist_destruir_copia(DList* lista) {
 void dlist_ordenar_lista(DList* lista, TipoDeOrdenamiento algoritmo, Compara compara, char* output, FuncionEscritura escribir) {
   DList* copiaLista = dlist_copia(lista);
   clock_t tiempo = clock();
-  
+
   copiaLista = algoritmo(copiaLista, compara);
   tiempo = clock() - tiempo;
   double tiempoSegundos = ((double)tiempo)/CLOCKS_PER_SEC;
