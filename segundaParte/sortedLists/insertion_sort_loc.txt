@@ -1,4 +1,4 @@
-Tiempo: 0.002465
+Tiempo: 0.048730
 
 Nombre: LILLIAM MARIN, Edad: 19, Pais: Abuya
 Nombre: EDDY ALVAREZ, Edad: 49, Pais: Abuya

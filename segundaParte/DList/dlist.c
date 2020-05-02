@@ -129,12 +129,14 @@ DList* merge(DList* lista1, DList* lista2, Compara comparar) {
       mergedList->primero = lista1->primero->sig;
       lista1->primero->sig = merge(mergedList,lista2, comparar)->primero;
       free(lista2);
+      free(mergedList);
       return lista1; 
 
     } else { 
       mergedList->primero = lista2->primero->sig;
       lista2->primero->sig = merge(lista1, mergedList, comparar)->primero;
       free(lista1);
+      free(mergedList);
       return lista2;
     } 
 } 
@@ -179,7 +181,7 @@ DList* dlist_merge_sort(DList* lista, Compara comparar) {
 
     if (lista->primero == NULL || lista->primero->sig == NULL)
       return lista; 
-
+    
     DNodo *mitad = nodo_medio(lista);
     DList *lista1 = malloc(sizeof(DList));
     DList *lista2 = malloc(sizeof(DList));
@@ -214,11 +216,10 @@ void dlist_destruir_copia(DList* lista) {
   free(lista);
 }
 
-void dlist_ordenar_lista(DList* lista, TipoDeOrdenamiento algoritmo,
-  Compara compara, char* output, FuncionEscritura escribir) {
+void dlist_ordenar_lista(DList* lista, TipoDeOrdenamiento algoritmo, Compara compara, char* output, FuncionEscritura escribir) {
   DList* copiaLista = dlist_copia(lista);
   clock_t tiempo = clock();
-
+  
   copiaLista = algoritmo(copiaLista, compara);
   tiempo = clock() - tiempo;
   double tiempoSegundos = ((double)tiempo)/CLOCKS_PER_SEC;
@@ -230,55 +231,3 @@ void dlist_ordenar_lista(DList* lista, TipoDeOrdenamiento algoritmo,
 
   dlist_destruir_copia(copiaLista);
 }
-
-/*/
-DList* dlist_insertionSort (DList* lista, Compara comparar) {
-    DNodo *sec_data = malloc(sizeof(DNodo));
-    DNodo *temp = malloc(sizeof(DNodo));
-    for (DNodo* t1 = lista->primero->sig; t1!= NULL; t1 = t1->sig) {
-        sec_data->dato = t1->dato;
-        int found = 0;
-        DNodo* t2 = lista->primero;
-        for (; t2 != t1; t2 = t2->sig) {
-            if((comparar(t2->dato, t1->dato) > 0) && found == 0) {
-                sec_data->dato = t2->dato;
-                t2->dato = t1->dato;
-                found = 1;
-            } else if (found == 1) {
-                    temp->dato = sec_data->dato;
-                    sec_data->dato = t2->dato;
-                    t2->dato = temp->dato;
-            }
-        }
-        t2->dato = sec_data->dato;
-    }
-    return lista;
-}/*/
-
-/*/
-GList glist_insertion_sort(GList list, Compare function) {
-  if (list) {
-    GNode* auxNode = list->next;
-    do {
-      GNode* node = auxNode->prev;
-      for (; function(node->data, auxNode->data) > 0 && node != list->prev; node = node->prev);
-      GNode* newLastPosition = auxNode->next;
-      if (node != auxNode->prev) {
-        node = node->next;
-        if (node == list) {
-          list = auxNode;
-        }
-        //Sacando node de su posicion
-        auxNode->prev->next = auxNode->next;
-        auxNode->next->prev = auxNode->prev;
-        //Moviendo node a la izquierda de nodeHastaSwapear
-        auxNode->next = node;
-        auxNode->prev = node->prev;
-        node->prev->next = auxNode;
-        node->prev = auxNode;
-      }
-      auxNode = newLastPosition;
-    } while (auxNode != list);
-  }
-  return list;
-}/*/

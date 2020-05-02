@@ -1,4 +1,4 @@
-Tiempo: 0.003219
+Tiempo: 0.038053
 
 Nombre: TERESA VIRGINIA MONTERO, Edad: 1, Pais: Mauricio
 Nombre: CLARA LUZ MADRIGAL, Edad: 1, Pais: Japón
