@@ -31,46 +31,39 @@ DList* dlist_crear();
 //  Destruccion de la lista.
 void dlist_destruir(DList* lista, FuncionVisitante liberar);
 
-//  Determina si la lista es vacía.
-int dlist_vacia(DList* lista);
-
 //  Agrega un elemento al final de la lista.
 DList* dlist_agregar_final(DList* lista, void *dato);
-
-//  Agrega un elemento al inicio de la lista.
-DList* dlist_agregar_inicio(DList* lista, void *dato);  // inutil?
-
-//  Recorrido de la lista, utilizando la funcion pasada.
-void dlist_recorrer(DList* lista, FuncionVisitante imprimir_persona); // testeo inutil?
 
 //  Dados un dlist, un archivo, y una funcion, 
 //  escribe la persona en el archivo correspondiente utilizando la funcion.
 void imprimir_dlist_archivo(DList* lista, FILE *fp, FuncionEscritura escribir_persona);
 
-//  Dados 2 nodos, intercambia sus datos
-void swap_dato(DNodo* nodo1, DNodo* nodo2);
+//  Dados 2 nodos, intercambia sus datos.
+void intercambiar_dato(DNodo* nodo1, DNodo* nodo2);
 
 //  Dados un dlist, un nodo a insertar y un nodo pivote, 
 //  coloca el nodo a insertar a la izquierda del pivote.
 void mover_a_izquierda_de(DList *lista, DNodo* nodoAInsertar, DNodo* nodoPivote);
 
-//  Toma un puntero a nodo y devuelve un puntero a la
-//  mitad de la lista
+//  Dado el primer nodo de la lista, devuelve el nodo de la mitad de la lista,
+//  y corta su ruta al anterior, dividiendo la lista en 2 partes.
 DNodo* dividir_lista(DNodo* primero);
 
-// (COMPLETAR)
-DNodo* merge(DNodo* primero, DNodo* medio, Compara comparar);
+// Dado el primer nodo de la lista y el primer nodo de otra lista,
+// une las dos listas ordenadamente y devuelve el primer nodo de esta.
+DNodo* merge(DNodo* primero, DNodo* segundo, Compara comparar);
 
-// (COMPLETAR)
+// Dado el primer nodo de la lista, la ordena recursivamente y 
+// devuelve el primer nodo de esta lista ordenada.
 DNodo* merge_sort(DNodo* primero, Compara comparar);
 
 //  Dadas una dlist y una funcion de comparacion,
 //  devuelve una dlist ordenada por selection sort mediante esa funcion
-DList* dlist_selection_sort (DList* lista, Compara comparar);
+DList* dlist_selection_sort(DList* lista, Compara comparar);
 
 //  Dadas una dlist y una funcion de comparacion,
 //  devuelve una dlist ordenada por insertion sort mediante esa funcion.
-DList* dlist_insertion_sort (DList* lista, Compara comparar);
+DList* dlist_insertion_sort(DList* lista, Compara comparar);
 
 //  Dadas una dlist y una funcion de comparacion,
 //  devuelve una dlist ordenada por merge sort mediante esa funcion.

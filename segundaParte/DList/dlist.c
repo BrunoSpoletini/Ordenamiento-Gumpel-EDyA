@@ -19,10 +19,6 @@ void dlist_destruir(DList* lista, FuncionVisitante liberar) {
   free(lista);
 }
 
-int dlist_vacia(DList* lista) {
-  return lista == NULL;
-}
-
 DList* dlist_agregar_final(DList* lista, void* dato) {
   DNodo *nuevoNodo = malloc(sizeof(DNodo));
   nuevoNodo->dato = dato;
@@ -36,27 +32,8 @@ DList* dlist_agregar_final(DList* lista, void* dato) {
     lista->primero = nuevoNodo;
   }
   lista->ultimo = nuevoNodo;
-  return lista;
-}
 
-DList* dlist_agregar_inicio(DList* lista, void* dato) {
-  DNodo *nuevoNodo = malloc(sizeof(DNodo));
-  nuevoNodo->dato = dato;
-  nuevoNodo->sig = lista->primero;
-  nuevoNodo->ant = NULL;
-  if (lista->primero != NULL){
-    lista->primero->ant = nuevoNodo;
-  }
-  if (lista->ultimo == NULL){
-    lista->ultimo = nuevoNodo;
-  }
-  lista->primero = nuevoNodo;
   return lista;
-}
-
-void dlist_recorrer(DList* lista, FuncionVisitante imprimir_persona) {
-  for (DNodo *nodo = lista->primero; nodo != NULL; nodo = nodo->sig)
-    imprimir_persona(nodo->dato);
 }
 
 void imprimir_dlist_archivo(DList* lista, FILE *fp, FuncionEscritura escribir_persona) {
@@ -65,7 +42,7 @@ void imprimir_dlist_archivo(DList* lista, FILE *fp, FuncionEscritura escribir_pe
   }
 }
 
-void swap_dato(DNodo* nodo1, DNodo* nodo2) {
+void intercambiar_dato(DNodo* nodo1, DNodo* nodo2) {
   DNodo* aux = malloc(sizeof(DNodo));
 
   aux->dato = nodo1->dato;
@@ -112,24 +89,24 @@ DNodo* dividir_lista(DNodo* primero) {
   return mitad; 
 } 
 
-DNodo* merge(DNodo* primero, DNodo* medio, Compara comparar) {  
+DNodo* merge(DNodo* primero, DNodo* segundo, Compara comparar) {  
   if (primero == NULL)  
-    return medio;  
+    return segundo;  
   
-  if (medio == NULL)  
+  if (segundo == NULL)  
     return primero;  
   
-  if (comparar(primero->dato, medio->dato) < 0) {  
-    primero->sig = merge(primero->sig, medio, comparar);  
+  if (comparar(primero->dato, segundo->dato) < 0) {  
+    primero->sig = merge(primero->sig, segundo, comparar);  
     primero->sig->ant = primero;  
     primero->ant = NULL;  
     return primero;  
   } else {  
-      medio->sig = merge(primero, medio->sig, comparar);  
-      medio->sig->ant = medio;  
-      medio->ant = NULL;  
-      return medio;  
-    }  
+    segundo->sig = merge(primero, segundo->sig, comparar);  
+    segundo->sig->ant = segundo;  
+    segundo->ant = NULL;  
+    return segundo;  
+  }  
 }  
   
 DNodo* merge_sort(DNodo* primero, Compara comparar) {
@@ -153,8 +130,9 @@ DList* dlist_selection_sort(DList* lista, Compara comparar){
         menor = nodo2;
       }
     }
-    swap_dato(nodo1, menor);
+    intercambiar_dato(nodo1, menor);
   }
+
   return lista;
 }
 
@@ -176,6 +154,7 @@ DList* dlist_insertion_sort(DList* lista, Compara comparar) {
     }
     nodoAComparar = aux;
   }
+
   return lista;
 }
 
@@ -187,23 +166,26 @@ DList* dlist_merge_sort(DList* lista, Compara comparar) {
 
   lista->primero = nodo;
 
-  while (nodo->sig != NULL){  //Este while tiene como funcion encontrar el final de la lista
-    nodo = nodo->sig;
-  }
+  for (;nodo->sig != NULL;nodo = nodo->sig) //Este for tiene como funcion encontrar el final de la lista
+
   lista->ultimo = nodo;
+
   return lista;
 }
 
 DList* dlist_copia(DList* lista) {
   DList* copiaLista = dlist_crear();
+
   for (DNodo *nodo = lista->primero; nodo != NULL; nodo = nodo->sig) {
     dlist_agregar_final(copiaLista, nodo->dato);
   }
+
   return copiaLista;
 }
 
 void dlist_destruir_copia(DList* lista) {
   DNodo *nodoAEliminar;
+
   while (lista->primero != NULL) {
     nodoAEliminar = lista->primero;
     lista->primero = nodoAEliminar->sig;

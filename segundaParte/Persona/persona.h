@@ -19,9 +19,6 @@ char *lugarDeNacimiento;
 //  persona_crear: char* int char* -> Persona*
 Persona* persona_crear(char* nombre, int edad, char* lugarDeNacimiento);
 
-//  Dada una persona, la imprime en pantalla.  (Testeo)
-void imprimir_persona(void* persona); // testeo inutil?
-
 //  Dados una persona y un archivo, escribe la persona en el archivo correspondiente.
 void escribir_persona(void* persona, FILE* fp);
 

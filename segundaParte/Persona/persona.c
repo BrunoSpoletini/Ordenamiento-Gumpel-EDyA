@@ -10,10 +10,6 @@ Persona* persona_crear(char* nombre, int edad, char* lugarDeNacimiento) {
   return persona;
 }
 
-void imprimir_persona(void* persona) {
-  printf("Nombre: %s, Edad: %d, Pais: %s\n", ((Persona*)persona)->nombre, ((Persona*)persona)->edad, ((Persona*)persona)->lugarDeNacimiento);
-}
-
 void escribir_persona(void* persona, FILE* fp) {
   fprintf(fp, "Nombre: %s, Edad: %d, Pais: %s\n", ((Persona*)persona)->nombre, ((Persona*)persona)->edad, ((Persona*)persona)->lugarDeNacimiento);
 }
