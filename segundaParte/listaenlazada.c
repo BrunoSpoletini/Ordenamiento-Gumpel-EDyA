@@ -1,5 +1,5 @@
-#include "../DList/dlist.h"
-#include "../Persona/persona.h"
+#include "./DList/dlist.h"
+#include "./Persona/persona.h"
 
 static void leer_archivo_personas(char *nombreArchivo, DList* lista) {
     Persona* persona;
