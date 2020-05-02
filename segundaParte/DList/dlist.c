@@ -99,49 +99,49 @@ void mover_a_izquierda_de(DList* lista, DNodo* nodoPivote, DNodo* nodoAInsertar)
 }
 
 DNodo* dividir_lista(DNodo* primero) { 
-    DNodo *saltoDe2 = primero;
-    DNodo *saltoDe1 = primero;
+  DNodo *saltoDe2 = primero;
+  DNodo *saltoDe1 = primero;
 
-    while (saltoDe2->sig && saltoDe2->sig->sig) { 
-      saltoDe2 = saltoDe2->sig->sig; 
-      saltoDe1 = saltoDe1->sig; 
-    } 
-    DNodo *mitad = saltoDe1->sig;
-    saltoDe1->sig = NULL;
+  while (saltoDe2->sig && saltoDe2->sig->sig) { 
+    saltoDe2 = saltoDe2->sig->sig; 
+    saltoDe1 = saltoDe1->sig; 
+  } 
+  DNodo *mitad = saltoDe1->sig;
+  saltoDe1->sig = NULL;
 
-    return mitad; 
+  return mitad; 
 } 
 
 DNodo* merge(DNodo* primero, DNodo* medio, Compara comparar) {  
-    if (primero == NULL)  
-        return medio;  
+  if (primero == NULL)  
+    return medio;  
   
-    if (medio == NULL)  
-        return primero;  
+  if (medio == NULL)  
+    return primero;  
   
-    if (comparar(primero->dato, medio->dato) < 0) {  
-        primero->sig = merge(primero->sig, medio, comparar);  
-        primero->sig->ant = primero;  
-        primero->ant = NULL;  
-        return primero;  
-    } else {  
-        medio->sig = merge(primero, medio->sig, comparar);  
-        medio->sig->ant = medio;  
-        medio->ant = NULL;  
-        return medio;  
+  if (comparar(primero->dato, medio->dato) < 0) {  
+    primero->sig = merge(primero->sig, medio, comparar);  
+    primero->sig->ant = primero;  
+    primero->ant = NULL;  
+    return primero;  
+  } else {  
+      medio->sig = merge(primero, medio->sig, comparar);  
+      medio->sig->ant = medio;  
+      medio->ant = NULL;  
+      return medio;  
     }  
 }  
   
 DNodo* merge_sort(DNodo* primero, Compara comparar) {
-    if (primero == NULL || primero->sig == NULL)
-        return primero;   
+  if (primero == NULL || primero->sig == NULL)
+    return primero;   
     
-    DNodo *mitad = dividir_lista(primero);  
+  DNodo *mitad = dividir_lista(primero);  
   
-    primero = merge_sort(primero, comparar);  
-    mitad = merge_sort(mitad, comparar);  
+  primero = merge_sort(primero, comparar);  
+  mitad = merge_sort(mitad, comparar);  
   
-    return merge(primero, mitad, comparar);  
+  return merge(primero, mitad, comparar);  
 } 
 
 DList* dlist_selection_sort(DList* lista, Compara comparar){
@@ -181,17 +181,17 @@ DList* dlist_insertion_sort(DList* lista, Compara comparar) {
 
 DList* dlist_merge_sort(DList* lista, Compara comparar) { 
 
-    DNodo *nodo = lista->primero;
+  DNodo *nodo = lista->primero;
 
-    nodo = merge_sort(nodo, comparar);  
+  nodo = merge_sort(nodo, comparar);  
 
-    lista->primero = nodo;
+  lista->primero = nodo;
 
-    while (nodo->sig != NULL){  //Este while tiene como funcion encontrar el final de la lista
-      nodo = nodo->sig;
-    }
-    lista->ultimo = nodo;
-    return lista;
+  while (nodo->sig != NULL){  //Este while tiene como funcion encontrar el final de la lista
+    nodo = nodo->sig;
+  }
+  lista->ultimo = nodo;
+  return lista;
 }
 
 DList* dlist_copia(DList* lista) {

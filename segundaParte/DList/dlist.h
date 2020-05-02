@@ -54,15 +54,14 @@ void swap_dato(DNodo* nodo1, DNodo* nodo2);
 //  coloca el nodo a insertar a la izquierda del pivote.
 void mover_a_izquierda_de(DList *lista, DNodo* nodoAInsertar, DNodo* nodoPivote);
 
-//  Dada una dlist, devuelve el nodo que seria su mitad.
-//DNodo* nodo_medio(DList* lista);
-
-//  Dadas 2 dlist y una funcion de comparacion,
-//  devuelve una dlist union de ambas ordenadas mediante la funcion.
-//DList* merge(DList* lista1, DList* lista2, Compara comparar);
-
+//  Toma un puntero a nodo y devuelve un puntero a la
+//  mitad de la lista
 DNodo* dividir_lista(DNodo* primero);
+
+// (COMPLETAR)
 DNodo* merge(DNodo* primero, DNodo* medio, Compara comparar);
+
+// (COMPLETAR)
 DNodo* merge_sort(DNodo* primero, Compara comparar);
 
 //  Dadas una dlist y una funcion de comparacion,

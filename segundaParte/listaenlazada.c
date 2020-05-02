@@ -2,15 +2,15 @@
 #include "./Persona/persona.h"
 
 static void leer_archivo_personas(char *nombreArchivo, DList* lista) {
-    Persona* persona;
-    int edad;
-    char nombre[TAM_BUFFER], lugarDeNacimiento[TAM_BUFFER];
+  Persona* persona;
+  int edad;
+  char nombre[TAM_BUFFER], lugarDeNacimiento[TAM_BUFFER];
 
-    FILE* fp = fopen(nombreArchivo, "r");
-    while (fscanf(fp, "%[^,], %d, %[^\n]\n", nombre, &edad, lugarDeNacimiento) != EOF) {
-      persona = persona_crear(nombre, edad, lugarDeNacimiento);
-      lista = dlist_agregar_final(lista, (void*)persona);
-    }
+  FILE* fp = fopen(nombreArchivo, "r");
+  while (fscanf(fp, "%[^,], %d, %[^\n]\n", nombre, &edad, lugarDeNacimiento) != EOF) {
+    persona = persona_crear(nombre, edad, lugarDeNacimiento);
+    lista = dlist_agregar_final(lista, (void*)persona);
+  }
 }
 
 int main(int argc, char *argv[]) {

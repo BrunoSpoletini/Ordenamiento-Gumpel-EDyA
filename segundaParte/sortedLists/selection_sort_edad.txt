@@ -1,4 +1,4 @@
-Tiempo: 0.037137
+Tiempo: 0.003340
 
 Nombre: YOLANDA CAMPOS, Edad: 1, Pais: Bolivia
 Nombre: MARIA EUGENIA CASTRO, Edad: 1, Pais: Iraq
