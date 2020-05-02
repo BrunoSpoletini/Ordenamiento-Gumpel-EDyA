@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
   dlist_ordenar_lista(lista, dlist_selection_sort, compara_por_localidad, "./segundaParte/sortedLists/selection_sort_loc.txt", escribir_persona);
 
   dlist_ordenar_lista(lista, dlist_insertion_sort, compara_por_edad, "./segundaParte/sortedLists/insertion_sort_edad.txt", escribir_persona);
-  
+
   dlist_ordenar_lista(lista, dlist_insertion_sort, compara_por_localidad, "./segundaParte/sortedLists/insertion_sort_loc.txt", escribir_persona);
 
   dlist_ordenar_lista(lista, dlist_merge_sort, compara_por_edad, "./segundaParte/sortedLists/merge_sort_edad.txt", escribir_persona);

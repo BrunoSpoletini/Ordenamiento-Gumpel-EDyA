@@ -1,4 +1,4 @@
-Tiempo: 0.003229
+Tiempo: 0.003256
 
 Nombre: DAISY MARIA OLIVARES, Edad: 3, Pais: Abuya
 Nombre: OLDEMAR ARIAS, Edad: 47, Pais: Abuya

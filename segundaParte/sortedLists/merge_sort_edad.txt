@@ -1,4 +1,4 @@
-Tiempo: 0.003840
+Tiempo: 0.004015
 
 Nombre: ANA LORENA LOPEZ, Edad: 1, Pais: Kingstown
 Nombre: HANNIA MARIA MARIN, Edad: 1, Pais: Egipto

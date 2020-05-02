@@ -181,16 +181,18 @@ DList* dlist_insertion_sort(DList* lista, Compara comparar) {
 
 DList* dlist_merge_sort(DList* lista, Compara comparar) { 
 
-    DNodo *primero = lista->primero;
+    DNodo *nodo = lista->primero;
 
-    primero = merge_sort(primero, comparar);  
+    nodo = merge_sort(nodo, comparar);  
 
-    lista->primero = primero;
+    lista->primero = nodo;
 
-    //Falta devolver la cola
-
-    return lista; 
-} 
+    while (nodo->sig != NULL){  //Este while tiene como funcion encontrar el final de la lista
+      nodo = nodo->sig;
+    }
+    lista->ultimo = nodo;
+    return lista;
+}
 
 DList* dlist_copia(DList* lista) {
   DList* copiaLista = dlist_crear();
