@@ -14,6 +14,10 @@ static void leer_archivo_personas(char *nombreArchivo, DList* lista) {
 }
 
 int main(int argc, char *argv[]) {
+  if(argc != 2){
+    printf("Parametros ingresados incorrectamente");
+  }
+
   DList* lista = dlist_crear();
 
   leer_archivo_personas(argv[1], lista);
