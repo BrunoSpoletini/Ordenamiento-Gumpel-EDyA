@@ -1,26 +1,40 @@
 TEMP = primeraParte/funcgenerarpersonas.o segundaParte/DList/dlist.o segundaParte/Persona/persona.o
+ARG = -Wall -Wextra -Werror -std=c99
 
+SALIDAPP = ejecutablePersona
+SALIDASP = ejecutableListas
 
-all: ejecutablePersona ejecutableListas
+PP = primeraParte
+FUNP = funcgenerarpersonas 
+GENP = generarpersonas
+
+SP = segundaParte
+LENL = listaenlazada
+PER = persona
+DPER = Persona
+DLI = dlist
+DDLI = DList
+
+all: $(SALIDASP) $(SALIDAPP)
 
 #Generar personas - Primera Parte
-ejecutablePersona: primeraParte/funcgenerarpersonas.o primeraParte/generarpersonas.c
-	gcc -o ejecutablePersona primeraParte/generarpersonas.c primeraParte/funcgenerarpersonas.o
+$(SALIDAPP): $(PP)/$(FUNP).o $(PP)/$(GENP).c
+	gcc $(ARG) -o $(SALIDAPP) $(PP)/$(GENP).c $(PP)/$(FUNP).o
 
 
-funcgenerarpersonas.o: primeraParte/funcgenerarpersonas.c primeraParte/funcgenerarpersonas.h
-	gcc -c primeraParte/funcgenerarpersonas.c
+funcgenerarpersonas.o: $(PP)/$(FUNP).c $(PP)/$(FUNP).h
+	gcc $(ARG) -c $(PP)/$(FUNP).c
     
 
 #Ordenar listas - Segunda parte
-ejecutableListas: segundaParte/DList/dlist.o segundaParte/Persona/persona.o segundaParte/listaenlazada.c
-	gcc -o ejecutableListas segundaParte/listaenlazada.c segundaParte/DList/dlist.o segundaParte/Persona/persona.o
+$(SALIDASP): $(SP)/$(DDLI)/$(DLI).o $(SP)/$(PER)/$(PER).o $(SP)/$(LENL).c
+	gcc $(ARG) -o $(SALIDASP) $(SP)/$(LENL).c $(SP)/$(DDLI)/$(DLI).o $(SP)/$(PER)/$(PER).o
 
-dlist.o: segundaParte/DList/dlist.c
-	gcc -c segundaParte/DList/dlist.c
+dlist.o: $(SP)/$(DDLI)/$(DLI).c
+	gcc $(ARG) -c $(SP)/$(DDLI)/$(DLI).c
 
-persona.o: segundaParte/Persona/persona.c
-	gcc -c segundaParte/Persona/persona.c
+persona.o: $(SP)/$(PER)/$(PER).c
+	gcc $(ARG) -c $(SP)/$(PER)/$(PER).c
 
 clean:
 	-rm $(TEMP)
