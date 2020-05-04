@@ -18,6 +18,8 @@ int main(int argc, char *argv[]) {
     printf("Parametros ingresados incorrectamente");
   }
 
+  setlocale(LC_ALL, "es_AR.utf8");
+
   DList* lista = dlist_crear();
 
   leer_archivo_personas(argv[1], lista);
